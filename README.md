@@ -1,13 +1,11 @@
 # PROJECT PLAN FOR TIME SHIFT AN INTERACTIVE CHOOSE YOUR OWN ADVENTURE WEBSITE (CYOA)
----------------------------------------------------------------------------------------
+
 ##1. INTRODUCTION
 
-##
 Time Shift is an interactive choose your own adventure website developed by Joshua Johnson, Kennith McIntire
 and Zachary Roberts. In Time Shift the user navigates webpages and is presented with choices similar to a 
 text-adventure. The user selects their choices which may affect their outcome. The game is set in the present
 but the user is soon teleported through time as they progress through the game.
--------------------------------------------------------------------------------------------------------------
 
 ##2.  PROJECT ORGANIZATION
 
@@ -21,7 +19,6 @@ DESIGNER Joshua Johnson-
 
 PROGRAMMER Kenneth McIntire-
     Kenneth McIntire programs custom behavior with JavaScript in Time Shift. 
---------------------------------------------------------------------------------------------------------------
 
 ##3. RISK ANALYSIS
 
@@ -66,7 +63,6 @@ D. Scope Creep could occur with Agile methodology.
             MITIGATIONS
                 ~ Develop storyboard, keep pages under 25.
                 ~ Determine which features should be added or potentially added.
------------------------------------------------------------------------------------------------------------------
 
 ##4. HARDWARE AND SOFTWARE REQUIREMENTS
 
@@ -77,10 +73,8 @@ HARDWARE
 
 SOFTWARE
     Internet Browser
------------------------------------------------------------------------------------------------------------------
 
 ##5. WORK BREAK DOWN
------------------------------------------------------------------------------------------------------------------
 
 ##6. FILE TREE
 ```
@@ -111,15 +105,13 @@ javascript
 |        |   
 |        └──dragon1.html
 ```
---------------------------------------------------------------------------------------------------------------------
 
 ##7. PROJECT SCHEDULE
---------------------------------------------------------------------------------------------------------------------
+
 ##8. MONITORING & REPORTING
 
 The team will use Discord for team meeting file sharing and any administrative business. Project version control
 be maintained on GitHub in a repository named 'sdev_265_project'. For disaster management considerations the 
 project files will be backed up on SSD, or HDD at regular intervals. 
----------------------------------------------------------------------------------------------------------------
 
 ##9. APPENDIX 
