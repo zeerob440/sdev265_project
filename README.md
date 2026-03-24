@@ -2,6 +2,7 @@
 ---------------------------------------------------------------------------------------
 ##1. INTRODUCTION
 
+##
 Time Shift is an interactive choose your own adventure website developed by Joshua Johnson, Kennith McIntire
 and Zachary Roberts. In Time Shift the user navigates webpages and is presented with choices similar to a 
 text-adventure. The user selects their choices which may affect their outcome. The game is set in the present
