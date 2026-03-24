@@ -1,7 +1,7 @@
 PROJECT PLAN FOR TIME SHIFT AN INTERACTIVE CHOOSE YOUR OWN ADVENTURE WEBSITE (CYOA)
 -------------------------------------------------------------------------------------------------------------
 
-1 INTRODUCTION
+1. INTRODUCTION
 
 Time Shift is an interactive choose your own adventure website developed by Joshua Johnson, Kennith McIntire
 and Zachary Roberts. In Time Shift the user navigates webpages and is presented with choices similar to a 
@@ -9,7 +9,7 @@ text-adventure. The user selects their choices which may affect their outcome. T
 but the user is soon teleported through time as they progress through the game.
 -------------------------------------------------------------------------------------------------------------
 
-2 PROJECT ORGANIZATION
+2. PROJECT ORGANIZATION
 
 ORGANIZER Zachary Roberts-
     Zachary Roberts organizes the development team, he ensures tasks are created, assigned, and executed. He
@@ -23,7 +23,7 @@ PROGRAMMER Kenneth McIntire-
     Kenneth McIntire programs custom behavior with JavaScript in Time Shift. 
 --------------------------------------------------------------------------------------------------------------
 
-3 RISK ANALYSIS
+3. RISK ANALYSIS
 
 A. The product may not be engaging to users.
     !High Risk!
@@ -69,7 +69,7 @@ D. Scope Creep could occur with Agile methodology.
 
 ---------------------------------------------------------------------------------------------------------------
 
-4 HARDWARE AND SOFTWARE REQUIREMENTS 
+4. HARDWARE AND SOFTWARE REQUIREMENTS 
 
 HARDWARE
     Windows, Linux, or Mac Computer
@@ -80,10 +80,10 @@ SOFTWARE
     Internet Browser
 ----------------------------------------------------------------------------------------------------------------
 
-5 WORK BREAK DOWN
+5. WORK BREAK DOWN
 ----------------------------------------------------------------------------------------------------------------
     
-6 FILE TREE 
+6. FILE TREE 
 
 sdev_265_project/
 ├──README.md
@@ -113,8 +113,11 @@ javascript
 |        └──dragon1.html
 
 ----------------------------------------------------------------------------------------------------------------
-
-
+7. PROJECT SCHEDULE
+----------------------------------------------------------------------------------------------------------------
+8. MONITORING AND REPORTING MECHANISMS
+----------------------------------------------------------------------------------------------------------------
+9.APPPENDIX
 
 
 
