@@ -58,6 +58,14 @@ C. Minimum viable product or working product may not be returned with short runw
 
 D. Scope Creep could occur with Agile methodology. 
     Moderate Risk
+        * Features may grow out of scope as project matures, which cold affect quality.
+        * Since Time Shift is story driven, more pages are needed to continue the story.
+            if too great a number of pages are needed to complete the story, the project
+            may run out of runway. 
+
+            MITIGATIONS
+            ~ Develop storyboard, keep pages under 25.
+            ~ Determine which features should be added or potentially added.
 
 ---------------------------------------------------------------------------------------------------------------
 
@@ -92,6 +100,7 @@ javascript
 |    |   ├──engineering1.html 
 |    |   └──bridge.html
 |    |         ├──armory.html
+|    |         ├──airlock.html
 |    |         └──engineering2.html
 |    |          
 |    |
