@@ -64,8 +64,8 @@ D. Scope Creep could occur with Agile methodology.
             may run out of runway. 
 
             MITIGATIONS
-            ~ Develop storyboard, keep pages under 25.
-            ~ Determine which features should be added or potentially added.
+                ~ Develop storyboard, keep pages under 25.
+                ~ Determine which features should be added or potentially added.
 
 ---------------------------------------------------------------------------------------------------------------
 
@@ -114,6 +114,7 @@ javascript
 
 ----------------------------------------------------------------------------------------------------------------
 7. PROJECT SCHEDULE
+
 ----------------------------------------------------------------------------------------------------------------
 8. MONITORING AND REPORTING MECHANISMS
 
