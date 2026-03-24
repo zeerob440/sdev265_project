@@ -24,14 +24,14 @@ PROGRAMMER Kenneth McIntire-
 
 1. The product may not be engaging to users.
     - !High Risk!
-        - Text-based adventures are archaic. 
-        - Users may not be familiar with the format. 
+    - Text-based adventures are archaic. 
+    - Users may not be familiar with the format. 
 
-            - MITIGATIONS
-                - Because text-based adventures are archaic, it may provide nuance for younger gamers.
-                - A programmer is dedicated to css design to create an atmospheric experience.
-                - A programmer is dedicated to JavaScript for custom behavior.
-                - The team will develop as cinematic experience for users.
+        - MITIGATIONS
+            - Because text-based adventures are archaic, it may provide nuance for younger gamers.
+            - A programmer is dedicated to css design to create an atmospheric experience.
+            - A programmer is dedicated to JavaScript for custom behavior.
+            - The team will develop as cinematic experience for users.
 
 
 B. Project cannot be completed on time within budget constraints.
