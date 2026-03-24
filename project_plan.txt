@@ -116,6 +116,10 @@ javascript
 7. PROJECT SCHEDULE
 ----------------------------------------------------------------------------------------------------------------
 8. MONITORING AND REPORTING MECHANISMS
+
+The team will use Discord for team meeting file sharing and any administrative business. Project version control
+be maintained on GitHub in a repository named 'sdev_265_project'. For disaster management considerations the 
+project files will be backed up on SSD, or HDD at regular intervals. 
 ----------------------------------------------------------------------------------------------------------------
 9.APPENDIX
 
