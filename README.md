@@ -67,11 +67,12 @@ D. Scope Creep could occur with Agile methodology.
 ##4. HARDWARE AND SOFTWARE REQUIREMENTS
 
 1. HARDWARE
-    *Windows, Linux, or Mac Computer
-    *Keyboard
-    *Mouse
-2.SOFTWARE
-    *Internet Browser
+    - Windows, Linux, or Mac Computer
+    - Keyboard
+    - Mouse
+
+2. SOFTWARE
+    - Internet Browser
 
 ##5. WORK BREAK DOWN
 
