@@ -22,16 +22,16 @@ PROGRAMMER Kenneth McIntire-
 
 ## 3. RISK ANALYSIS
 
-A. The product may not be engaging to users.
-    !High Risk!
-        * Text-based adventures are archaic. 
-        * Users may not be familiar with the format. 
+1. The product may not be engaging to users.
+    - !High Risk!
+        - Text-based adventures are archaic. 
+        - Users may not be familiar with the format. 
 
-            MITIGATIONS
-            ~ Because text-based adventures are archaic, it may provide nuance for younger gamers.
-            ~ A programmer is dedicated to css design to create an atmospheric experience.
-            ~ A programmer is dedicated to JavaScript for custom behavior.
-            ~ The team will develop as cinematic experience for users.
+            - MITIGATIONS
+                - Because text-based adventures are archaic, it may provide nuance for younger gamers.
+                - A programmer is dedicated to css design to create an atmospheric experience.
+                - A programmer is dedicated to JavaScript for custom behavior.
+                - The team will develop as cinematic experience for users.
 
 
 B. Project cannot be completed on time within budget constraints.
@@ -64,7 +64,7 @@ D. Scope Creep could occur with Agile methodology.
                 ~ Develop storyboard, keep pages under 25.
                 ~ Determine which features should be added or potentially added.
 
-## 4. HARDWARE AND SOFTWARE REQUIREMENTS
+## 4. HARDWARE & SOFTWARE REQUIREMENTS
 
 1. HARDWARE
     - Windows, Linux, or Mac Computer
