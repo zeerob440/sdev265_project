@@ -18,14 +18,14 @@ DESIGNER Joshua Johnson-
     of Time Shift.
 
 PROGRAMMER Kenneth McIntire-
-    Kenneth McIntire programs custom behavior with JavaScript in Time Shift. 
+    Kenneth McIntire programs custom behavior with JavaScript in Time Shift.
 
 ## 3. RISK ANALYSIS
 
 1. The product may not be engaging to users.
     - !HIGH RISK!
-    - Text-based adventures are archaic. 
-    - Users may not be familiar with the format. 
+    - Text-based adventures are archaic.
+    - Users may not be familiar with the format.
 
         - MITIGATIONS
             - Because text-based adventures are archaic, it may provide nuance for younger gamers.
@@ -33,15 +33,14 @@ PROGRAMMER Kenneth McIntire-
             - A programmer is dedicated to JavaScript for custom behavior.
             - The team will develop as cinematic experience for users.
 
-
 2. Project cannot be completed on time within budget constraints.
     - MODERATE RISK
     - Runway is approximately 7-weeks, project could easily run out of runway.
     - Learning new tool chains can be time-consuming, which could cause development to run out of runway.
 
         - MITIGATIONS
-            - Team has decided to develop a website, using tool chains we are already familiar with.
-            
+            - Team has decided to develop a website, using tool chains we are already familiar with
+
 3. Minimum viable product or working product may not be returned with short runway.
     - MODERATE RISK
     - Short runway and competing priorities may pressure low-quality product.
@@ -52,12 +51,12 @@ PROGRAMMER Kenneth McIntire-
             - Agile SDLC methodology will be uses to create a minimum viable product. Once the       product is working it will be iteratively improved dependent on remaining runway.
             - Agile methodology requires that testing occurs during each iterative development.
 
-4. Scope Creep could occur with Agile methodology. 
+4. Scope Creep could occur with Agile methodology.
     - MODERATE RISK
     - Features may grow out of scope as project matures, which cold affect quality.
     - Since Time Shift is story driven, more pages are needed to continue the story.
         if too great a number of pages are needed to complete the story, the project
-        may run out of runway. 
+        may run out of runway.
 
         - MITIGATIONS
             - Develop storyboard, keep pages under 25.
@@ -110,7 +109,7 @@ javascript
 ## 8. MONITORING & REPORTING
 
 The team will use Discord for team meeting file sharing and any administrative business. Project version control
-be maintained on GitHub in a repository named 'sdev_265_project'. For disaster management considerations the 
-project files will be backed up on SSD, or HDD at regular intervals. 
+be maintained on GitHub in a repository named 'sdev_265_project'. For disaster management considerations the
+project files will be backed up on SSD, or HDD at regular intervals.
 
-## 9. APPENDIX 
+## 9. APPENDIX
