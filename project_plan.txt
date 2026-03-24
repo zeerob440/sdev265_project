@@ -52,11 +52,58 @@ C. Minimum viable product or working product may not be returned with short runw
         * Short runway may lead to inadequate testing.
 
             MITIGATIONS
-                ~ Agile SDLC methodology will be uses to create a minimum viable product. Once the product is working
-                    it will be iteratively improved dependent on remaining runway.
-                ~ Agile methodology requires that testing occurs during each iterative development. 
+                ~ Agile SDLC methodology will be uses to create a minimum viable product. Once the product is 
+                    working it will be iteratively improved dependent on remaining runway.
+                ~ Agile methodology requires that testing occurs during each iterative development.
+
+D. Scope Creep could occur with Agile methodology. 
+    Moderate Risk
+
 ---------------------------------------------------------------------------------------------------------------
 
+4 HARDWARE AND SOFTWARE REQUIREMENTS 
+
+HARDWARE
+    Windows, Linux, or Mac Computer
+    Keyboard
+    Mouse
+
+SOFTWARE
+    Internet Browser
+----------------------------------------------------------------------------------------------------------------
+
+5 WORK BREAK DOWN
+----------------------------------------------------------------------------------------------------------------
+    
+6 FILE TREE 
+
+sdev_265_project/
+├──README.md
+├──feasibility_study.txt
+├──project_plan.txt
+├──style/
+|    └──time_shift.css
+images/
+|   └──image.png
+javascript
+|   └──javaScriptProgram.js
+├──index.html
+|    ├──spaceship.html
+|    |   ├──engineering1.html 
+|    |   └──bridge.html
+|    |         ├──armory.html
+|    |         └──engineering2.html
+|    |          
+|    |
+|    └──tavern.html
+|        ├──castle.html
+|        |    ├──gladiator.html
+|        |    ├──mage.html
+|        |    └──dragon2.html
+|        |   
+|        └──dragon1.html
+
+----------------------------------------------------------------------------------------------------------------
 
 
 
