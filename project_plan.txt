@@ -22,3 +22,46 @@ DESIGNER Joshua Johnson-
 PROGRAMMER Kenneth McIntire-
     Kenneth McIntire programs custom behavior with JavaScript in Time Shift. 
 --------------------------------------------------------------------------------------------------------------
+
+3 RISK ANALYSIS
+
+A. The product may not be engaging to users.
+    !High Risk!
+        * Text-based adventures are archaic. 
+        * Users may not be familiar with the format. 
+
+            MITIGATIONS
+            ~ Because text-based adventures are archaic, it may provide nuance for younger gamers.
+            ~ A programmer is dedicated to css design to create an atmospheric experience.
+            ~ A programmer is dedicated to JavaScript for custom behavior.
+            ~ The team will develop as cinematic experience for users.
+
+
+B. Project cannot be completed on time within budget constraints.
+    Moderate Risk
+        * Runway is approximately 7-weeks, project could easily run out of runway.
+        * Learning new tool chains can be time-consuming, which could cause development to run out of runway.
+
+            MITIGATIONS
+                ~ Team has decided to develop a website, using tool chains we are already familiar with.
+            
+C. Minimum viable product or working product may not be returned with short runway.
+    Moderate Risk
+        * Short runway and competing priorities may pressure low-quality product.
+        * Difficulty with toolchains and programming languages could create quality gaps.
+        * Short runway may lead to inadequate testing.
+
+            MITIGATIONS
+                ~ Agile SDLC methodology will be uses to create a minimum viable product. Once the product is working
+                    it will be iteratively improved dependent on remaining runway.
+                ~ Agile methodology requires that testing occurs during each iterative development. 
+---------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+        
+
+
