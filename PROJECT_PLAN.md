@@ -149,13 +149,13 @@ javascript
 
 | TASK NUMBER | TASK NAME | TASK ESTIMATED COMPLETION TIME WEEKS | ACTUAL COMPLETION TIME WEEKS | DEPENDENCIES |
 | ----------- | --------- | ------------------------------------ | ---------------------------- | ------------ |
-| 1           | Planning  | 1                                    | in progress                  |              |
-| 1.1         |    FS      | 1                                    | in progress                  |              |
-| 1.2         |    RA      |  1                                    | in progress  |              |
-| 1.3         |    PP       | 1                                     | in progress                           |              |
-| 1.4         |           |                                      |                              |              |
-| 1.5            |           |                                      |                              |              |
-| 1.6            |           |                                      |                              |              |
+| 1           | Planning  | 1  | in progress                  |              |
+| 1.1         |    FS | 1 | in progress                  |              |
+| 1.2         |    RA |  1 | in progress  |              |
+| 1.3         |    PP | 1 | in progress    |              |
+| 1.4         |    TM |  1 | in progress   |              |
+| 1.5            |   GH       |  1       |      1  |              |
+| 1.6            |     DS |  1     |  1  |              |
 | 2            |           |                                      |                              |              |
 | 2.1            |           |                                      |                              |              |
 | 2.2            |           |                                      |                              |              |
