@@ -78,8 +78,8 @@ PROGRAMMER Kenneth McIntire-
 ```
 sdev_265_project/
 ├──README.md
-├──feasibility_study.txt
-├──project_plan.txt
+├──FEASIBILITY_STUDY.md
+├──PROJECT_PLAN.md
 ├──style/
 |    └──time_shift.css
 images/
