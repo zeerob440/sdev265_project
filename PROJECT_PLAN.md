@@ -125,7 +125,7 @@ sdev_265_project/
 |    └──time_shift.css
 images/
 |   └──image.png
-javascript
+javascript/
 |   └──javaScriptProgram.js
 ├──index.html
 |    ├──spaceship.html
@@ -195,17 +195,17 @@ project files will be backed up on SSD, or HDD at regular intervals.
 | TASK NUMBER | TASK NAME | ASSIGNED TO | COMPLETE |
 | ---- | --- | --- | - |
 |  1  |  PLN  | ALL | |
-| 1.1 |  FS |    | |
+| 1.1 |  FS | ZR | |
 | 1.2 |  RA | ZR | |
-| 1.3 |  PP |    | |
-| 1.4 |  TM |    | |
+| 1.3 |  PP | ALL| |
+| 1.4 |  TM | ZR  | T|
 | 1.5 |  GH |  ZR | T |
 | 1.6 |  DS |  JJ | T |
-| 2  |   DES |    | |
-| 2.1 |  SB |    |  |
-| 2.2 |  WF |    |  |
-| 2.3 |  CS |    |  |
-| 2.4 |  JS |    |  |
+| 2  |   DES | ALL| |
+| 2.1 |  SB | ALL|  |
+| 2.2 |  WF |  JJ|  |
+| 2.3 |  CS | ALL|  |
+| 2.4 |  JS |  JJ|  |
 | 2.5 |  UI|  ZR  |  |
 | 2.6 |  RL | ZR  |  |
 | 3   | DEV | ALL|  |
@@ -223,13 +223,13 @@ project files will be backed up on SSD, or HDD at regular intervals.
 | 4.2 |  TS | JJ|  |
 | 4.3 |  VH | ZR |  |
 | 4.4 |  FX | ALL|  |
-| 5   | DEP |    |  |
-| 5.1 |  DG  |    |  |
-| 5.2 |     |    |  |
-| 6   |     |    |  |
-| 6.1 |     |    |  |
-| 6.2 |     |    |  |
-| 6.3 |     |    |  |
+| 5   | DEP | ALL |  |
+| 5.1 |  DG |  ZR  | T |
+| 5.2 |  VL | ALL|  |
+| 6   | DOC | ALL |  |
+| 6.1 |  TR |  ZR|  |
+| 6.2 | RM | ALL |  |
+| 6.3 | UN | ALL |  |
 |    |     |    |  |
 
 
