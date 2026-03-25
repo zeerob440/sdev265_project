@@ -45,7 +45,5 @@ product will be given its internal simplicity.
 
 ## 8 CAN THE SYSTEM BE INTEGRATED WITH OTHER SYSTEMS CURRENTLY IN USE?
 
-Websites are a tried and true well-matured technology in 2026, Time Shift will integrate seamlessly into any
-browser on virtually any computer with access to the Internet. This avoids compatibility issues found between
-different computing ecosystems. 
+Websites are a well-matured technology. Time Shift will integrate seamlessly into any browser on virtually any computer with access to the Internet. This avoids compatibility issues found between different computing ecosystems. This will allow the site to be accessible to a larger audience than an ecosystem specific application.
 
