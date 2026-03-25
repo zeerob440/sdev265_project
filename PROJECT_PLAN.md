@@ -75,40 +75,40 @@ PROGRAMMER Kenneth McIntire-
 ## 5. WORK BREAK DOWN
 
 1. Planning
-    - Feasibility Study
-    - Risk Assessment 
-    - Project Plan
-    - Development team meeting schedule
-    - Create GitHub shared repository
-    - Create Discord server for team meeting. 
+    - 1.1 Feasibility Study
+    - 1.2 Risk Assessment 
+    - 1.3 Project Plan
+    - 1.4 Development team meeting schedule
+    - 1.5 Create GitHub shared repository
+    - 1.6 Create Discord server for team meeting. 
 2. Design 
-    - Story Bo
-    - Wireframe 
-    - CSS styles
-    - JavaScript programs 
-    - UI and UX 
-    - Design page reload behavior (redirect to index.htlm on reload or back)
+    - 2.1 Story Board
+    - 2.2 Wireframe 
+    - 2.3 CSS styles
+    - 2.4 JavaScript programs 
+    - 2.5 UI and UX 
+    - 2.6 Design page reload behavior (redirect to index.html on reload or back)
     
 3. Development
-    - Create homepage layout
-    - Create subsequent page layouts based on     storyboard
-    - Create navigation structure
-    - Create mobile friendly design
-    - Create favicon 
-    - Create Time Shift logo
-    - Create Future timeline
-    - Create Past timeline
-    - Apply CSS styles
+    - 3.1 Create homepage layout
+    - 3.2 Create subsequent page layouts based on     storyboard
+    - 3.3 Create navigation structure
+    - 3.4 Create mobile friendly design
+    - 3.5 Create favicon 
+    - 3.6 Create Time Shift logo
+    - 3.7 Create Future timeline
+    - 3.8 Create Past timeline
+    - 3.9 Apply CSS styles
 
 4. Testing
-    - Test links
-    - Test site stability with different screen sizes
-    - Validate HTML/CSS
-    - Fix issues as they are discovered
+    - 4.1 Test links
+    - 4.2 Test site stability with different screen sizes
+    - 4.3 Validate HTML/CSS
+    - 4.4 Fix issues as they are discovered
 
 5. Deployment
-    - Deploy Time Shift to GitHub Pages
-    - Verify live site functions as designed
+    - 5.1 Deploy Time Shift to GitHub Pages
+    - 5.2 Verify live site functions as designed
 
 6. Documentation
     - Document File Tree
@@ -150,7 +150,8 @@ javascript
 | TASK NUMBER | TASK NAME | TASK ESTIMATED COMPLETION TIME WEEKS | ACTUAL COMPLETION TIME WEEKS | DEPENDENCIES |
 | ----------- | --------- | ------------------------------------ | ---------------------------- | ------------ |
 | 1           | Planning  | 1                                    |  in progress                 |              |
-
+| 2           | Design    | 2                                    | in progress                  |              |
+| 3           |
 ## 8. MONITORING & REPORTING
 
 The team will use Discord for team meeting file sharing and any administrative business. Project version control
