@@ -149,9 +149,43 @@ javascript
 
 | TASK NUMBER | TASK NAME | TASK ESTIMATED COMPLETION TIME WEEKS | ACTUAL COMPLETION TIME WEEKS | DEPENDENCIES |
 | ----------- | --------- | ------------------------------------ | ---------------------------- | ------------ |
-| 1           | Planning  | 1                                    |  in progress                 |              |
+| 1           | Planning  | 1                                    | in progress                 |               |
 | 2           | Design    | 2                                    | in progress                  |              |
-| 3           |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
+|             |           |                                      |                              |              |
 ## 8. MONITORING & REPORTING
 
 The team will use Discord for team meeting file sharing and any administrative business. Project version control
