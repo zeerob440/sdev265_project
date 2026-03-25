@@ -91,7 +91,7 @@ PROGRAMMER Kenneth McIntire-
     
 3. Development
     - 3.1 Create homepage layout
-    - 3.2 Create subsequent page layouts based on     storyboard
+    - 3.2 Create subsequent page layouts based on storyboard
     - 3.3 Create navigation structure
     - 3.4 Create mobile friendly design
     - 3.5 Create favicon 
@@ -194,42 +194,43 @@ project files will be backed up on SSD, or HDD at regular intervals.
 
 | TASK NUMBER | TASK NAME | ASSIGNED TO | COMPLETE |
 | ---- | --- | --- | - |
-|  1  |  PL  |    |
-| 1.1 |  FS |    |
-| 1.2 |  RA | ZR |
-| 1.3 |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-|    |     |    |
-
+|  1  |  PLN  | ALL | |
+| 1.1 |  FS |    | |
+| 1.2 |  RA | ZR | |
+| 1.3 |  PP |    | |
+| 1.4 |  TM |    | |
+| 1.5 |  GH |  ZR | T |
+| 1.6 |  DS |  JJ | T |
+| 2  |   DES |    | |
+| 2.1 |  SB |    |  |
+| 2.2 |  WF |    |  |
+| 2.3 |  CS |    |  |
+| 2.4 |  JS |    |  |
+| 2.5 |  UI|  ZR  |  |
+| 2.6 |  RL | ZR  |  |
+| 3   | DEV | ALL|  |
+| 3.1 | HP  | JJ |  |
+| 3.2 |  LO | ALL|  |
+| 3.3 |  NA | ALL|  |
+| 3.4 |  MF | JJ |  |
+| 3.5 |  FI | ZR |  |
+| 3.6 |  LG | ALL|  |
+| 3.7 |  FT | ZR |  |
+| 3.8 |  PT | JJ |  |
+| 3.9 |  AC | JJ |  |
+| 4   | TES | ALL|  |
+| 4.1 |  TL | ALL|  |
+| 4.2 |  TS | JJ|  |
+| 4.3 |  VH | ZR |  |
+| 4.4 |  FX | ALL|  |
+| 5   | DEP |    |  |
+| 5.1 |  DG  |    |  |
+| 5.2 |     |    |  |
+| 6   |     |    |  |
+| 6.1 |     |    |  |
+| 6.2 |     |    |  |
+| 6.3 |     |    |  |
+|    |     |    |  |
 
 
 ## 9. APPENDIX
