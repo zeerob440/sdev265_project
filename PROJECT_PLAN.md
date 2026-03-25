@@ -74,6 +74,49 @@ PROGRAMMER Kenneth McIntire-
 
 ## 5. WORK BREAK DOWN
 
+1. Planning
+    - Feasibility Study
+    - Risk Assessment 
+    - Project Plan
+    - Development team meeting schedule
+    - Create GitHub shared repository
+    - Create Discord server for team meeting. 
+2. Design 
+    - Story Bo
+    - Wireframe 
+    - CSS styles
+    - JavaScript programs 
+    - UI and UX 
+    - Design page reload behavior (redirect to index.htlm on reload or back)
+    
+3. Development
+    - Create homepage layout
+    - Create subsequent page layouts based on     storyboard
+    - Create navigation structure
+    - Create mobile friendly design
+    - Create favicon 
+    - Create Time Shift logo
+    - Create Future timeline
+    - Create Past timeline
+    - Apply CSS styles
+
+4. Testing
+    - Test links
+    - Test site stability with different screen sizes
+    - Validate HTML/CSS
+    - Fix issues as they are discovered
+
+5. Deployment
+    - Deploy Time Shift to GitHub Pages
+    - Verify live site functions as designed
+
+6. Documentation
+    - Document File Tree
+    - Complete README.MD 
+    - Provide notes for general usage
+
+    
+
 ## 6. FILE TREE
 ```
 sdev_265_project/
