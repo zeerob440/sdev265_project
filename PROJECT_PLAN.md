@@ -115,8 +115,6 @@ PROGRAMMER Kenneth McIntire-
     - Complete README.MD 
     - Provide notes for general usage
 
-    
-
 ## 6. FILE TREE
 ```
 sdev_265_project/
@@ -148,6 +146,10 @@ javascript
 ```
 
 ## 7. PROJECT SCHEDULE
+
+| TASK NUMBER | TASK NAME | TASK ESTIMATED COMPLETION TIME WEEKS | ACTUAL COMPLETION TIME WEEKS | DEPENDENCIES |
+| ----------- | --------- | ------------------------------------ | ---------------------------- | ------------ |
+| 1           | Planning  | 1                                    |  in progress                 |              |
 
 ## 8. MONITORING & REPORTING
 
