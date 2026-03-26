@@ -48,7 +48,7 @@ PROGRAMMER Kenneth McIntire-
     - Short runway may lead to inadequate testing.
 
         - MITIGATIONS
-            - Agile SDLC methodology will be uses to create a minimum viable product. Once the       product is working it will be iteratively improved dependent on remaining runway.
+            - Agile SDLC methodology will be uses to create a minimum viable product. Once the product is working it will be iteratively improved dependent on remaining runway.
             - Agile methodology requires that testing occurs during each iterative development.
 
 4. Scope Creep could occur with Agile methodology.
