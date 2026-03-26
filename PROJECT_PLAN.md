@@ -159,33 +159,33 @@ javascript/
 | 2|Design|2|1-1.6|
 | 2.1|SB |1||1-1.6|
 | 2.2|WF |1||1-1.6|
-| 2.3|CS |2||none|
+| 2.3|CS |2||  |
 | 2.4|JS |2||1-1.6|
 | 2.5|UI |2||1-1.6|
 | 2.6|RL |2||1-2.5|
-| 3  |DEV|3||1-2|
-| 3.1|HP |1||1-2|
-| 3.2|LO |1||none|
-| 3.3|   | ||    |
-| 3.4|   | ||    |
-| 3.5|   | ||    |
-| 3.6|   | ||    |
-| 3.7|   | ||    |
-| 3.8|   | ||    |
-| 3.9|   | ||    |
-| 4  |   | ||    |
-| 4.1|   | ||    |
-| 4.2|   | ||    |
-| 4.3|   | ||    |
-| 4.4|   | ||    |
-| 5  |   | ||    |
-| 5.1|   | ||    |
-| 5.2|   | ||    |
-| 6            |           |                                      |                              |              |
-| 6.1            |           |                                      |                              |              |
-| 6.2            |           |                                      |                              |              |
-| 6.3          |           |                                      |                              |              |
-|             |           |                                      |                              |              |
+| 3  |DEV|3||1-2 |
+| 3.1|HP |1||1-2 |
+| 3.2|LO |1||2.1 |
+| 3.3|NA |3||    |
+| 3.4|MF |1||    |
+| 3.5|FI |1||    |
+| 3.6|LG |1||    |
+| 3.7|FT |3||    |
+| 3.8|PT |3||    |
+| 3.9|AC |1||    |
+| 4  |TES|1||    |
+| 4.1|TL |1||3.3 |
+| 4.2|TS |1||    |
+| 4.3|VH |1||3.3 |
+| 4.4|FX |7||UKN |
+| 5  |DEP|1||    |
+| 5.1|DG |1|0|   |
+| 5.2|VL |1||    |
+| 6  |DOC| ||    |
+| 6.1|TR |1||1-5.2|
+| 6.2|RM |1||1-5.2|
+| 6.3|UN |1||1-5.2|
+|    |   | ||    |
 ## 8. MONITORING & REPORTING
 
 The team will use Discord for team meeting, file sharing, and any administrative business. Live team meetings will be held on Fridays from 1800-2100 as needed. Project version control will be maintained on GitHub in a repository named 'sdev_265_project'. For disaster management considerations the
