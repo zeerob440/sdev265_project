@@ -153,34 +153,34 @@ javascript/
 | 1.1|FS|1|0|none|
 | 1.2|RA|1||none|
 | 1.3|PP|1||none|
-| 1.4|TM|1|||
+| 1.4|TM|1|0|none|
 | 1.5|GH|1|1|none|
 | 1.6|DS|1|1|none|
 | 2|Design|2|1-1.6|
-| 2.1|SB|1||1-1.6|
-| 2.2|WF|1||1-1.6|
-| 2.3|CS|2||none|
-| 2.4|JS|2||1-1.6|           |                                      |                              |              |
-| 2.5            |           |                                      |                              |              |
-| 2.6            |           |                                      |                              |              |
-| 3            |           |                                      |                              |              |
-| 3.1            |           |                                      |                              |              |
-| 3.2           |           |                                      |                              |              |
-| 3.3            |           |                                      |                              |              |
-| 3.4            |           |                                      |                              |              |
-| 3.5            |           |                                      |                              |              |
-| 3.6            |           |                                      |                              |              |
-| 3.7            |           |                                      |                              |              |
-| 3.8            |           |                                      |                              |              |
-| 3.9            |           |                                      |                              |              |
-| 4            |           |                                      |                              |              |
-| 4.1            |           |                                      |                              |              |
-| 4.2            |           |                                      |                              |              |
-| 4.3            |           |                                      |                              |              |
-| 4.4            |           |                                      |                              |              |
-| 5            |           |                                      |                              |              |
-| 5.1            |           |                                      |                              |              |
-| 5.2           |           |                                      |                              |              |
+| 2.1|SB |1||1-1.6|
+| 2.2|WF |1||1-1.6|
+| 2.3|CS |2||none|
+| 2.4|JS |2||1-1.6|
+| 2.5|UI |2||1-1.6|
+| 2.6|RL |2||1-2.5|
+| 3  |DEV|3||1-2|
+| 3.1|HP |1||1-2|
+| 3.2|LO |1||none|
+| 3.3|   | ||    |
+| 3.4|   | ||    |
+| 3.5|   | ||    |
+| 3.6|   | ||    |
+| 3.7|   | ||    |
+| 3.8|   | ||    |
+| 3.9|   | ||    |
+| 4  |   | ||    |
+| 4.1|   | ||    |
+| 4.2|   | ||    |
+| 4.3|   | ||    |
+| 4.4|   | ||    |
+| 5  |   | ||    |
+| 5.1|   | ||    |
+| 5.2|   | ||    |
 | 6            |           |                                      |                              |              |
 | 6.1            |           |                                      |                              |              |
 | 6.2            |           |                                      |                              |              |
@@ -188,8 +188,7 @@ javascript/
 |             |           |                                      |                              |              |
 ## 8. MONITORING & REPORTING
 
-The team will use Discord for team meeting file sharing and any administrative business. Project version control
-be maintained on GitHub in a repository named 'sdev_265_project'. For disaster management considerations the
+The team will use Discord for team meeting, file sharing, and any administrative business. Live team meetings will be held on Fridays from 1800-2100 as needed. Project version control will be maintained on GitHub in a repository named 'sdev_265_project'. For disaster management considerations the
 project files will be backed up on SSD, or HDD at regular intervals.
 
 | TASK NUMBER | TASK NAME | ASSIGNED TO | COMPLETE |
