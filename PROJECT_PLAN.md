@@ -82,6 +82,7 @@ sdev_265_project/
 ├──style/
 |    └──time_shift.css
 images/
+    ├──risk_ana.png
 |   └──image.png
 javascript/
 |   └──javaScriptProgram.js
