@@ -2,10 +2,8 @@
 
 ## 1. INTRODUCTION
 
-Time Shift is an interactive choose your own adventure website developed by Joshua Johnson, Kennith McIntire
-and Zachary Roberts. In Time Shift the user navigates webpages and is presented with choices similar to a 
-text-adventure. The user selects their choices which may affect their outcome. The game is set in the present
-but the user is soon teleported through time as they progress through the game.
+Time Shift is an interactive choose your own adventure website developed by Joshua Johnson,
+and Zachary Roberts. In Time Shift the user navigates webpages and is presented with choices similar to a text-adventure. The user selects their choices which may affect their outcome. The game is set in the present but the user is soon teleported through time as they progress through the game.
 
 ## 2.  PROJECT ORGANIZATION
 
@@ -17,8 +15,6 @@ DESIGNER Joshua Johnson-
     Joshua Johnson contributes to game design, storyboard, and CSS design. He designs the overall mood
     of Time Shift.
 
-PROGRAMMER Kenneth McIntire-
-    Kenneth McIntire programs custom behavior with JavaScript in Time Shift.
 
 ## 3. RISK ANALYSIS
 
