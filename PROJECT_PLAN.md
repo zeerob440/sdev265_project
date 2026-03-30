@@ -80,7 +80,7 @@ sdev_265_project/
 ├──FEASIBILITY_STUDY.md
 ├──PROJECT_PLAN.md
 ├──style/
-|    └──time_shift.css
+|    └──timeShift.css
 images/
     ├──risk_ana.png
 |   └──image.png
