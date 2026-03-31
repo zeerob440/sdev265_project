@@ -3,14 +3,3 @@ background-color: #000000;
 margin: 0 auto;
 }
 
-.timeShiftLogo {
-    text-align: center;
-    background-image: url("images/time_shift_16.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat; 
-    width: 1536px;
-    height: 1024px;
-    display: block;
-}
-
