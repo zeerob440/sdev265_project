@@ -4,3 +4,7 @@ We are planning to make a text adventure game. Kinda like a choose your own adve
 - 2 choices with each page.
 - a ending for each timeline. 
 - If the user reloads or back take to right page 
+- make the project work for all sizes of screens
+  ## Architecture
+  We are building the probject In mostly HTML with some avascript and possibly some more 
+  #
