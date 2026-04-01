@@ -23,7 +23,7 @@ docs: root/index.html, documents declared.
 	* root/index.html, documents declared.
 
 - 'debug' used to describe an action to taken to fix a bug
-	* debug index.html|<h3> elements collision, web.css 15px padding added to <h3> elements 
+	* ```debug index.html|<h3> elements collision, web.css 15px padding added to <h3> elements``` 
 	
 - 'fixed' used to describe fixing a bug, or remove garbage (mostly used as a touch commit)
 	* fixed: index.html| <h3> elements collision web.css 15 px padding added to <h3> elements; xpt: <h3> collision to stop on index.html
