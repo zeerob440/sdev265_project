@@ -1,17 +1,20 @@
 body {
 background-color: #000000;
 margin: 0 auto;
-max-width: 1024px;
+max-width: 1536px;
 font-family: 'Trebuchet', sans-serif;
 }
 
 .title {
 height: 1536px;
-width: 1024px;
+width: 1536px;
 background-image: url("../images/time_shift_16.png");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-padding-bottom: 48px;
 
+}
+
+div {
+    padding-bottom: 48px;
 }
