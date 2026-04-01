@@ -29,10 +29,10 @@ docs: root/index.html, documents declared.
 	* fixed: ```index.html| <h3> elements collision web.css 15 px padding added to <h3> elements; xpt: <h3>collision to stop on index.html```
 	
 - 'style' used to describe a standalone change in a CSS
-	* style: web.css| style selectors creates for <p> and <ul> elements.
+	* style: web.css| style selectors creates for ```<p>``` and ```<ul>``` elements.
  
 - 'update' used to modify a working feature
-	* update: index.html| header, addition link added to <nav> 
+	* update: index.html| header, addition link added to ```<nav>``` 
 		
 - 'merge' - used to merge branches
 	* merge: Alpha; debug login >>> main, Alpha merged to main
