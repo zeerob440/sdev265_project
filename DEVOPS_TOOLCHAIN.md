@@ -23,7 +23,7 @@ A strict branching strategy will be followed. The workflow will be:
 2. build feature
 3. pull updates from main into work branch often (integral)
 4. work is complete
-5. feature branch externally on a usb drive, external HDD or SSD.
+5. feature branch externally stored on a usb drive, external HDD or SSD.
 6. merge work branch into main during live team meetings. 
 
 Branch naming conventions are in COMMIT_COMMENT/BRANCHING_CODEX.md
@@ -31,6 +31,12 @@ Branch naming conventions are in COMMIT_COMMENT/BRANCHING_CODEX.md
 # BUILD & TEST
 
 # RELEASE
+Time Shift is released continuously on a live GitHub Pages site, therefore release and deployment are concurrent and in accordance with a continuous deployment model.
+
+Finished feature branches will be merged to main following defined branching methodologies outlined in the DEVELOPMENT heading in this document. Main is the production codebase, therefore it is the only branch deployed to a live GitHub Pages site. 
+
+Versioning will follow the methodologies described in COMMIT_COMMENT/BRANCHING_CODEX.md. The intent of the versioning method is to create human-legible, predictable versioning nomenclature. 
+
 
 # PACKAGE AND DEPLOY
 
