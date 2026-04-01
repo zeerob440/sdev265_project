@@ -4,3 +4,14 @@ margin: 0 auto;
 max-width: 1536px;
 font-family: 'Trebuchet', sans-serif;
 }
+
+.title {
+height: 1536px;
+width: 1024px;
+background-image: url("images/time_shift_16.jpg");
+background-size: 1536px 1024px;
+background-repeat: no-repeat;
+background-position: center;
+height: 410px;
+
+}
