@@ -7,7 +7,7 @@ font-family: 'Trebuchet', sans-serif;
 
 .title {
 height: 1536px;
-width: 1536px;
+width: 100%;
 background-image: url("../images/time_shift_16.png");
 background-repeat: no-repeat;
 background-position: center;
