@@ -8,7 +8,7 @@ EXAMPLE:
     / used to describe filepaths for new docs
 
 docs: root/index.html, documents declared.
-    | used to separate file name and area of file changed
+    used to separate file name and area of file changed
 
     feat: index.html|header, nav links anchored.
 
@@ -16,26 +16,26 @@ docs: root/index.html, documents declared.
 # ACTIVITY NAMING CONVENTIONS
 
 - 'feat' used to describe new feature is complete and working
-	feat: index.html|header, nav links complete.
-	feat: pythonCartographer|forLoops() function declared menu completed
+	* feat: index.html|header, nav links complete.
+	* feat: pythonCartographer|forLoops() function declared menu completed
 	
 - 'docs'  used to describe new document declared, and new readmes
-	root/index.html, documents declared.
+	* root/index.html, documents declared.
 
 - 'debug' used to describe an action to taken to fix a bug
-	debug index.html|<h3> elements collision, web.css 15px padding added to <h3> elements 
+	* debug index.html|<h3> elements collision, web.css 15px padding added to <h3> elements 
 	
 - 'fixed' used to describe fixing a bug, or remove garbage (mostly used as a touch commit)
-	fixed: index.html| <h3> elements collision web.css 15 px padding added to <h3> elements; xpt: <h3> collision to stop on index.html
+	* fixed: index.html| <h3> elements collision web.css 15 px padding added to <h3> elements; xpt: <h3> collision to stop on index.html
 	
 - 'style' used to describe a standalone change in a CSS
-	style: web.css| style selectors creates for <p> and <ul> elements.
+	* style: web.css| style selectors creates for <p> and <ul> elements.
  
 - 'update' used to modify a working feature
-	update: index.html| header, addition link added to <nav> 
+	* update: index.html| header, addition link added to <nav> 
 		
 - 'merge' - used to merge branches
-	merge: Alpha; debug login >>> main, Alpha merged to main
+	* merge: Alpha; debug login >>> main, Alpha merged to main
 
 
 # BRANCH NAMING CONVENTIONS 
