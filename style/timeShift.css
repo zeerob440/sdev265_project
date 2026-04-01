@@ -4,6 +4,8 @@ margin: 0 auto;
 max-width: 1536px;
 font-family: 'Trebuchet', sans-serif;
 display: flex;
+flex-direction: column;
+align-items: center;
 justify-content: center;
 color: white;
 }
