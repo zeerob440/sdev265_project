@@ -5,6 +5,7 @@ max-width: 1536px;
 font-family: 'Trebuchet', sans-serif;
 display: flex;
 justify-content: center;
+color: white;
 }
 
 .title {
