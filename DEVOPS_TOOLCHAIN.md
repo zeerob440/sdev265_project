@@ -39,7 +39,24 @@ Versioning will follow the methodologies described in COMMIT_COMMENT/BRANCHING_C
 
 
 # PACKAGE AND DEPLOY
+Time Shift has a short runway and a small development team, therefore the DevOps toolchains employed are elegant. Time Shift's codebase consists of HTML/CSS/JavaScript files. Since Time Shift's Main branch is already deployed to a live GitHub Pages website package deployment is automated and deployed whenever a change is synched on Main. 
+
+This workflow simplifies the deployment process. It is scalable, repeatable and congruent with high-tempo CI/CD operations. 
 
 # OPERATE
+Time Shift is essentially a website with game-like attributes. Therefore, GitHub Pages was selected to host the website due to it's stability and field expedience. Using GitHub Pages to host the site removes the need for the development team to manage infrastructure. 
+
+The website is manually monitored and validated after it is deployed. This includes monitoring expected navigation, style rendering, and script outputs. 
+
+When an issue occurs if it is a small bug the patch is developed in situ from Main, otherwise if the bug is large a feature branch is built to patch it, then merged to Main after testing. 
+
+This approach aligns with rapid CI/CD workflows of DevOps methods. 
 
 # SECURE
+Time Shift is unique in that it has no user database, no settings. It is as grab and go as reading magazine in a grocery store checkout line. 
+
+Access to the Main branch is limited to the development team with authorized workflow methods. This mitigates the risk of crashing the website with bad merges or buggy features. 
+
+Disaster recovery methods have been carefully considered as well. Feature branches are saved on external storage before merging with Main as a fail safe should a merge behave unexpectedly. Main is backed up on external storage after mergers for the same reasons. External storage is a fail safe behind GitHub version control, therefore even if a machine or GitHub fails, the external storage persists. Additionally, a safety branch exists as a copy of the Main branch on GitHub. 
+
+
