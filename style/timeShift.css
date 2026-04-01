@@ -3,11 +3,14 @@ background-color: #000000;
 margin: 0 auto;
 max-width: 1536px;
 font-family: 'Trebuchet', sans-serif;
+display: flex;
+justify-content: center;
 }
 
 .title {
-height: 1536px;
 width: 100%;
+max-width: 1536;
+aspect-ratio: 3 / 2;
 background-image: url("../images/time_shift_16.png");
 background-repeat: no-repeat;
 background-position: center;
