@@ -110,8 +110,8 @@ javascript/
 | ---- | -- | - | - | ------ |
 | 1  |PLA|1|0|   |
 | 1.1|FS|1|0|    |
-| 1.2|RA|1| |    |
-| 1.3|PP|1| |    |
+| 1.2|RA|1|1|    |
+| 1.3|PP|1|1 |    |
 | 1.4|TM|1|0|    |
 | 1.5|GH|1|1|    |
 | 1.6|DS|1|1|    |
@@ -152,10 +152,10 @@ project files will be backed up on SSD, or HDD at regular intervals.
 
 | TASK NUMBER | TASK NAME | ASSIGNED TO | COMPLETE |
 | ---- | --- | --- | - |
-|  1  |  PLN  | ALL | |
-| 1.1 |  FS | ZR | |
-| 1.2 |  RA | ZR | |
-| 1.3 |  PP | ALL| |
+|  1  |  PLN  | ALL | T|
+| 1.1 |  FS | ZR | T|
+| 1.2 |  RA | ZR | T |
+| 1.3 |  PP | ALL| T|
 | 1.4 |  TM | ZR  | T|
 | 1.5 |  GH |  ZR | T |
 | 1.6 |  DS |  JJ | T |
