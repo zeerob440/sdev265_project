@@ -26,7 +26,7 @@ docs: root/index.html, documents declared.
 	* ```debug index.html|<h3> elements collision, web.css 15px padding added to <h3> elements``` 
 	
 - 'fixed' used to describe fixing a bug, or remove garbage (mostly used as a touch commit)
-	* fixed: index.html| <h3> elements collision web.css 15 px padding added to <h3> elements; xpt: <h3> collision to stop on index.html
+	* fixed: ```index.html| <h3> elements collision web.css 15 px padding added to <h3> elements; xpt: <h3>collision to stop on index.html```
 	
 - 'style' used to describe a standalone change in a CSS
 	* style: web.css| style selectors creates for <p> and <ul> elements.
