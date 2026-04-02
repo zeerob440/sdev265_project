@@ -23,7 +23,7 @@ background-size: cover;
 }
 
 div {
-    padding-bottom: 24px;
+    padding-bottom: 12px;
 }
 
 .text_prompt_area {
@@ -32,4 +32,9 @@ div {
     max-width: 1024px;
     color: white;
     text-align: left;
+}
+
+.selection_suite {
+display: inline-block;
+
 }
