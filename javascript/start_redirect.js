@@ -2,6 +2,6 @@
 
 document.getElementById('pressToStart').addEventListener('click', titleToBus);
 
-function titleToBus()
-    {window.location.href ="../bus-stop.html";
+function titleToBus(){
+    window.location.href ="../bus-stop.html";
     }
