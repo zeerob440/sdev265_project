@@ -27,6 +27,7 @@ div {
 }
 
 .text_prompt_area {
+    padding-top: 96px;
     width: 100%;
     max-width: 1024px;
     color: white;
