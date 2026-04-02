@@ -25,3 +25,10 @@ background-size: cover;
 div {
     padding-bottom: 48px;
 }
+
+.text_prompt_area {
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    text-align: left;
+}
