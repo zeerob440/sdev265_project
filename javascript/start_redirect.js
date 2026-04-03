@@ -23,5 +23,5 @@ function titleToBus(){
     }
 //function for bus-stop.html --> css-corte-real.html
 function busToFuture(){
-    window.location.href ="../../corte-real/css-corte-real.html";
+    window.location.href ="corte-real/css-corte-real.html";
 }
