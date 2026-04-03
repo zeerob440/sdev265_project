@@ -11,3 +11,11 @@ document.getElementById('pressToStart').addEventListener('click', titleToBus);
 function titleToBus(){
     window.location.href ="bus-stop.html";
     }
+
+//Event listener for bus-stop.html --> css-corte-real.html
+document.getElementById('gloves').addEventListener('click', busToFuture);
+
+//Event listener for bus-stop.html --> css-corte-real.html
+function busToFuture(){
+    window.location.href ="/corte-real/css-corte-real.html";
+}
