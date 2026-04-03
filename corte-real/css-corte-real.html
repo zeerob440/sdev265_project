@@ -24,7 +24,7 @@
 	<audio autoplay loop>
 		<source src="../music/ship_theme.mp3" type="audio/mpeg">
 	</audio>
- <div class="text_prompt_area">
+ <div class="ship_prompt_area">
 	<p>
 	    You awake disorientated laying on a steel floor. The air smells stale and mechanical, like expired
 		engine oil and burning wires. As you stand to your feet you see that you are on a ship. It
@@ -42,21 +42,28 @@
 	<p>LIFE SUPPORT: CRITICAL</p>
 	<p>ASTRAL NAV: OFFLINE</p>
 	<p>PROPULSION: OFFLINE</p>
-	<p>LIFE SAFETY BULKHEADS: ENGAGED</p>
+	<p>LIFE SAFETY BULKHEADS: ENGAGED, error 004 FRAME C</p>
 	<p>UNREGISTERED PASSENGERS: 02...</p>
 	<p></p>
 	<p>
-		UNREGISTERED PASSENGER 02, Corte-Real is not conducive for LIFE SAFETY, and been has been abandoned
-		as a result. It is advised you evacuate, there are currently |0| life pods available. 
+		UNREGISTERED_PASSENGER [02], Corte-Real is not conducive for LIFE SAFETY, and been has been abandoned
+		as a result. It is advised you evacuate. There are currently [0] life pods available. 
 	</p>
-	<p>Movement detected, UNREGISTERED 01 moving to your location.</p>
+	<p>Movement detected, UNREGISTERED_PASSENGER [01] is moving from [FRAME D] to your location.</p>
 	<p>
-		ad hoc emergency protocol active |Remaining stationary is a LIFE SAFETY
-		risk... noise generation is a LIFE SAFETY risk...remaining at this Console is a LIFE SAFETY RISK.
+		AD HOC EMERGENCY PROTOCOL ACTIVE: ['Remaining stationary is a LIFE SAFETY
+		risk...','noise generation is a LIFE SAFETY risk...', 'remaining at this console is a LIFE SAFETY RISK.']
 	</p>
  </div>
- <div class="ship_prompt area">
-	this is where prompts live
+ <div class="ship_prompt_area">
+ <p> 
+	You hear a frighting predatory shriek from the direction of FRAME D, you must decide. Do you run to FRAME C,
+	or do you confront Unregistered passenger 01 and run toward FRAME D? 
+ </p>
+ </div>
+ <div class="future_selection_suite">
+	<button id="frame_c">Run to Frame C</button>
+	<button id="frame_d">Run to Frame D</button>
  </div>
  
 </body>
