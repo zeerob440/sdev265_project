@@ -25,7 +25,7 @@ body {
     max-height: 600px;
     min-width: 800px;
     min-height: 600px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, .8);
     color: crimson;
     text-align: left;
     border-style: solid; 
@@ -36,4 +36,9 @@ body {
 }
 .future_selection_suite {
 display: inline-block;
+}
+
+div {
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
