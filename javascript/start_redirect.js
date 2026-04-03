@@ -5,7 +5,11 @@
 */
 
 // Event listener for start to bus-stop (index.html-->bus-stop.html)
-document.getElementById('pressToStart').addEventListener('click', titleToBus);
+const start_button = document.getElementById('pressToStart');
+if (start_button) {
+    start_button.addEventListener('click', titleToBus);
+
+}
 
 //function for start to bus-stop (index.html-->bus-stop.html)
 function titleToBus(){
