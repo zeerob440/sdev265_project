@@ -25,12 +25,12 @@ body {
     max-height: 600px;
     min-width: 800px;
     min-height: 600px;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .7);
     color: crimson;
     text-align: left;
     border-style: solid; 
     border-width: 3px;
-    border-radius: beige;
+    border-color: beige;
     font-family: "Workbench", sans-serif;
 
 }
