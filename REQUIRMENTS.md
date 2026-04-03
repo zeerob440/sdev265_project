@@ -18,5 +18,5 @@ We are planning to make a text adventure game. Kinda like a choose your own adve
   We are using a github repository and VScode to make the site with HTML and JavaScript along with some other things.
   ### Testing
   We will be debugging and testing the Project as we code it
-  #Appendices 
+  ### Appendices 
   We will be coding in VScode or a github repo in HTML and Javascript.
