@@ -5,23 +5,24 @@
 */
 
 // Event listener for start to bus-stop (index.html-->bus-stop.html)
-const start_button = document.getElementById('pressToStart');
+const start_button = document.getElementById('pressToStart')
+//function for start to bus-stop (index.html-->bus-stop.html)
+function titleToBus(){
+    window.location.href ="bus-stop.html";
+    }
 
 //Event listener for bus-stop.html --> css-corte-real.html
 const gloves_button = document.getElementById('gloves');
+//function for bus-stop.html --> css-corte-real.html
+function busToFuture(){
+    window.location.href ="corte-real/css-corte-real.html";
+}
 
+// if-if structure to determine which function to invoke from html pages.
 if (start_button) {
     start_button.addEventListener('click', titleToBus);
 }
 
 if (gloves_button) {
     gloves_button.addEventListener('click', busToFuture);
-}
-//function for start to bus-stop (index.html-->bus-stop.html)
-function titleToBus(){
-    window.location.href ="bus-stop.html";
-    }
-//function for bus-stop.html --> css-corte-real.html
-function busToFuture(){
-    window.location.href ="corte-real/css-corte-real.html";
 }
