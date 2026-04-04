@@ -1,22 +1,36 @@
-# Intro
-We are planning to make a text adventure game. Kinda like a choose your own adventure book. But its a mix between sci-fi and fantasy as your travel through time. We want people to have fun playing it or be a small time waster.
-# Requirements  
-- 2 choices with each page.
-- a ending for each timeline. 
-- If the user reloads or back take to right page 
-- make the project work for all sizes of screens
-# Architecture
-  We are building the project In mostly HTML with some Javascript and possibly some more 
-# Life cycle 
+# Introduction
+The development team is planning to make a text adventure game. Similar to a choose your own adventure book. Time Shift is a mix between sci-fi and fantasy as your travel through time. We want people to have fun playing it or short diversion from other tasks at a machine.
+# User Requirements & Definition  
+  - 2 choices with each page.
+  - a ending for each timeline. 
+  - If the user reloads or back take to right page 
+  - make the project work for all sizes of screens
+# System Architecture
+  The codebase for Time shift is written in HTML, CSS, and JavaScript. This allows an elegant project to be developed in a short amount of time. Since Time Shift is an interactive website/game, there is no navigation bar, instead navigation is determined by start_redirect.js. This program navigates the site based on user selections.
+  Each time lines has a distinct CSS. The system is styled by a number of CSS files. Strict separation of concerns are followed, scripts and styling are not written in HTML documents, rather scripts and styles are invoked from HTML documents.
+# Systems Development Life Cycle 
   ### Planning 
-  We need to story board and figure out what we need to do for theme
+  Since Time Shift has a short runway the development team is using Agile development methodology, supplemented with elements of DevOps methods. Additionally, the storyboard is under development. Once the storyboard is completed and a minimum viable product is produced the program will be polished as time allows.
   ### Defining 
-  We are just making an html file so we are just using a github repository. 
+  The development team has established functional and non-functional criteria for the project. These criteria include navigation, UX, and a functioning as expected minimimum viable product at least before runway termination.
   ### Design
-  We are putting 2 choices on each html page to lead to 2 different pages to continue the story
+  Time Shift is designed as an interactive website. Therefore, it uses browsers, and HTML/CSS/JavaScript to power UX.
+  The development team intends to design
+    - At least two choices on each html page to lead to 2 different pages to continue the story.
+    - Game Over states
+    - User selection based navigation
   ### Development
-  We are using a github repository and VScode to make the site with HTML and JavaScript along with some other things.
+  The development team is using a GitHub repository and VS Code to develop the site with HTML/CSS/JavaScript. Disaster recovery branches and external storage backups are saved regularly. Strict commit comments, and branch naming conventions are followed.
   ### Testing
-  We will be debugging and testing the Project as we code it
+  The development team will debugging and test the Project as it is developed. Manual inspection will be used to ensure a quality UX. Once the project is finish it will be tested by other developers who have not been part of the development project.
   ### Appendices 
-  We will be coding in VScode or a github repo in HTML and Javascript.
+  
+  1. Hardware Requirements
+    - Turning Complete Machine with Internet access.
+    - Browser, such as Firefox, Brave, Chrome, Edge, or Safari
+
+  2. Programming Languages
+    - HTML
+    - CSS
+    - JavaScript
+    - Markdown
