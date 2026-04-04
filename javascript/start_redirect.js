@@ -34,7 +34,7 @@ if (start_button) {
 if (gloves_button) {
     gloves_button.addEventListener('click', busToFuture);
 }
-// css-corte-real.htmk to frame_d.html if statement
+// css-corte-real.html to frame_d.html if statement
 if (frame_d_button) {
-    frame_d.addEventListener('click', futureToFrameD )
+    frame_d_button.addEventListener('click', futureToFrameD );
 }
