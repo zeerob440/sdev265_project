@@ -1,5 +1,5 @@
 # INTRODUCTION
-Time Shift is a text-based adventure, it allows a user to navigate a narrative through a website by presenting a decision and allowing the user to decide which action they want to take by clicking a link. 
+Time Shift is a text-based adventure, it allows a user to navigate a narrative through a website by presenting a decision and allowing the user to decide which action they want to take by clicking a link.
 
 The DEVOPS_TOOLCHAIN.md serves as the overview of the project's development details across the software's life cycle, including processes, tools, and CI/CD. One of the standout DevOps processes used by the development team is to place planning documents directly into the project root. This maintains a sole source of truth for the project's lifecycle. This documentation will ensure that continuity of development and operations is within a common operating picture throughout the development team.
 
@@ -36,7 +36,7 @@ Time Shift is released continuously on a live GitHub Pages site, therefore relea
 
 Finished feature branches will be merged to main following defined branching methodologies outlined in the DEVELOPMENT heading in this document. Main is the production codebase, therefore it is the only branch deployed to a live GitHub Pages site.
 
-Versioning will follow the methodologies described in COMMIT_COMMENT_BRANCHING_CODEX.md. The intent of the versioning method is to create human-legible, predictable versioning nomenclature. 
+Versioning will follow the methodologies described in COMMIT_COMMENT_BRANCHING_CODEX.md. The intent of the versioning method is to create human-legible, predictable versioning nomenclature.
 
 # PACKAGE AND DEPLOY
 Time Shift has a short runway and a small development team, therefore the DevOps toolchains employed are elegant. Time Shift's codebase consists of HTML/CSS/JavaScript files. Since Time Shift's Main branch is already deployed to a live GitHub Pages website package deployment is automated and deployed whenever a change is synched on Main.
