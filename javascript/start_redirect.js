@@ -18,6 +18,12 @@ function busToFuture(){
     window.location.href ="corte-real/css-corte-real.html";
 }
 
+const frame_d = document.getElementById('frame_d_button');
+
+function futureToFrameD(){
+    window.location.href = "../frame_d/frame_d.html";
+}
+
 // if-if structure to determine which function to invoke from html pages.
 if (start_button) {
     start_button.addEventListener('click', titleToBus);
