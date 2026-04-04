@@ -7,7 +7,7 @@ The development team is planning to make a text adventure game. Similar to a cho
   - make the project work for all sizes of screens
 # System Architecture
   The codebase for Time shift is written in HTML, CSS, and JavaScript. This allows an elegant project to be developed in a short amount of time. Since Time Shift is an interactive website/game, there is no navigation bar, instead navigation is determined by start_redirect.js. This program navigates the site based on user selections.
-  Each time lines has a distinct CSS. The system is styled by a number of CSS files. Strict separation of concerns are followed, scripts and styling are not written in HTML documents, rather scripts and styles are invoked from HTML documents.
+  Each time line has a distinct CSS. The system is styled by a number of CSS files. Strict separation of concerns are followed, scripts and styling are not written in HTML documents, rather scripts and styles are invoked from HTML documents.
 # Systems Development Life Cycle 
   ### Planning 
   Since Time Shift has a short runway the development team is using Agile development methodology, supplemented with elements of DevOps methods. Additionally, the storyboard is under development. Once the storyboard is completed and a minimum viable product is produced the program will be polished as time allows.
@@ -16,15 +16,16 @@ The development team is planning to make a text adventure game. Similar to a cho
   ### Design
   Time Shift is designed as an interactive website. Therefore, it uses browsers, and HTML/CSS/JavaScript to power UX.
   The development team intends to design
-    - At least two choices on each html page to lead to 2 different pages to continue the story.
+    - At least two choices on each HTML page to lead to at least two different pages to continue the story.
     - Game Over states
     - User selection based navigation
   ### Development
   The development team is using a GitHub repository and VS Code to develop the site with HTML/CSS/JavaScript. Disaster recovery branches and external storage backups are saved regularly. Strict commit comments, and branch naming conventions are followed.
   ### Testing
-  The development team will debugging and test the Project as it is developed. Manual inspection will be used to ensure a quality UX. Once the project is finish it will be tested by other developers who have not been part of the development project.
+  The development team will debugging and test the Project as it is developed. Manual inspection will be used to ensure a quality UX. Once the project is finished it will be tested by other developers who have not been part of the development project.
+  ### System Evolution
+  Time Shift is a website at its core. At minimum it is a proof-of-concept of how more sophisticated games can be developed; A lightweight story superimposed on a lightweight logic engine. This simplicity of design, and separation of concerns, make adding new structures as simple as adding a new HTML document, adding story, and linking the navigation logic to start_redirect.js. This workflow is scalable and repeatable for virtually any additional development that might be added in the future. Using Agile development allows for the development of more sophisticated UX including audio, interactive virtual terminals (machine-in-machine), and additional time lines. 
   ### Appendices 
-  
   1. Hardware Requirements
     - Turning Complete Machine with Internet access.
     - Browser, such as Firefox, Brave, Chrome, Edge, or Safari
