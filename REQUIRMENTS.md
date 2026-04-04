@@ -12,7 +12,7 @@ The development team is planning to make a text adventure game. Similar to a cho
   ### Planning 
   Since Time Shift has a short runway the development team is using Agile development methodology, supplemented with elements of DevOps methods. Additionally, the storyboard is under development. Once the storyboard is completed and a minimum viable product is produced the program will be polished as time allows.
   ### Defining 
-  The development team has established functional and non-functional criteria for the project. These criteria include navigation, UX, and a functioning as expected minimimum viable product at least before runway termination.
+  The development team has established functional and non-functional criteria for the project. These criteria include navigation, UX, and a functioning as expected minimum viable product at least before runway termination.
   ### Design
   Time Shift is designed as an interactive website. Therefore, it uses browsers, and HTML/CSS/JavaScript to power UX.
   The development team intends to design
