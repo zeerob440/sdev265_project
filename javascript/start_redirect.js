@@ -18,21 +18,23 @@ function busToFuture(){
     window.location.href ="corte-real/css-corte-real.html";
 }
 
-const frame_d = document.getElementById('frame_d_button');
+const frame_d_button = document.getElementById('frame_d_nav');
 
 function futureToFrameD(){
     window.location.href = "../frame_d/frame_d.html";
 }
 
 // if-if structure to determine which function to invoke from html pages.
+
+// index.html to bus-.html
 if (start_button) {
     start_button.addEventListener('click', titleToBus);
 }
-
+// bus-stop.html to css-corte-real.html
 if (gloves_button) {
     gloves_button.addEventListener('click', busToFuture);
 }
-
-if (frame_d) {
+// css-corte-real.htmk to frame_d.html if statement
+if (frame_d_button) {
     frame_d.addEventListener('click', futureToFrameD )
 }
