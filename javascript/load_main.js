@@ -1,10 +1,10 @@
 // load_main.js loads the menu and theme music on index.html
 
 
-document.getElementById('time_to_time_travel').addEventListener('click', printMe);
+const menu = document.getElementById('time_to_time_travel');
 
 function printMe()
-{document.getElementById('menuLoadAres').innerHTML = `
+{document.getElementById('menuLoadArea').innerHTML = `
     <h1>This is Time Shift</h1>
 		<p> 
 			The date is March 25th 2026, but time does not flow linearly. Can you navigate space and time to return to your timeline?
@@ -13,5 +13,6 @@ function printMe()
 		<button id="pressToStart">START</button>`; 
 
 }
-
-
+if (menu){
+    menu.addEventListener('click', printMe);
+}
