@@ -32,3 +32,7 @@ if (start_button) {
 if (gloves_button) {
     gloves_button.addEventListener('click', busToFuture);
 }
+
+if (frame_d) {
+    frame_d.addEventListener('click', futureToFrameD )
+}
