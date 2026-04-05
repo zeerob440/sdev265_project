@@ -1,5 +1,9 @@
 // ship_controller.js controls the UI output on inside the ship_controller class from future.css
 
+/* a series of vars and functions are declared, below that, an if-if structure contains event listeners to invoke the functions
+so the program work across multiple pages.
+*/
+
 /* notes form frame_c.html to make writing js function target easier.
     <button id="om_astral_nav">Astral Nav</button>
     <button id="om_armory">Armory</button>
@@ -13,19 +17,26 @@
 */
 // var to target button frame_c.html, om_atmosphere_vent
 const om_atmosphere_vent_button = document.getElementById('om_atmosphere_vent');
-// function to print innerHTML when om_atmosphere_vent is interacted with by user.
+// function to target innerHTML space frame_c.html atmosphere_output
 function ventAtmos(){
     document.getElementById('atmosphere_output').innerHTML = `<p>LIFE SAFETY VIOLATION: o2 cannot be reduced to below 19.5% while ship is occupied!</p>`;
    }
 
 // var to target button frame_c.html, om_armory   
 const om_armory_button = document.getElementById('om_armory');
-
+// function for target innerHTML space frame_c.html, om_output
 function armoryStatus(){
     document.getElementById('armory_output').innerHTML =`<p>01 MK-540 Electro-Magnetic Carbine, with 450 depleted U92 munitions operational.
-    Other armaments depleted from attempted apprehension of UNREGISTERED PASSENGER 01 in 2322.</p>`}
+    Other armaments depleted from attempted apprehension of UNREGISTERED PASSENGER 01 in 2322.</p>`;
+}
 
+// var tp target button frame_c.html om_propulsion
 const om_propulsion_button = document.getElementById('om_propulsion');
+// function for target innerHTML space frame_c.html, propulsion_output
+function propulsionStatus(){
+    document.getElementById('propulsion_output').innerHTML =`<p>ERROR 1532; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE. LOCAL ACCESS REQUIRED TO RESTART
+    TESSERACT DRIVE</p>`;
+}
 
 const om_astral_nav_button = document.getElementById('om_astral_nav');
 
@@ -35,6 +46,11 @@ const om_astral_nav_button = document.getElementById('om_astral_nav');
 if (om_atmosphere_vent_button){
     om_atmosphere_vent_button.addEventListener('click', ventAtmos);
 }
+//event listener for frame_c.html for om_armory
 if (om_armory_button){
     om_armory_button.addEventListener('click', armoryStatus);
+}
+//event listener for frame_c.html om_propulsion
+if (om_propulsion_button){
+    om_propulsion_button.addEventListener('click', propulsionStatus);
 }
