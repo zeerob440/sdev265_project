@@ -42,7 +42,7 @@ function propulsionStatus(){
 const om_astral_nav_button = document.getElementById('om_astral_nav');
 // function to target innerHTML frame_c.html om_astral output
 function astralNavStatus(){
-document.getElementById('om_astral_output').innerHTML =`<p>ERROR 1203; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE.LOCAL ACCESS REQUIRED TO RESTART ASTRAL NAVIGATION.</p>`;
+document.getElementById('astral_nav_output').innerHTML =`<p>ERROR 1203; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE.LOCAL ACCESS REQUIRED TO RESTART ASTRAL NAVIGATION.</p>`;
 }
 
 //if if structure to allow this program to be used on multiple pages.
