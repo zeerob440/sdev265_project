@@ -31,7 +31,14 @@ function busToFuture(){
 const frame_d_button = document.getElementById('frame_d_nav');
 // function for css-corte-real.html to frame_d.html
 function futureToFrameD(){
-    window.location.href = "../frame_d/frame_d.html";
+    window.location.href = "../frame-d/frame_d.html";
+}
+
+// var for css-corte-real.html to frame_c.html
+const frame_c_button = document.getElementById('frame_c_nav');
+// function for css-corte-real.html to frame_c.html
+function futureToFrameC(){
+    window.location.href ="../frame-c/frame_c.html";
 }
 
 // var for frame_d.html to game-over.html
@@ -50,6 +57,7 @@ function gameOverToMain(){
 
 
 
+
 // if-if structure to determine which function to invoke from html pages via event listeners.
 
 // event listener index.html to main.html
@@ -61,19 +69,28 @@ if (play_button){
 if (start_button) {
     start_button.addEventListener('click', titleToBus);
 }
+
 // Event Listener bus-stop.html to css-corte-real.html
 if (gloves_button) {
     gloves_button.addEventListener('click', busToFuture);
 }
+
 // Event Listener css-corte-real.html to frame_d.html if statement
 if (frame_d_button) {
     frame_d_button.addEventListener('click', futureToFrameD );
 }
+
 // Event listener for frame_d.html to game-over.html
 if (frame_d_game_over_proceed_button){
     frame_d_game_over_proceed_button.addEventListener('click', frameDToGameOver);
 }
+
 //event listener for game-over.html to index.html
 if (exit_to_main_button){
     exit_to_main_button.addEventListener('click', gameOverToMain);
+}
+
+//Event Listener for css-corte-real.html to frame_c.html
+if (frame_c_button){
+    frame_c_button.addEventListener('click', futureToFrameC);
 }
