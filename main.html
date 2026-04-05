@@ -15,24 +15,25 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
-	<title>Index</title>
+	<title>Time Shift</title>
 	<link rel="icon" type="image/png" href="images/time_shift_favicon.png">
 	<!--Above is code for favicon to displays in tab-->
 	<link rel="stylesheet" href="style/timeShift.css">
 	<script src ="javascript/start_redirect.js" defer></script>
-	<script src="javascript/load_main.js" defer></script>
 	<!--link JavaScript here if needed, defer is helpful here.-->
 </head>
 
 <body>
-
-	<h1>Time Shift</h1>
-		<button id="play">Play</button>
-        <footer>
-            <p> 
-                <em>Proudly Engineered by Zachary Roberts and Joshua Johnson March 2026.</em>
-            </p>
-        </footer>
-
+	<audio autoplay loop>
+		<source src="../music/timeshift_theme1.mp3" type="audio/mpeg">
+	</audio>
+	
+	<h1>This is Time Shift</h1>
+		<p> 
+			The date is March 25th 2026, but time does not flow linearly. Can you navigate space and time to return to your timeline?
+		</p>
+	<div>
+		<button id="pressToStart">START</button>
+	</div>
 </body>
 </html>

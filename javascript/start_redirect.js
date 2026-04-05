@@ -3,10 +3,19 @@
     decisions in Time Shift. This program contains event listeners linked to HTML pages
     and functions that redirect the user based on their decisions in the game.  
 */
+// Navigation variables and functions.
 
-// var for start to bus-stop (index.html-->bus-stop.html)
-const start_button = document.getElementById('pressToStart')
-//function for start to bus-stop (index.html-->bus-stop.html)
+// var for index.html to main.html
+const play_button = document.getElementById('play');
+
+// function for index.html to main.html
+function indexToMain(){
+    window.location.href ="main.html";
+}
+
+// var for main.html to bus-stop.html
+const start_button = document.getElementById('pressToStart');
+//function for main.html to bus-stop.html 
 function titleToBus(){
     window.location.href ="bus-stop.html";
     }
@@ -43,7 +52,12 @@ function gameOverToMain(){
 
 // if-if structure to determine which function to invoke from html pages via event listeners.
 
-// Event Listener index.html to bus-.html
+// event listener index.html to main.html
+if (play_button){
+    play_button.addEventListener('click', indexToMain);
+}
+
+// Event Listener main.html to bus-stop.html
 if (start_button) {
     start_button.addEventListener('click', titleToBus);
 }
