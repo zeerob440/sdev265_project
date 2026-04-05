@@ -35,10 +35,15 @@ const om_propulsion_button = document.getElementById('om_propulsion');
 // function for target innerHTML space frame_c.html, propulsion_output
 function propulsionStatus(){
     document.getElementById('propulsion_output').innerHTML =`<p>ERROR 1532; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE. LOCAL ACCESS REQUIRED TO RESTART
-    TESSERACT DRIVE</p>`;
+    TESSERACT DRIVE. TEMPORAL ANOMALIES DETECT IN THIS FRAME.</p>`;
 }
 
+// var tp target button frame_c.html om_astral_nav
 const om_astral_nav_button = document.getElementById('om_astral_nav');
+// function to target innerHTML frame_c.html om_astral output
+function astralNavStatus(){
+document.getElementById('om_astral_output').innerHTML =`<p>ERROR 1203; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE.LOCAL ACCESS REQUIRED TO RESTART ASTRAL NAVIGATION.</p>`;
+}
 
 //if if structure to allow this program to be used on multiple pages.
 
@@ -53,4 +58,8 @@ if (om_armory_button){
 //event listener for frame_c.html om_propulsion
 if (om_propulsion_button){
     om_propulsion_button.addEventListener('click', propulsionStatus);
+}
+//event listener for frame_c.html om_astral_nav
+if (om_astral_nav_button){
+    om_astral_nav_button.addEventListener('click', astralNavStatus);
 }
