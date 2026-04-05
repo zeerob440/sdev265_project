@@ -40,10 +40,10 @@ body {
 .ship_controller button {
     color: crimson;
     background-color:rgba(0, 0, 0, .90);
-    border: 2px;
+    border: 2px, solid;
     border-color: crimson;
     font-family: "Workbench", sans-serif;
-    
+
 }
 .future_selection_suite {
 display: inline-block;
