@@ -45,6 +45,21 @@ body {
     font-family: "Workbench", sans-serif;
 
 }
+.ship_controller button:hover {
+    color: white;
+    background-color: crimson;
+    border: 2px, solid;
+    border-color: white;
+    font-family: "Workbench", sans-serif;
+}
+
+.ship_controller button.clicked {
+    color: white;
+    background-color: crimson;
+    border: 2px, solid;
+    border-color: white;
+    font-family: "Workbench", sans-serif;  
+}
 .future_selection_suite {
 display: inline-block;
 }
