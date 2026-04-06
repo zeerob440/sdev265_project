@@ -9,7 +9,7 @@ and Zachary Roberts. In Time Shift the user navigates webpages and is presented 
 
 ORGANIZER Zachary Roberts-
     Zachary Roberts organizes the development team, he ensures tasks are created, assigned, and executed. He
-    also contributes to file structure and HTML. 
+    also contributes to file structure and HTML.
 
 DESIGNER Joshua Johnson-
     Joshua Johnson contributes to game design, storyboard, and CSS design. He designs the overall mood
@@ -38,12 +38,12 @@ DESIGNER Joshua Johnson-
     - 1.3 Project Plan
     - 1.4 Development team meeting schedule
     - 1.5 Create GitHub shared repository
-    - 1.6 Create Discord server for team meeting. 
+    - 1.6 Create Discord server for team meeting.
 2. Design 
     - 2.1 Story Board
-    - 2.2 Wireframe 
+    - 2.2 Wireframe
     - 2.3 CSS styles
-    - 2.4 JavaScript programs 
+    - 2.4 JavaScript programs
     - 2.5 UI and UX 
     - 2.6 Design page reload behavior (redirect to index.html on reload or back)
     
