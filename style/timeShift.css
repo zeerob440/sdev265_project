@@ -38,3 +38,15 @@ div {
 display: inline-block;
 
 }
+
+button {
+    font-family:"Pixelify Sans", sans-serif;
+    color: black;
+    background-color: white;
+}
+
+button:hover {
+    font-family:"Pixelify Sans", sans-serif;
+    color: black;
+    background-color: lightcyan;
+}
