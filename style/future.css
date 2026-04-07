@@ -63,11 +63,15 @@ div {
 
 button {
     background-color: rgba(255, 69, 0, .8);
-    font-family: trebuchet;
-    color: white
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+    border: 2px solid;
+    border-color: white;
 }
 
 button:hover {
-    background-color: white;
+    background-color: rgba(255, 90, 20, .8);
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white; 
 
 }
