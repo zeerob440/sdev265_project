@@ -1,9 +1,9 @@
 # Introduction
 The development team is planning to make a text adventure game. Similar to a choose your own adventure book. Time Shift is a mix between sci-fi and fantasy as your travel through time. We want people to have fun playing it or short diversion from other tasks at a machine.
 # User Requirements & Definition  
-  - 2 choices with each page.
+  - At 2 choices with each page.
   - a ending for each timeline. 
-  - If the user reloads or back take to right page 
+  - If the user reloads or back take to right page. 
   - make the project work for all sizes of screens
 # System Architecture
   The codebase for Time shift is written in HTML, CSS, and JavaScript. This allows an elegant project to be developed in a short amount of time. Since Time Shift is an interactive website/game, there is no navigation bar, instead navigation is determined by start_redirect.js. This program navigates the site based on user selections.
