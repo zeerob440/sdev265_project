@@ -23,7 +23,7 @@ body {
 .ship_controller {
     max-width: 800px;
     aspect-ratio: 4 / 3;
-    width: auto;
+    width: 100%;
     background-color: rgba(0, 0, 0, .90);
     color: crimson;
     text-align: left;
@@ -59,4 +59,15 @@ display: inline-block;
 div {
     padding-top: 12px;
     padding-bottom: 12px;
+}
+
+button {
+    background-color: rgba(255, 69, 0, .8);
+    font-family: trebuchet;
+    color: white
+}
+
+button:hover {
+    background-color: white;
+
 }
