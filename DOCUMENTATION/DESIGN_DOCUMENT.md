@@ -10,13 +10,14 @@ and Zachary Roberts. In Time Shift the user navigates webpages and is presented 
 ![use_case.png](../images/use_case.png)
 
 ## Future Behavior Diagram
-future timeline behavior diagram
+future timeline behavior diagram build it 
 
 ## Past Behavior Diagram
 
 past timeline behavior diagram
 
 # DATA DESIGN
+Time Shift is designed to be light-weight, therefore Time Shift uses client-side flat-file structures  stored with in HTML and in some cases JavaScript codebases. The text output drives the story, adds lore, and embeds easter eggs. This design was chosen for scalability and simplicity to help meet the demands of a short runway. This architecture is congruent from the fast, fun diversion that Time Shift is intended to provide to users. 
 
 # INTERFACE DESIGN
 Time Shift is a text-based adventure and the UI reflects that game mechanic. Each HTML document provides story narrative, next the user is presented several decisions via buttons that determine in what manner the user wants to advance the narrative or solve a problem posed by the story. These buttons are placed in selection_suite classes. Some buttons serve a method to advance the story by allowing the user to interact with it, such as interacting with a terminal in-game. 
