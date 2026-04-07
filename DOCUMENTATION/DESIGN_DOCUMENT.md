@@ -7,10 +7,11 @@ and Zachary Roberts. In Time Shift the user navigates webpages and is presented 
 
 ## Usecase Diagram
 
-![use_case.png](../images/use_case.png)
+![use_case.png](use_case.png)
 
 ## Future Behavior Diagram
-future timeline behavior diagram build it 
+
+![f_bd.png](f_bd.png)
 
 ## Past Behavior Diagram
 
@@ -24,7 +25,7 @@ Time Shift is a text-based adventure and the UI reflects that game mechanic. Eac
 
 An example of a UI driven narrative is below: 
 
-![ui_example](../images/ui_example.png)
+![ui_example](ui_example.png)
 
 # TEST CASES
 
