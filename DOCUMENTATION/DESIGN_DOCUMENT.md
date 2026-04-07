@@ -42,14 +42,14 @@ An example of a UI driven narrative is below:
     - Expected: All endgame conditions function as designed.
 
 3. Ensure back and refresh redirect to index.html after development is completed.
-- Test: attempt back and refresh on each page.
-- Action: attempt back and refresh on each page.
-- Expected: each page redirects to index.html on refresh or back.
+    - Test: attempt back and refresh on each page.
+    - Action: attempt back and refresh on each page.
+    - Expected: each page redirects to index.html on refresh or back.
 
 4. Ensure Time Shift is optimized for all screen sizes.
     - Test: Time Shift renders correctly on all screen sizes
     - Action: test each page in dev tools, and mobile devices.
-    - Expected: all pages render as expected. 
+    - Expected: all pages render as expected.
 
 # SUMMARY
 
