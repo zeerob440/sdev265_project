@@ -63,16 +63,16 @@ div {
 button {
     background-color: rgba(255, 69, 0, .7);
     font-family: 'Trebuchet MS', sans-serif;
-    color: white;
-    border-radius: 2px solid;
+    color: rgba(255, 255 ,255, .7);
+    border-radius: 50%;
     border-color: rgba(255, 69, 0, .7);
 }
 
 button:hover {
     background-color: rgba(255, 90, 20, .7);
     font-family: 'Trebuchet MS', sans-serif;
-    color: white;
-    border-color: white;
-    border-radius: 2px solid; 
+    color: rgba(255, 255, 255, .7);
+    border-color: rgba(255, 255, 255, .7);
+    border-radius: 50%; 
 
 }
