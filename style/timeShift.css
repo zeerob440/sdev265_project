@@ -43,10 +43,12 @@ button {
     font-family:"Pixelify Sans", sans-serif;
     color: black;
     background-color: white;
+    font-size: 18px;
 }
 
 button:hover {
     font-family:"Pixelify Sans", sans-serif;
     color: black;
     background-color: lightcyan;
+    font-size: 18px;
 }
