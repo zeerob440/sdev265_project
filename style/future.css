@@ -64,11 +64,8 @@ button {
     background-color: rgba(255, 69, 0, .7);
     font-family: 'Trebuchet MS', sans-serif;
     color: rgba(255, 255 ,255, .7);
-    border-radius: 50%;
     border-color: rgba(255, 69, 0, .7);
     font-size: 25px;
-    margin: 5px;
-
 }
 
 button:hover {
@@ -76,8 +73,5 @@ button:hover {
     font-family: 'Trebuchet MS', sans-serif;
     color: rgba(255, 255, 255, .7);
     border-color: rgba(255, 255, 255, .7);
-    border-radius: 50%; 
     font-size: 25px;
-    margin: 5px;
-
 }
