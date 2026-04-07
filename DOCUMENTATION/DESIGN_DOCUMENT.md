@@ -2,7 +2,8 @@
 
 # DESIGN DIAGRAMS
 
-- Usecase Diagram
+## Usecase Diagram
+
 ![use_case.png](../images/use_case.png)
 
 
