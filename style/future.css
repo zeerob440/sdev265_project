@@ -23,7 +23,7 @@ body {
 .ship_controller {
     max-width: 800px;
     aspect-ratio: 4 / 3;
-    width: 100%;
+    width: auto;
     background-color: rgba(0, 0, 0, .90);
     color: crimson;
     text-align: left;
