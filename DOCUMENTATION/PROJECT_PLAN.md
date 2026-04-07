@@ -18,7 +18,7 @@ DESIGNER Joshua Johnson-
 
 ## 3. RISK ANALYSIS
 
-![Time Shift Risk Analysis Table](images/risk_ana.png)
+![Time Shift Risk Analysis Table](DOCUMENTATION/risk_ana.png)
 
 ## 4. HARDWARE & SOFTWARE REQUIREMENTS
 
