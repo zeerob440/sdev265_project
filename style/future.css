@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     color:orange;
     }
 
@@ -23,7 +23,7 @@ body {
 .ship_controller {
     max-width: 800px;
     aspect-ratio: 4 / 3;
-    width: auto;
+    width: 100%;
     background-color: rgba(0, 0, 0, .90);
     color: crimson;
     text-align: left;
