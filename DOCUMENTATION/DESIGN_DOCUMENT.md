@@ -18,7 +18,7 @@ This behavior diagram tracks system behavior based on user selections in the fut
 
 ## Past Behavior Diagram
 
-FIXME past timeline behavior diagram goes here
+![p_bd.jpeg](p_bd.jpeg)
 
 # DATA DESIGN
 Time Shift is designed to be light-weight, therefore Time Shift uses client-side flat-file structures  stored with in HTML and in some cases JavaScript codebases. The text output drives the story, adds lore, and embeds easter eggs. This design was chosen for scalability and simplicity to help meet the demands of a short runway. This architecture is congruent from the fast, fun diversion that Time Shift is intended to provide to users.
