@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Sets a good baseline screen optimization method-->
+
+	<title>Armory 1</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Workbench&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" href="../images/time_shift_favicon.png">
+	<!--Above is code for favicon to displays in tab-->
+	<link rel="stylesheet" href="../style/future.css">
+	<script src ='../javascript/start_redirect.js' defer></script>
+    <script src ='../javascript/ship_controller.js' defer></script>
+	<!--link JavaScript here if needed, defer is helpful here.-->
+</head>
+
+<body>
+	<audio autoplay loop>
+		<source src="../music/ship_theme.mp3" type="audio/mpeg">
+	</audio>
+ <div class="ship_prompt_area">
+	<p>
+	    You carefully make your way through the ship's degrade corridors until you reach a sign that
+        reads "ARMORY". The door is open you peer inside. There are rows of gray weapons racks, most
+        are empty. Suddenly, you hear a loud sheik echo through the ship. The creature could
+        be anywhere!. You duck inside the armory. 
+	</p>
+    <p> </p>
+ 
+ </div>
+ <div class="ship_controller">
+	<p> CSS Corte-Real Overmonitor Controller: Frame C| 05/22/2357</p>
+	<p>SYSTEM STATUS</p>
+	<p>UNREGISTERED PASSENGERS: [01, 02]</p>
+    <p>ARMORY INVENTORY: [('MK-540EMC', 01)]</p>
+    <p></p>
+    <p>SUBSYSTEM ACCESS USER INTERFACE</p>
+    <button id="om_astral_nav">Astral Nav</button>
+    <button id="om_armory">Armory</button>
+    <button id="om_propulsion">Propulsion</button>
+    <button id="om_atmosphere_vent">Vent Atmosphere</button>
+    <div id="atmosphere_output"></div>
+    <div id="astral_nav_output"></div>
+    <div id="armory_output"></div>
+    <div id="propulsion_output"></div>
+ </div>
+ 
+ <div class="future_selection_suite">
+	<button id="frame_c_astral_nav1">Astral Navigation</button>
+    <button id="frame_c_propulsion1">Propulsion</button>
+    <button id="frame_c_armory1">Armory</button>
+ </div>
+ 
+</body>
+</html>
