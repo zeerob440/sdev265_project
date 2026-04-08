@@ -55,7 +55,7 @@ function gameOverToMain(){
     window.location.href = "../index.html";
 }
 
-const propulsion1_button =document.getElementById(frame_c_propulsion1)
+const propulsion1_button =document.getElementById('frame_c_propulsion1');
 
 function frameCProp1() {
     window.location.href= "../propulsion/propulsion1.html";
