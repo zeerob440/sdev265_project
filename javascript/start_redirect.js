@@ -41,14 +41,14 @@ function futureToFrameC(){
     window.location.href ="../frame-c/frame_c.html";
 }
 
-// var for frame_d.html to game-over.html
-const frame_d_game_over_proceed_button = document.getElementById('frame_d_gameover');
-// function for frame_d.html to game-over.html
-function frameDToGameOver() {
+// var ANY END GAME STATE to game-over.html
+const gameover_button = document.getElementById('gameover');
+// function for ANY END GAME STATE to game-over.html
+function gameOver() {
     window.location.href = "../game-over/game-over.html";
 }
 
-//var for game-over.html to index.html
+//var REDIRECTS FROM game-over.html to index.html DO NOT TOUCH.
 const exit_to_main_button = document.getElementById('exit_main_nav');
 //function for game-over.html to index.html
 function gameOverToMain(){
@@ -85,9 +85,9 @@ if (frame_d_button) {
     frame_d_button.addEventListener('click', futureToFrameD );
 }
 
-// Event listener for frame_d.html to game-over.html
-if (frame_d_game_over_proceed_button){
-    frame_d_game_over_proceed_button.addEventListener('click', frameDToGameOver);
+// Event listener for ALL END GAME STATES to game-over.html
+if (gameover_button){
+    gameover_button.addEventListener('click', frameDToGameOver);
 }
 
 //event listener for game-over.html to index.html
