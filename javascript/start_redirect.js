@@ -43,7 +43,7 @@ const frame_c_button = document.getElementById('frame_c_nav');
 // function for css-corte-real.html to frame_c.html
 function futureToFrameC(){
     window.location.href ="../frame-c/frame_c.html";
-    console.log('Redirecting to frame_c.html.')
+    console.log('Redirecting to frame_c.html.');
 }
 
 // var ANY END GAME STATE to game-over.html
