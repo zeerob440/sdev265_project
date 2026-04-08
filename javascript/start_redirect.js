@@ -59,7 +59,7 @@ const exit_to_main_button = document.getElementById('exit_main_nav');
 //function for game-over.html to index.html
 function gameOverToMain(){
     window.location.href = "../index.html";
-    console.log('Redirecting to index.html.')
+    console.log('Redirecting to index.html.');
 }
 
 const propulsion1_button =document.getElementById('frame_c_propulsion1');
