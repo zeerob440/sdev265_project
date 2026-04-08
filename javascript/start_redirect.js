@@ -46,9 +46,14 @@ function futureToFrameC(){
     console.log('Redirecting to frame_c.html.');
 }
 
-// var ANY END GAME STATE to game-over.html
+//var ANY END GAME STATE to game-over.html
+
 const gameover_button = document.getElementById('gameover');
-// function for ANY END GAME STATE to game-over.html
+/*
+    function for ANY END GAME STATE to game-over.html.
+    this will function globally as long as all game over states
+    1 file deep, and the button id ='gameover' in the html.file.
+*/
 function gameOver() {
     window.location.href = "../game-over/game-over.html";
     console.log('Redirecting to game-over.html');
