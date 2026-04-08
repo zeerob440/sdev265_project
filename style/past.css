@@ -11,3 +11,10 @@ body {
     justify-content: flex-start;
     color:orange;
     }
+.future_selection_suite {
+display: inline-block;
+}
+div {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
