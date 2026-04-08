@@ -46,6 +46,7 @@ const gameover_button = document.getElementById('gameover');
 // function for ANY END GAME STATE to game-over.html
 function gameOver() {
     window.location.href = "../game-over/game-over.html";
+    console.log('Redirecting to game-over.html')
 }
 
 //var REDIRECTS FROM game-over.html to index.html DO NOT TOUCH.
@@ -87,7 +88,7 @@ if (frame_d_button) {
 
 // Event listener for ALL END GAME STATES to game-over.html
 if (gameover_button){
-    gameover_button.addEventListener('click', frameDToGameOver);
+    gameover_button.addEventListener('click', gameOver);
 }
 
 //event listener for game-over.html to index.html
