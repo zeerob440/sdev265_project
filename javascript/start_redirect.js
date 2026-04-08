@@ -55,7 +55,12 @@ function gameOverToMain(){
     window.location.href = "../index.html";
 }
 
+const propulsion1_button =document.getElementById(frame_c_propulsion1)
 
+function frameCProp1() {
+    window.location.href= "../propulsion1.html";
+    console.log('Navigating frame_c.html to propulsion1.html');
+}
 
 
 // if-if structure to determine which function to invoke from html pages via event listeners.
@@ -93,4 +98,9 @@ if (exit_to_main_button){
 //Event Listener for css-corte-real.html to frame_c.html
 if (frame_c_button){
     frame_c_button.addEventListener('click', futureToFrameC);
+}
+
+if (propulsion1_button){
+    propulsion1_button.addEventListener('click', frameCProp1);
+    
 }
