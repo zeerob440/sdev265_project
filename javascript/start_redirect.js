@@ -11,6 +11,7 @@ const play_button = document.getElementById('play');
 // function for index.html to main.html
 function indexToMain(){
     window.location.href ="main.html";
+    console.log('Redirecting to main.html.');
 }
 
 // var for main.html to bus-stop.html
@@ -18,6 +19,7 @@ const start_button = document.getElementById('pressToStart');
 //function for main.html to bus-stop.html 
 function titleToBus(){
     window.location.href ="bus-stop.html";
+    console.log('Redirecting to bus-stop.html.');
     }
 
 //var for bus-stop.html --> css-corte-real.html
@@ -25,6 +27,7 @@ const gloves_button = document.getElementById('gloves');
 //function for bus-stop.html --> css-corte-real.html
 function busToFuture(){
     window.location.href ="corte-real/css-corte-real.html";
+    console.log('Redirecting to css-corte-real.html.');
 }
 
 // var for css-corte-real.html to frame_d.html
@@ -32,6 +35,7 @@ const frame_d_button = document.getElementById('frame_d_nav');
 // function for css-corte-real.html to frame_d.html
 function futureToFrameD(){
     window.location.href = "../frame-d/frame_d.html";
+    console.log('Redirecting to frame_d.html');
 }
 
 // var for css-corte-real.html to frame_c.html
@@ -39,6 +43,7 @@ const frame_c_button = document.getElementById('frame_c_nav');
 // function for css-corte-real.html to frame_c.html
 function futureToFrameC(){
     window.location.href ="../frame-c/frame_c.html";
+    console.log('Redirecting to frame_c.html.')
 }
 
 // var ANY END GAME STATE to game-over.html
@@ -46,7 +51,7 @@ const gameover_button = document.getElementById('gameover');
 // function for ANY END GAME STATE to game-over.html
 function gameOver() {
     window.location.href = "../game-over/game-over.html";
-    console.log('Redirecting to game-over.html')
+    console.log('Redirecting to game-over.html');
 }
 
 //var REDIRECTS FROM game-over.html to index.html DO NOT TOUCH.
@@ -54,6 +59,7 @@ const exit_to_main_button = document.getElementById('exit_main_nav');
 //function for game-over.html to index.html
 function gameOverToMain(){
     window.location.href = "../index.html";
+    console.log('Redirecting to index.html.')
 }
 
 const propulsion1_button =document.getElementById('frame_c_propulsion1');
