@@ -47,7 +47,6 @@ function futureToFrameC(){
 }
 
 //var ANY END GAME STATE to game-over.html
-
 const gameover_button = document.getElementById('gameover');
 /*
     function for ANY END GAME STATE to game-over.html.
@@ -68,14 +67,23 @@ function gameOverToMain(){
 }
 // var for frame_c.html to propulsion1.html
 const propulsion1_button =document.getElementById('frame_c_propulsion1');
-// function for fram_c.html and propulsion1.html
+// function for frame_c.html and propulsion1.html
 function frameCProp1() {
     window.location.href= "../propulsion/propulsion1.html";
     console.log('Navigating frame_c.html to propulsion1.html');
 }
 
-const hat_button =document.getElementById('hat');
+// var for frame_c.html to armory1.html
+const armory1_button =document.getElementById('frame_c_armory1');
+// function for frame_c.html to armory1.html
+function frameCArmory1(){
+    window.location.href='../armory.armory1.html';
+    console.log('Redirecting to armory1,html.')
+}
 
+// var for bus-stop.html to Encounter1.html
+const hat_button =document.getElementById('hat');
+// function for bus-stop.html to Encounter1.html
 function busToPast(){
     window.location.href='Encounter/Encounter1.html';
     console.log('Redirecting from bus-stop.html to Encounter1.html');
@@ -120,9 +128,16 @@ if (frame_c_button){
 }
 // event listener for frame_c.html to propulsion1.html
 if (propulsion1_button){
-    propulsion1_button.addEventListener('click', frameCProp1);
-    
+    propulsion1_button.addEventListener('click', frameCProp1);  
 }
+
+// event listener for bus-stop.html to Encounter1.html
 if (hat_button){
-    hat_button.addEventListener('click', busToPast)
+    hat_button.addEventListener('click', busToPast);
+}
+
+//event listener for for frame_c.html to armory1.html
+
+if (armory1_button){ 
+    armory1_button.addEventListener('click', frameCArmory1);
 }
