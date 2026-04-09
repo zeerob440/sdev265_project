@@ -60,7 +60,7 @@ const tdrive_status_button =document.getAnimations('om_tdrive_status');
 function tDriveStatus(){
     document.getElementById('tdrive_status_output').innerHTML=
     `<p>Depleted Uranium detected in Tesseract Core. Dimensional shift for FTL unstable.<br>ASTRAL NAVIGATION: OFFLINE<br>WARNING: BLIND JUMP IMMINENT!</p>`;
-    console.log('Forward to the past!')
+    
 }
 //if if structure to allow this program to be used on multiple pages.
 
@@ -90,4 +90,5 @@ if (mk540_button){
 //event listener for tDriveStatus
 if (tdrive_status_button){
     tdrive_status_button.addEventListener('click', tDriveStatus);
+    console.log('Forward to the past!');
 }
