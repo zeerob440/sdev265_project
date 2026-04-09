@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Sets a good baseline screen optimization method-->
+
+	<title>Astral Navigation</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Workbench&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" href="../images/time_shift_favicon.png">
+	<!--Above is code for favicon to displays in tab-->
+	<link rel="stylesheet" href="../style/future.css">
+	<script src ='../javascript/start_redirect.js' defer></script>
+    <script src ='../javascript/ship_controller.js' defer></script>
+	<!--link JavaScript here if needed, defer is helpful here.-->
+</head>
+
+<body>
+	<audio autoplay loop>
+		<source src="../music/ship_theme.mp3" type="audio/mpeg">
+	</audio>
+ <div class="ship_prompt_area">
+	<p>
+	   You decide to head to Astral Navigation, how can you get back to your time if you don't even know where you are?
+       You quickly and silently follow faded arrows on the floor labeled "ASTRAL NAV". After traversing noisy run down corridors
+       you come to a t-intersection you carefully look around the corner...  
+	</p>
+    <p> 
+        You catch a glimpse of the creature. It quickly looks in your direction, you duck behind the corner.
+        Did it see you? It begins snarling and the sound is getting closer.
+    </p>
+    <p>
+        You quickly weight your options, there is an open HVAC vent across the hall from you. You rapidly dive in as the snarling gets closer.
+        You carefully observe from a grate in the vent. The creature rounds the T-intesection corner where you were only moments ago.
+        You can only see its legs. It is bipedal weighing at least 500kg. Each foot has a pair of 20cm claws. 
+        It is muscular with amphibian-like features.
+    </p>
+    <p>
+        It stops abruptly and sniffs the stale air. It is hunting you. It lingers for a bit and slowly stomps off. You wait to collect yourself.
+    </p>
+    <p> 
+        You exit the vent and quickly arrive at Astral Navigation. Astral Navigation looks like an amphitheater, there are many consoles flickering on the 
+        raised outer rings of the area. There is a larger console in the center...
+    </p>
+    
+ </div>
+ <div class="ship_controller">
+	<p> CSS Corte-Real Overmonitor Controller: ASTRAL NAVIGATION| 05/22/2357</p>
+	<p>SYSTEM STATUS</p>
+	<p>UNREGISTERED PASSENGERS: [01, 02]</p>
+    <p>ARMORY INVENTORY: [('MK-540EMC', 01)]</p>
+    <p>system|corteReal-?-access-astralNavActive-*-TRUE</p>
+    <p>ASTRAL NAVIGATION: ONLINE</p>
+    <p>PROPULSION: OFFLINE</p>
+    <p></p>
+    <p>SUBSYSTEM ACCESS USER INTERFACE</p>
+    <button id="om_astral_nav">Astral Nav</button>
+    <button id="om_armory">Armory</button>
+    <button id="om_propulsion">Propulsion</button>
+    <button id="om_atmosphere_vent">Vent Atmosphere</button>
+    <div id="atmosphere_output"></div>
+    <div id="astral_nav_output"></div>
+    <div id="armory_output"></div>
+    <div id="propulsion_output"></div>
+ </div>
+ 
+ <div class="future_selection_suite">
+	<button id="frame_c_astral_nav1">Astral Navigation</button>
+    <button id="frame_c_propulsion1">Propulsion</button>
+    <button id="frame_c_armory1">Armory</button>
+ </div>
+ 
+</body>
+</html>
