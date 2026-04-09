@@ -82,10 +82,10 @@ function frameCArmory1(){
 }
 
 // var and function for frame_c.html to astral1.html
-const astral1_button =document.getElementById('frame_c_astral_nav1')
+const astral1_button =document.getElementById('frame_c_astral_nav1');
 function frameCAstralNav(){
     window.location.href='../astral-nav/astral1.html'
-    console.log('Redirecting to astra1.html')
+    console.log('Redirecting to astra1.html');
 }
 
 // var for bus-stop.html to Encounter1.html
@@ -173,5 +173,5 @@ if (propulsion2_button){
 
 //event listener for frame_c.html to astral1.html
 if (astral1_button){
-    astral1_button.addEventListener('click', frameCAstralNav)
+    astral1_button.addEventListener('click', frameCAstralNav);
 }
