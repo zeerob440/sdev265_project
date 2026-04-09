@@ -45,6 +45,12 @@ function astralNavStatus(){
 document.getElementById('astral_nav_output').innerHTML =`<p>ERROR 1203; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE. LOCAL ACCESS REQUIRED TO RESTART ASTRAL NAVIGATION.</p>`;
 }
 
+const mk540_button =document.getElementById('om_mk540');
+
+function mK540Status(){
+    document.getElementById('mk540_output').innerHTML
+    `The MK-540 is a railgun carbine. It accelerates a 200 grain 6.1mm depleted uranium slug at 1800 meters per second. `
+}
 //if if structure to allow this program to be used on multiple pages.
 
 // event listener for frame_c.html om_atmosphere_vent.
