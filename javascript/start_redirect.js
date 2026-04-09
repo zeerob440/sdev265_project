@@ -96,6 +96,12 @@ function armory1Eva1(){
     console.log('Redirecting to eva1.html');
 }
 
+// var and function for armory1.html to propulsion2.html
+const propulsion2_button =document.getElementById('armory1_propulsion2');
+function armory1Prop2(){
+    window.location.href='../propulsion/propulsion2.html'
+    console.log('Redirecting to propulsion2.html');
+}
 
 // if-if structure to determine which function to invoke from html pages via event listeners.
 
@@ -148,7 +154,12 @@ if (armory1_button){
     armory1_button.addEventListener('click', frameCArmory1);
 }
 
-// event listner armory1.html to eva1.html
+// event listener armory1.html to eva1.html
 if (eva1_button){
     eva1_button.addEventListener('click', armory1Eva1);
+}
+
+// event listener for armory1.html to propulsion2.html
+if (propulsion2_button){
+    propulsion2_button.addEventListener('click', armory1Prop2);
 }
