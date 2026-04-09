@@ -89,6 +89,13 @@ function busToPast(){
     console.log('Redirecting from bus-stop.html to Encounter1.html');
 }
 
+//var and function armory1.html to eva1.html
+const eva1_button =document.getElementById('armory1_eva1');
+function armory1Eva1(){
+    window.location.href='../eva/eva1.html'
+    console.log('Redirecting to eva1.html');
+}
+
 
 // if-if structure to determine which function to invoke from html pages via event listeners.
 
@@ -137,7 +144,11 @@ if (hat_button){
 }
 
 //event listener for for frame_c.html to armory1.html
-
 if (armory1_button){ 
     armory1_button.addEventListener('click', frameCArmory1);
+}
+
+// event listner armory1.html to eva1.html
+if (eva1_button){
+    eva1_button.addEventListener('click', armory1Eva1)
 }
