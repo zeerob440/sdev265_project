@@ -150,5 +150,5 @@ if (armory1_button){
 
 // event listner armory1.html to eva1.html
 if (eva1_button){
-    eva1_button.addEventListener('click', armory1Eva1)
+    eva1_button.addEventListener('click', armory1Eva1);
 }
