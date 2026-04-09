@@ -55,7 +55,7 @@ function mK540Status(){
      powered by a tungsten nanofilliment solid-state lithium cell.<p> The Mk-540EMC has 3 fire modes, semi, auto, and 2-round hyperburst.</p>`;
 }
 
-const tdrive_status_button =document.getAnimations('om_tdrive_status');
+const tdrive_status_button =document.getElementById('om_tdrive_status');
 
 function tDriveStatus(){
     document.getElementById('tdrive_status_output').innerHTML=
