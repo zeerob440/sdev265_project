@@ -66,12 +66,19 @@ function gameOverToMain(){
     window.location.href = "../index.html";
     console.log('Redirecting to index.html.');
 }
-
+// var for frame_c.html to propulsion1.html
 const propulsion1_button =document.getElementById('frame_c_propulsion1');
-
+// function for fram_c.html and propulsion1.html
 function frameCProp1() {
     window.location.href= "../propulsion/propulsion1.html";
     console.log('Navigating frame_c.html to propulsion1.html');
+}
+
+const hat_button =document.getElementById('hat');
+
+function busToPast(){
+    window.location.href='../Encounter/Encounter1.html';
+    console.log('Redirecting from bus-stop.html to Encounter1.html');
 }
 
 
@@ -111,8 +118,11 @@ if (exit_to_main_button){
 if (frame_c_button){
     frame_c_button.addEventListener('click', futureToFrameC);
 }
-
+// event listener for frame_c.html to propulsion1.html
 if (propulsion1_button){
     propulsion1_button.addEventListener('click', frameCProp1);
     
+}
+if (hat_button){
+    hat_button.addEventListener('click', busToPast)
 }
