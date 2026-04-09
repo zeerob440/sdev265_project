@@ -69,3 +69,9 @@ if (om_propulsion_button){
 if (om_astral_nav_button){
     om_astral_nav_button.addEventListener('click', astralNavStatus);
 }
+
+//event listener for mk540Status()
+if (mk540_button){
+    mk540_button.addEventListener('click', mK540Status);
+    console.log('BFG Found!')
+}
