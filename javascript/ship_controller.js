@@ -45,6 +45,7 @@ function astralNavStatus(){
 document.getElementById('astral_nav_output').innerHTML =`<p>ERROR 1203; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE. LOCAL ACCESS REQUIRED TO RESTART ASTRAL NAVIGATION.</p>`;
 }
 
+// var and function for armory1.html
 const mk540_button =document.getElementById('om_mk540');
 
 function mK540Status(){
@@ -52,6 +53,14 @@ function mK540Status(){
     `The Mk-540 is a rail-carbine. It accelerates a 12.95 g, 6.1mm depleted uranium hypersonic projectile at 1800 M/PS.
      it delivers 21,000 (J) of energy on target. The Mk-540 is fed from a 45-round dorsal magazine, and
      powered by a tungsten nanofilliment solid-state lithium cell.<p> The Mk-540EMC has 3 fire modes, semi, auto, and 2-round hyperburst.</p>`;
+}
+
+const tdrive_status_button =document.getAnimations('om_tdrive_status');
+
+function tDriveStatus(){
+    document.getElementById('tdrive_status_output').innerHTML=
+    `<p>Depleted Uranium detected in Tesseract Core. Dimensional shift for FTL unstable.<br>ASTRAL NAVIGATION: OFFLINE<br>WARNING: BLIND JUMP IMMINENT!</p>`;
+    console.log('Forward to the past!')
 }
 //if if structure to allow this program to be used on multiple pages.
 
@@ -76,4 +85,9 @@ if (om_astral_nav_button){
 if (mk540_button){
     mk540_button.addEventListener('click', mK540Status);
     console.log('BFG Found!');
+}
+
+//event listener for tDriveStatus
+if (tdrive_status_button){
+    tdrive_status_button.addEventListener('click', tDriveStatus);
 }
