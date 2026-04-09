@@ -77,7 +77,7 @@ function frameCProp1() {
 const hat_button =document.getElementById('hat');
 
 function busToPast(){
-    window.location.href='../Encounter/Encounter1.html';
+    window.location.href='Encounter/Encounter1.html';
     console.log('Redirecting from bus-stop.html to Encounter1.html');
 }
 
