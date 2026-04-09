@@ -78,7 +78,14 @@ const armory1_button =document.getElementById('frame_c_armory1');
 // function for frame_c.html to armory1.html
 function frameCArmory1(){
     window.location.href='../armory/armory1.html';
-    console.log('Redirecting to armory1,html.')
+    console.log('Redirecting to armory1,html.');
+}
+
+// var and function for frame_c.html to astral1.html
+const astral1_button =document.getElementById('frame_c_astral_nav1')
+function frameCAstralNav(){
+    window.location.href='../astral-nav/astral1.html'
+    console.log('Redirecting to astra1.html')
 }
 
 // var for bus-stop.html to Encounter1.html
@@ -162,4 +169,9 @@ if (eva1_button){
 // event listener for armory1.html to propulsion2.html
 if (propulsion2_button){
     propulsion2_button.addEventListener('click', armory1Prop2);
+}
+
+//event listener for frame_c.html to astral1.html
+if (astral1_button){
+    astral1_button.addEventListener('click', frameCAstralNav)
 }
