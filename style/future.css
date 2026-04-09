@@ -24,7 +24,7 @@ body {
     max-width: 800px;
     aspect-ratio: 4 / 3;
     width: 100%;
-    background-color: rgba(0, 0, 0, .90);
+    background-color: black;
     color: crimson;
     text-align: left;
     border: 8px solid gray;
@@ -76,4 +76,16 @@ button:hover {
     color: rgba(255, 255, 255, .7);
     border-color: rgba(255, 255, 255, .7);
     font-size: 25px;
+}
+
+.eva_hud {
+    font-family: "Workbench", sans-serif;
+    background-color: black;
+    color:blue;
+}
+
+.mk540_hud {
+    font-family: "Workbench", sans-serif;
+    background-color: black;
+    color:lawngreen;
 }
