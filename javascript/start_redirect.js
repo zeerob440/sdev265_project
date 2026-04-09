@@ -77,7 +77,7 @@ function frameCProp1() {
 const armory1_button =document.getElementById('frame_c_armory1');
 // function for frame_c.html to armory1.html
 function frameCArmory1(){
-    window.location.href='../armory.armory1.html';
+    window.location.href='../armory/armory1.html';
     console.log('Redirecting to armory1,html.')
 }
 
