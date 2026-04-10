@@ -121,7 +121,7 @@ function astral1Prop3(){
 //var and function for astra1.html to eva2.html
 
 const eva2_button =document.getElementById('astral1_eva2');
-function astra1Eva2(){
+function astral1Eva2(){
     window.location.href='../eva/eva2.html';
     console.log('Redirecting to eva2.html');
 }
@@ -199,5 +199,5 @@ if (prop3_button){
 
 // event listener for astral1.html to eva2.html
 if (eva2_button){
-    eva2_button.getElementById('click', astra1Eva2);
+    eva2_button.getElementById('click', astral1Eva2);
 }
