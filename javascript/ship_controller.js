@@ -115,5 +115,5 @@ if (astral_solution_button){
 
 // eventlistener for armory1.html mk540diagram
 if (mk540_diagram_button){
-    mk540_button.addEventListener('click', printDiagram);
+    mk540_diagram_button.addEventListener('click', printDiagram);
 }
