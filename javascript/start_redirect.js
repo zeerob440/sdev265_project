@@ -199,5 +199,5 @@ if (prop3_button){
 
 // event listener for astral1.html to eva2.html
 if (eva2_button){
-    eva2_button.getElementById('click', astra1Eva2)
+    eva2_button.getElementById('click', astra1Eva2);
 }
