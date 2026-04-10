@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang= "en">
+<!--
+	The only thing in here is what you take with you. 
+-->
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Sets a good baseline screen optimization method-->
+
+	<title>The Bridge 2</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Workbench&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" href="../images/time_shift_favicon.png">
+	<!--Above is code for favicon to displays in tab-->
+	<link rel="stylesheet" href="../style/bridge.css">
+	<script src ='../javascript/start_redirect.js' defer></script>
+	<!--link JavaScript here if needed, defer is helpful here.-->
+</head>
+
+<body>
+	<audio autoplay loop>
+		<source src="../music/ship_theme.mp3" type="audio/mpeg">
+	</audio>
+ <div class="ship_prompt_area">
+	<p>
+	    You step into strange jagged hole, you notice that the edges of the hole are pushed outward from the hull.
+        You realize whatever made this hole made it from the <em>inside out</em>.  
+    </p>
+        You inspect the space you are now in. Papers, coffee mugs, odd frozen spheres of coffee and other debris float in the air.
+        This is the shattered remains of the CSS Corte-Real's bridge.There is evidence of a struggle on the bridge, claw marks, and bullet holes everywhere.
+        The bridge crew did not have a chance; and speaking of the crew, where were they?
+	</p>
+   <p>
+    You see a functioning terminal in the harsh vacuum of the bridge...
+   </p>
+
+ </div>
+ <div class="ship_controller">
+	<p> CSS Corte-Real Overmonitor Controller: BRIDGE| 05/22/2357</p>
+	<p>SYSTEM STATUS</p>
+	<p>UNREGISTERED PASSENGERS: [01, 02]</p>
+    <p>ARMORY INVENTORY: [('MK-540EMC', 01)]</p>
+    <p>ASTRAL NAVIGATION: ONLINE</p>
+    <p>PROPULSION: OFFLINE</p>
+    <p></p>
+    <p>SUBSYSTEM ACCESS USER INTERFACE</p>
+    <button id="om_astral_nav_solution">Astral Nav</button>
+    <button id="om_log">LOG</button>
+    <button id="om_propulsion">Propulsion</button>
+    <div id="astral_solution_output"></div>
+    <div id="log_output"></div> <!--FIXME create function for log-->
+    <div id="propulsion_output"></div>
+ </div>
+ 
+ <div class="ship_prompt_area">
+ </div>
+ <div class="future_selection_suite">
+	<button id="gameover">Proceed</button>
+ </div>
