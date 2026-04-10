@@ -134,6 +134,13 @@ function eva2Armory2(){
     console.log('Redirecting to armory2.html');
 }
 
+// var and function for armory2.html to bridge1.html
+const bridge1_button =document.getElementById('armory2_bridge');
+function armory2Bridge1(){
+    window.location.href='../bridge/bridge1.html';
+    console.log('In space nobody can hear you scream, or something like that.')
+}
+
 // if-if structure to determine which function to invoke from html pages via event listeners.
 
 // event listener index.html to main.html
@@ -213,4 +220,8 @@ if (eva2_button){
 // event listener for eva2.html to armory2.html
 if (armory2_button){
     armory2_button.addEventListener('click', eva2Armory2);
+}
+// event listener for armory2.html to bridge1.html
+if (bridge1_button){
+    bridge1_button.addEventListener('click', armory2Bridge1);
 }
