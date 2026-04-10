@@ -58,7 +58,8 @@ function mK540Status(){
 //var and function for armory1.html mk540 diagram.
 const mk540_diagram_button =document.getElementById('om_mk540_diagram');
 function printDiagram(){
-    document.getElementById('mk540_diagram_output').innerHTML= `<img src='../images/mk540emc.png' class='mk540_om'>`;
+    document.getElementById('mk540_diagram_output').innerHTML= 
+    `DIAGRAM RETRIEVED<br><img src='../images/mk540emc.png' class='mk540_om'><br>It is advised to keep the front toward enemy.`;
     console.log('Image loaded.');
 }
 //var and function for propulsion2.html 
