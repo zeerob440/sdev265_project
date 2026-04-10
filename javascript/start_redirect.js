@@ -106,8 +106,16 @@ function armory1Eva1(){
 // var and function for armory1.html to propulsion2.html
 const propulsion2_button =document.getElementById('armory1_propulsion2');
 function armory1Prop2(){
-    window.location.href='../propulsion/propulsion2.html'
+    window.location.href='../propulsion/propulsion2.html';
     console.log('Redirecting to propulsion2.html');
+}
+
+// var and function for astral1.html to propulsion3.html
+
+const prop3_button =document.getElementById('astral1_propulsion3');
+function astral1Prop3(){
+    window.location.href='../propulsion/propulsion3.html';
+    console.log('Redirecting to propulsion3.html');
 }
 
 // if-if structure to determine which function to invoke from html pages via event listeners.
@@ -174,4 +182,10 @@ if (propulsion2_button){
 //event listener for frame_c.html to astral1.html
 if (astral1_button){
     astral1_button.addEventListener('click', frameCAstralNav);
+}
+
+// event listener for astral1.html to propulsion3.html
+
+if (prop3_button){
+    prop3_button.addEventListener('click', astral1Prop3);
 }
