@@ -123,7 +123,7 @@ function astral1Prop3(){
 const eva2_button =document.getElementById('astral1_eva2');
 function astra1Eva2(){
     window.location.href='../eva/eva2.html';
-    console.log('Redirecting to eva2.html')
+    console.log('Redirecting to eva2.html');
 }
 
 // if-if structure to determine which function to invoke from html pages via event listeners.
