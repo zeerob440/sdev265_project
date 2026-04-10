@@ -1,0 +1,96 @@
+body {
+    background-image: url("../images/bridge.png");
+    font-family: 'Trebuchet MS', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color:orange;
+    }
+
+.ship_prompt_area {
+    padding-top: 96px;
+    width: 100%;
+    max-width: 1024px;
+    color: orange;
+    text-align: left;
+}
+
+.ship_controller {
+    max-width: 800px;
+    aspect-ratio: 4 / 3;
+    width: 100%;
+    background-color: black;
+    color: crimson;
+    text-align: left;
+    border: 8px solid gray;
+    font-family: "Workbench", sans-serif;
+    padding-left: 12px;
+    padding-top: 20px;
+    padding-right: 20px;
+    overflow-y: auto;
+    box-sizing: border-box;
+
+}
+.ship_controller button {
+    color: crimson;
+    background-color:rgba(0, 0, 0, .90);
+    border: 2px, solid;
+    border-color: crimson;
+    font-family: "Workbench", sans-serif;
+    font-size: 16px;
+
+}
+.ship_controller button:hover {
+    color: white;
+    background-color: crimson;
+    border: 2px, solid;
+    border-color: white;
+    font-family: "Workbench", sans-serif;
+    font-size: 16px;
+}
+
+.future_selection_suite {
+display: inline-block;
+}
+div {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+button {
+    background-color: rgba(255, 69, 0, .7);
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(255, 255 ,255, .7);
+    border-color: rgba(255, 69, 0, .7);
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: rgba(255, 90, 20, .7);
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(255, 255, 255, .7);
+    border-color: rgba(255, 255, 255, .7);
+    font-size: 25px;
+}
+
+.eva_hud {
+    font-family: "Workbench", sans-serif;
+    background-color: black;
+    color:cyan;
+}
+
+.mk540_hud {
+    font-family: "Workbench", sans-serif;
+    background-color: black;
+    color:lawngreen;
+}
+
+.mk540_om {
+  background-image: url("../images/mk540emc.png");
+  width: 50%;  
+}
