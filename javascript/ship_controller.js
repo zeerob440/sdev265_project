@@ -54,6 +54,13 @@ function mK540Status(){
      it delivers 21,000 (J) of energy on target. The Mk-540 is fed from a 45-round dorsal magazine, and
      powered by a tungsten nanofilliment solid-state lithium cell.<p> The Mk-540EMC has 3 fire modes, semi, auto, and 2-round hyperburst.</p>`;
 }
+
+//var and function for armory1.html mk540 diagram.
+const mk540_diagram_button =document.getElementById('om_mk540_diagram');
+function printDiagram(){
+    document.getElementById('mk540_diagram_output').innerHTML`<img src='../images/mk540emc.png' class='mk540_om'>`;
+    console.log('Image loaded.');
+}
 //var and function for propulsion2.html 
 const tdrive_status_button =document.getElementById('om_tdrive_status');
 
@@ -104,4 +111,9 @@ if (tdrive_status_button){
 if (astral_solution_button){
     astral_solution_button.addEventListener('click', astralSolutionOutput);
     console.log('Neptune Orbit discovered!');
+}
+
+// eventlistener for armory1.html mk540diagram
+if (mk540_diagram_button){
+    mk540_button.addEventListener('click', printDiagram);
 }
