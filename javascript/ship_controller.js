@@ -53,6 +53,8 @@ function mK540Status(){
     `The Mk-540 is a rail-carbine. It accelerates a 12.95 g, 6.1mm depleted uranium hypersonic projectile at 1800 M/PS.
      It delivers 21,000 (J) of energy on target per round. The Mk-540 is fed from a 45-round dorsal magazine, and
      powered by a tungsten nanofilliment solid-state lithium cell.<p> The Mk-540EMC has 3 fire modes; semi, auto, and 2-round hyperburst.</p>`;
+
+     console.log('BFG Found!');
 }
 
 //var and function for armory1.html mk540 diagram.
@@ -60,14 +62,18 @@ const mk540_diagram_button =document.getElementById('om_mk540_diagram');
 function printDiagram(){
     document.getElementById('mk540_diagram_output').innerHTML= 
     `DIAGRAM RETRIEVED<br><img src='../images/mk540emc.png' class='mk540_om'><br>It is advised to keep the front toward enemy.`;
-    console.log('Image loaded.');
+    console.log('Read the owner manual first...');
 }
 //var and function for propulsion2.html 
 const tdrive_status_button =document.getElementById('om_tdrive_status');
 
 function tDriveStatus(){
     document.getElementById('tdrive_status_output').innerHTML=
-    `<p>Depleted Uranium detected in Tesseract Core. Cannot resolve FTL Dimensional Shift.<br>ASTRAL NAVIGATION: OFFLINE<br>WARNING: BLIND JUMP IMMINENT!</p>`;  
+    `<p>Depleted Uranium detected in Tesseract Core. Cannot resolve FTL Dimensional Shift.<br>ASTRAL NAVIGATION: OFFLINE<br>WARNING: BLIND JUMP IMMINENT!</p>`;
+
+    console.log('Forward to the past!');
+    
+    
 }
 // var and function for astral1.html
 const astral_solution_button =document.getElementById('om_astral_nav_solution');
@@ -76,6 +82,8 @@ function astralSolutionOutput(){
     document.getElementById('astral_solution_output').innerHTML=
     `ASTRAL SOLUTION<br>MODEL: HELIOCENTRIC<br>SYSTEM: SOL<br>DISTANCE RELATIVE STAR: 30.7AU<br>VECTOR: X -3.92e+09 KM, Y +2.18e+09 KM, Z +1.24e+08 KM<br>
     ORBIT: STABLE<br>LOCAL BODY: OBJECT 899 (NEPTUNE)`;
+
+    console.log('Neptune Orbit discovered!');
 }
 //if if structure to allow this program to be used on multiple pages.
 
@@ -99,19 +107,19 @@ if (om_astral_nav_button){
 //event listener for mk540Status()
 if (mk540_button){
     mk540_button.addEventListener('click', mK540Status);
-    console.log('BFG Found!');
+    
 }
 
 //event listener for tDriveStatus
 if (tdrive_status_button){
     tdrive_status_button.addEventListener('click', tDriveStatus);
-    console.log('Forward to the past!');
+    
 }
 
 //eventlistener for astralSolutionOutput
 if (astral_solution_button){
     astral_solution_button.addEventListener('click', astralSolutionOutput);
-    console.log('Neptune Orbit discovered!');
+    
 }
 
 // eventlistener for armory1.html mk540diagram
