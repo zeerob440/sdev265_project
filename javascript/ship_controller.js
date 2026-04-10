@@ -51,8 +51,8 @@ const mk540_button =document.getElementById('om_mk540');
 function mK540Status(){
     document.getElementById('mk540_output').innerHTML=
     `The Mk-540 is a rail-carbine. It accelerates a 12.95 g, 6.1mm depleted uranium hypersonic projectile at 1800 M/PS.
-     it delivers 21,000 (J) of energy on target. The Mk-540 is fed from a 45-round dorsal magazine, and
-     powered by a tungsten nanofilliment solid-state lithium cell.<p> The Mk-540EMC has 3 fire modes, semi, auto, and 2-round hyperburst.</p>`;
+     It delivers 21,000 (J) of energy on target per round. The Mk-540 is fed from a 45-round dorsal magazine, and
+     powered by a tungsten nanofilliment solid-state lithium cell.<p> The Mk-540EMC has 3 fire modes; semi, auto, and 2-round hyperburst.</p>`;
 }
 
 //var and function for armory1.html mk540 diagram.
