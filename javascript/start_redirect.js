@@ -118,6 +118,14 @@ function astral1Prop3(){
     console.log('Redirecting to propulsion3.html');
 }
 
+//var and function for astra1.html to eva2.html
+
+const eva2_button =document.getElementById('astral1_eva2');
+function astra1Eva2(){
+    window.location.href='../eva/eva2.html';
+    console.log('Redirecting to eva2.html')
+}
+
 // if-if structure to determine which function to invoke from html pages via event listeners.
 
 // event listener index.html to main.html
@@ -185,7 +193,11 @@ if (astral1_button){
 }
 
 // event listener for astral1.html to propulsion3.html
-
 if (prop3_button){
     prop3_button.addEventListener('click', astral1Prop3);
+}
+
+// event listener for astral1.html to eva2.html
+if (eva2_button){
+    eva2_button.getElementById('click', astra1Eva2)
 }
