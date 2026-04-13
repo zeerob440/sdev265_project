@@ -148,6 +148,13 @@ function eva2Bridge2(){
     console.log('Redirecting to bridge2.html.');
 }
 
+// var and function for propulsion4.html to win_game.html
+const win_game_button =document.getElementById('win_game');
+function prop4Win(){
+    window.location.href='../win-game/win_game.html';
+    console.log('YOU WIN!');
+}
+
 // if-if structure to determine which function to invoke from html pages via event listeners.
 
 // event listener index.html to main.html
@@ -237,4 +244,8 @@ if (bridge1_button){
 //event listener for eva2.html to bridge2.html
 if (hole_button){
     hole_button.addEventListener('click',eva2Bridge2);
+}
+
+if (win_game_button){
+    win_game_button.addEventListener('click', prop4Win);
 }
