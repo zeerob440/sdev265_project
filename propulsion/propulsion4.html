@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Sets a good baseline screen optimization method-->
+
+	<title>Propulsion 4</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Workbench&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" href="../images/time_shift_favicon.png">
+	<!--Above is code for favicon to displays in tab-->
+	<link rel="stylesheet" href="../style/future.css">
+	<script src ='../javascript/start_redirect.js' defer></script>
+    <script src ='../javascript/ship_controller.js' defer></script>
+	<!--link JavaScript here if needed, defer is helpful here.-->
+</head>
+
+<body>
+	<audio autoplay loop>
+		<source src="../music/ship_theme.mp3" type="audio/mpeg">
+	</audio>
+ <div class="ship_prompt_area">
+	<p>
+        You decide to head to Propulsion. You carefully sneak down a labyrinth of corridors, the 
+        creature could be anywhere on the ship and has had years to learn how to traverse it.
+	</p>
+    <p>
+        You arrive a Propulsion and carefully enter. The area smells like a zoo, with a hint
+        of solvents in the air. If there is a way back to your time, it is surely here. You proceed to 
+        a room called "Tesseract Drive" and go inside.
+    </p>
+    <p>
+        As look down from a catwalk you see building-sized engine siting in the cavernous engine bay.
+        There is a faint hum coming from the offline engine, almost like a growl coming from some sleeping beast.
+    </p>
+    <p>
+        You make your way down the dark cat walk, Mk-540 in hand. You notice football sized eggs all over the floor, and
+        the skeletal remains of the crew. You realize, this is the creature's lair.
+    </p>
+    <p class="mk540_hud">
+        Predatory megafauna detected: 99.7% of users prefer hyperburst mode for this use case! Configuring your system now!
+    </p>
+        
+    <p>
+       Suddenly-a loud thud a few meters behind you, it is the creature. It is huge an menacing, like a grizzly bear with amphibian features
+       and rows of teeth like a shark. It snarls loudly and approches you in a low predatory crouch. You pull the carbine's trigger several times! 
+    </p>
+    <p class="mk540_hud">
+        Applying kinetic solution! 
+    </p>
+    <p>
+        The report from the Mk-540 is deafening, like lighting being shot out of a squirt gun. Many projectiles miss the creature, it is very agile and getting closer!
+        You aim and fire more bursts, this time the projectiles slam into the creature, orange blood splatters off the creature with each impact. It roars in anger, 
+        and leaps up into a ventilation shaft.
+    </p>
+    <p class="mk540_hud">
+        Confirmed impacts on target: 12. Total Energy Delivered: 252,000 (J). Collateral Damage: Deniable. Target Status: Discouraged. Help MK-540 get better! 
+        Please rate your most recent ballistic user experience!
+    </p>
+    <p>
+        The creature is gone for now, you scan the room quickly and see blue goo leaking from the Tesseract Drive. There is a terminal near the drive...
+    </p>
+    
+ </div>
+ <div class="ship_controller">
+	<p> CSS Corte-Real Overmonitor Controller: TESSERACT DRIVE| 05/22/2357</p>
+	<p>SYSTEM STATUS</p>
+	<p>UNREGISTERED PASSENGERS: [01, 02]</p>
+    <p>system|corteReal-?-access-tesseractDriveActive-*-TRUE</p>
+    <p>PROPULSION: ONLINE</p>
+    <p>ASTRAL NAVIGATION: ONLINE</p>
+    <p>SUBSYSTEM ACCESS USER INTERFACE</p>
+    <p></p>
+    <button id="om_tdrive_status">T-DRIVE STATUS</button>
+    <div id="tdrive_status_output"></div>
+ </div>
+ <div class="ship_prompt_area">
+    <p> 
+        There is a blinding light as the universe dematerializes around you...
+    </p>
+    <p class="mk540_hud">
+        Trajectory: UNDEFINED. Oops, connection lost. Would you like to report an error? 
+    </p>
+ </div>
+ <div class="future_selection_suite">
+	<button id="win_game">Proceed</button>
+</div>
+    
+ 
+</body>
+</html>
