@@ -88,13 +88,13 @@ function frameCAstralNav(){
     console.log('Redirecting to astra1.html');
 }
 
-// var for bus-stop.html to Encounter1.html
+/* var for bus-stop.html to Encounter1.html
 const hat_button =document.getElementById('hat');
 // function for bus-stop.html to Encounter1.html
 function busToPast(){
     window.location.href='Encounter/Encounter1.html';
     console.log('Redirecting from bus-stop.html to Encounter1.html');
-}
+}*/
 
 //var and function armory1.html to eva1.html
 const eva1_button =document.getElementById('armory1_eva1');
@@ -189,10 +189,11 @@ if (propulsion1_button){
     propulsion1_button.addEventListener('click', frameCProp1);  
 }
 
-// event listener for bus-stop.html to Encounter1.html
+/* event listener for bus-stop.html to Encounter1.html
 if (hat_button){
     hat_button.addEventListener('click', busToPast);
 }
+*/
 
 //event listener for for frame_c.html to armory1.html
 if (armory1_button){ 
