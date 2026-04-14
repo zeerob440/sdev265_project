@@ -141,6 +141,13 @@ function armory2Bridge1(){
     console.log('In space nobody can hear you scream, or something like that.')
 }
 
+//var and function for armory2.html to propulsion4.html
+const prop4_button =document.getElementById('armory2_prop4');
+function armory2Prop4(){
+    window.location.href='../propulsion/propulsion4.html';
+    console.log('Redirecting to propulsion4.html');
+}
+
 //var and function for eva2.html to bride2.html
 const hole_button =document.getElementById('hole');
 function eva2Bridge2(){
@@ -246,6 +253,11 @@ if (hole_button){
     hole_button.addEventListener('click',eva2Bridge2);
 }
 
+// event listener for propulsion4.html to win_game.html
 if (win_game_button){
     win_game_button.addEventListener('click', prop4Win);
+}
+
+if (prop4_button){
+    prop4_button.addEventListener('click', armory2Prop4);
 }
