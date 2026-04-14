@@ -149,7 +149,7 @@ function armory2Prop4(){
 }
 
 //var and function for eva2.html to bride2.html
-const hole_button =document.getElementById('hole');
+const hole_button =document.getElementById('hole_in_hull');
 function eva2Bridge2(){
     window.location.href='../bridge/bridge2.html';
     console.log('Redirecting to bridge2.html.');
