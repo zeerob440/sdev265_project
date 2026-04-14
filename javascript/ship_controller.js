@@ -72,8 +72,7 @@ function tDriveStatus(){
     `<p>Depleted Uranium detected in Tesseract Core. Cannot resolve FTL Dimensional Shift.<br>ASTRAL NAVIGATION: OFFLINE<br>WARNING: BLIND JUMP IMMINENT!</p>`;
 
     console.log('Forward to the past!');
-    
-    
+       
 }
 // var and function for astral1.html
 const astral_solution_button =document.getElementById('om_astral_nav_solution');
@@ -84,6 +83,16 @@ function astralSolutionOutput(){
     ORBIT: STABLE<br>LOCAL BODY: OBJECT 899 (NEPTUNE)`;
 
     console.log('Neptune Orbit discovered!');
+}
+
+// var and function for propulsion4.html 
+
+const tessdrive_button =document.getElementById('om_tessdrive_status');
+function tessDriveOutput(){
+    document.getElementById('tessdrive_output').innerHTML=
+    `<p>Depleted Uranium detected in Tesseract Core.<br>ASTRAL NAVIGATION: ONLINE<br>FTL DIMENSIONAL SHIFT: RESOLVED<br>WARNING: CALCULATED FTL JUMP IMMINENT!</p>`;
+
+    console.log('Faster than light!');
 }
 //if if structure to allow this program to be used on multiple pages.
 
@@ -125,4 +134,10 @@ if (astral_solution_button){
 // eventlistener for armory1.html mk540diagram
 if (mk540_diagram_button){
     mk540_diagram_button.addEventListener('click', printDiagram);
+}
+
+// propulsion4.html event listener
+
+if (tessdrive_button){
+    tessdrive_button.addEventListener('click', tessDriveOutput);
 }
