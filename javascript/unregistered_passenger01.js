@@ -14,7 +14,7 @@ function randomRoar(){
 
     setTimeout(() => {
         roar.currentTime = 0;
-        roar.play;
+        roar.play();
 
         randomRoar();
     }, roar_interval);
@@ -22,4 +22,4 @@ function randomRoar(){
 }
 randomRoar();
 
-if (window)randomRoar();
+if (document)randomRoar();
