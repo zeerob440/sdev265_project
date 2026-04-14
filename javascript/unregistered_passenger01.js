@@ -1,6 +1,6 @@
 //unregistered_passenger01.js is a program that will play the creatures roar randomly
 
-const roar =Audio("../music/the_creature.mp3");
+const roar = new Audio("../music/the_creature.mp3");
 
 let min_milsec = 14000;
 
