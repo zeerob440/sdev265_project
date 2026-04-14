@@ -9,3 +9,7 @@ function busToPast(){
 if (hat_button){
     hat_button.addEventListener('click', busToPast);
 }
+function gameOver() {
+    window.location.href = "../game-over/game-over.html";
+    console.log('Redirecting to game-over.html');
+}
