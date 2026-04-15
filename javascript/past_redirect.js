@@ -10,14 +10,14 @@ function gameOver() {
     window.location.href = "../game-over/game-over.html";
     console.log('Redirecting to game-over.html');
 }
-const hole_button =document.getElementById('hole');
+const past_hole_button =document.getElementById('hole');
 function eaten(){
     window.location.href='../Failed/Failed1.html';
     console.log('Redirecting from Encounter1.html to Failed1.html');
 }
 
-if (hole_button){
-    hole_button.addEventListener('click', eaten);
+if (past_hole_button){
+    past_hole_button.addEventListener('click', eaten);
 }
 
 if (hat_button){
