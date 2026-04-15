@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang= "en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Sets a good baseline screen optimization method-->
+
+
+	<link href="https://fonts.googleapis.com/css2?family=Workbench&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" href="">
+	<!--Above is code for favicon to displays in tab-->
+	<link rel="stylesheet" href="../style/past.css">
+	<script src ='../javascript/start_redirect.js' defer></script>
+    <script src ='../javascript/ship_controller.js' defer></script>
+	<!--Remove past_redirect after past timeline is constructed, will use start_redirect only at that time-->
+	<script src="../javascript/past_redirect.js" defer></script>
+	<!--link JavaScript here if needed, defer is helpful here.-->
+</head>
+
+<body>
+	<audio autoplay loop>
+		<source src="/music/past_theme.mp3" type="audio/mpeg">
+	</audio>
+ <div class="">
+	<p>
+		Your vision becomes blurry as you form into the past. When your vison finally clears up you see cave wall infront of you. Behind you are sounds of deep snorning and shaking of metal. 
+		You slowly turn around and see a creature covered in scarlet scales. Your adrenaline spikes as you figure out what you are staring at. A sleeping scarlet dragon laying apon a pile of gold.
+		You barely hold back a scream as you quickly look around. You find 2 possible ways to escape. There is a hole in the ceilling of the cave just barley out of reach. The other options is a 
+		large opening to a tunnel that looks like it leads to light.
+		
+ </div>
+ 
+ <div class="past_selection_suite">
+	<button id="hole">Hole in Celiling</button>
+    <button id="tunnel">Tunnel</button>
+ </div>
+ 
+</body>
+</html>
