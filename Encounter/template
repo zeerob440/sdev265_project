@@ -20,7 +20,7 @@
 
 <body>
 	<audio autoplay loop>
-		<source src="/music/past_theme.mp3" type="audio/mpeg">
+		<source src="../music/past_theme.mp3" type="audio/mpeg">
 	</audio>
  <div class="">
 	<p>
