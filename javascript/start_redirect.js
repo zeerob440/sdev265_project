@@ -26,7 +26,7 @@ function titleToBus(){
 const gloves_button = document.getElementById('gloves');
 //function for bus-stop.html --> css-corte-real.html
 function busToFuture(){
-    randomRoar(); // try to launch randomRoar for unregistered_passenger01.js
+    randomRoar(); // invokes randomRoar() for unregistered_passenger01.js
     window.location.href ="corte-real/css-corte-real.html";
     console.log('Redirecting to css-corte-real.html.');
 }
