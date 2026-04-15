@@ -163,6 +163,13 @@ function prop4Win(){
     console.log('YOU WIN!');
 }
 
+//var and function for bridge2.html to frame_b.html
+const frame_b_button =document.getElementById('frame_b');
+function bridge2FrameB(){
+    window.location.href='../frame-b/frame_b.html';
+    console.log('Redirecting to frame_b.html');
+}
+
 // if-if structure to determine which function to invoke from html pages via event listeners.
 
 // event listener index.html to main.html
@@ -259,6 +266,12 @@ if (win_game_button){
     win_game_button.addEventListener('click', prop4Win);
 }
 
+// event listener for armory2.html to propulsion4.html
 if (prop4_button){
     prop4_button.addEventListener('click', armory2Prop4);
+}
+
+// event listener for bridge2.html to frame_b.html
+if (frame_b_button){
+    frame_b_button.addEventListener('click',bridge2FrameB );
 }

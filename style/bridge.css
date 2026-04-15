@@ -94,3 +94,9 @@ button:hover {
   background-image: url("../images/mk540emc.png");
   width: 50%;  
 }
+
+.eva_hud {
+    font-family: "Workbench", sans-serif;
+    background-color: black;
+    color: cyan;
+}
