@@ -169,9 +169,13 @@ function bridge2FrameB(){
     window.location.href='../frame-b/frame_b.html';
     console.log('Redirecting to frame_b.html');
 }
-
-
-
+// sends user from future timeline to past timeline
+// var and function for propulsion2.html to Encounter1.html Sends user to past timeline
+const prop2_past_button =document.getElementById('teleport_past');
+function prop2Encounter(){
+    window.location.href='../Encounter/Encounter1.html';
+    console.log('FORWARD TO THE PAST!');
+}
 
 // if-if structure to determine which function to invoke from html pages via event listeners.
 
@@ -277,4 +281,7 @@ if (prop4_button){
 // event listener for bridge2.html to frame_b.html
 if (frame_b_button){
     frame_b_button.addEventListener('click',bridge2FrameB );
+}
+if (prop2_past_button){
+    prop2_past_button.addEventListener('click', prop2Encounter);
 }
