@@ -94,6 +94,15 @@ function tessDriveOutput(){
 
     console.log('Faster than light!');
 }
+
+// var and function for eva1.html
+const incoming_transmission_button=document.getElementById('radio_key');
+function spaceSpam(){
+    document.getElementById('transmission').innerHtml =
+    `<p>91.3 percent of organic users find the vista 90 degrees right enjoyable!
+    Targeting Solution calculated: Target intersect with planet: 27.2 Earth Years.
+        Thank you for choosing Mk-540 for your ballistic needs!`;
+}
 //if if structure to allow this program to be used on multiple pages.
 
 // event listener for frame_c.html om_atmosphere_vent.
@@ -137,7 +146,11 @@ if (mk540_diagram_button){
 }
 
 // propulsion4.html event listener
-
 if (tessdrive_button){
     tessdrive_button.addEventListener('click', tessDriveOutput);
+}
+
+// event listener for eva1.html
+if(incoming_transmission_button){
+    incoming_transmission_button.addEventListener('click', spaceSpam);
 }
