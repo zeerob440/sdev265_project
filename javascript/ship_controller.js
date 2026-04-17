@@ -98,11 +98,14 @@ function tessDriveOutput(){
 // var and function for eva1.html
 const incoming_transmission_button=document.getElementById('radio_key');
 function spaceSpam(){
-    document.getElementById('transmission').innerHTML =
+
+    const bfg_spam = document.getElementById('transmission');
+    bfg_spam.innerHTML =
     `<p>91.3 percent of organic users find the vista 90 degrees right enjoyable!
     Targeting Solution calculated: Target intersect with planet: 27.2 Earth Years.
     Thank you for choosing Mk-540 for your ballistic needs!</p>`;
 
+    bfg_spam.style.backgroundColor = 'black';
     console.log('Crap! A popup!');
 }
 //if if structure to allow this program to be used on multiple pages.

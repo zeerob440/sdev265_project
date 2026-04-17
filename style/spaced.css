@@ -84,9 +84,9 @@ button:hover {
     color: cyan;
 }
 
-.mk540_hud {
+.mk540_hud_eva {
     font-family: "Workbench", sans-serif;
-    background-color: black;
+    background-color: transparent;
     color:lawngreen;
 }
 
@@ -111,6 +111,3 @@ button:hover {
  font-size: 16px;
 }
 
-.transmission_division {
-    background-color: transparent;
-}
