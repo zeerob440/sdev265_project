@@ -98,7 +98,7 @@ function tessDriveOutput(){
 // var and function for eva1.html
 const incoming_transmission_button=document.getElementById('radio_key');
 function spaceSpam(){
-    document.getElementById('transmission').innerHtml =
+    document.getElementById('transmission').innerHTML =
     `<p>91.3 percent of organic users find the vista 90 degrees right enjoyable!
     Targeting Solution calculated: Target intersect with planet: 27.2 Earth Years.
     Thank you for choosing Mk-540 for your ballistic needs!</p>`;
