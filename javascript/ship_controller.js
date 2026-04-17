@@ -107,6 +107,10 @@ function spaceSpam(){
 
     bfg_spam.style.backgroundColor = 'black';
     console.log('Crap! A popup!');
+
+    const advance_story = document.getElementById('story_advance');
+    advance_story.innerHTML =
+    `<p>You look in that direction to see the gas giant looming in the distance...</p>`;
 }
 //if if structure to allow this program to be used on multiple pages.
 
