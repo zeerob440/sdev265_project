@@ -89,3 +89,21 @@ button:hover {
     background-color: black;
     color:lawngreen;
 }
+
+.eva_suit button {
+    color: cyan;
+    background-color:rgba(0, 0, 0, .90);
+    border: 2px, solid;
+    border-color: cyan;
+    font-family: "Workbench", sans-serif;
+    font-size: 16px;
+
+}
+.eva_suit button:hover {
+    color: white;
+    background-color: cyan;
+    border: 2px, solid;
+    border-color: white;
+    font-family: "Workbench", sans-serif;
+    font-size: 16px;
+}
