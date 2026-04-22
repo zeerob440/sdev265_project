@@ -1,6 +1,6 @@
 //no_go_back.js redirects user to game_over.html if back or refresh is used in game
 
-// Redirects back to game-over.html
+//Redirects back to game-over.html
 function noBack(event){
     if (event.persisted) {
         window.location.href='/sdev265_project/game-over/game-over.html';
@@ -8,6 +8,7 @@ function noBack(event){
     }
 }
 
+//event listener for noBack()
 window.addEventListener('pageshow', noBack);
 
 //redirects refresh to game-over.html
