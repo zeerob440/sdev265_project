@@ -2,5 +2,6 @@
 
 if(document){};
     if(performance.navigation.type !== 0){
-        window.location.href='../game-over/game-over.html';
+        //window.location.href='../game-over/game-over.html';
+        window.location.href='/sdev265_project/game-over/game-over.html';
     }
