@@ -282,6 +282,7 @@ if (prop4_button){
 if (frame_b_button){
     frame_b_button.addEventListener('click',bridge2FrameB );
 }
+// event listener for propulsion2.html to Encounter.html
 if (prop2_past_button){
     prop2_past_button.addEventListener('click', prop2Encounter);
 }
