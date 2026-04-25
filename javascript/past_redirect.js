@@ -19,22 +19,22 @@ const past_hole_button =document.getElementById('Tunnel');
 function eaten(){
     window.location.href='../Dragon-escape/Dragon-escape
         .html';
-    console.log('Redirecting from Encounter.html to Failed.html');
+    console.log('Redirecting from Encounter.html to Dragon-escape.html');
 }
-const past_hole_button =document.getElementById('tunnel');
+const past_hole_button =document.getElementById('staff');
 function eaten(){
-    window.location.href='..//.html';
-    console.log('Redirecting from .html to .html');
+    window.location.href='../Staff/Staff.html';
+    console.log('Redirecting from Dragon-escape.html to Staff.html');
 }
 
 if (past_hole_button){
     past_hole_button.addEventListener('click', eaten);
 }
 
-if (hat_button){
-    hat_button.addEventListener('click', busToPast);
+if (){
+    hat_button.addEventListener('click', );
 }
 if (hat_button){
-    hat_button.addEventListener('click', busToPast);
+    hat_button.addEventListener('click', );
 
 
