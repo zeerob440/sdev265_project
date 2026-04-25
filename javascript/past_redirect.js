@@ -15,6 +15,11 @@ function eaten(){
     window.location.href='../Failed/Failed1.html';
     console.log('Redirecting from Encounter1.html to Failed1.html');
 }
+const past_hole_button =document.getElementById('');
+function eaten(){
+    window.location.href='..//.html';
+    console.log('Redirecting from .html to .html');
+}
 
 if (past_hole_button){
     past_hole_button.addEventListener('click', eaten);
