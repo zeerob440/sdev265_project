@@ -15,7 +15,7 @@ function eaten(){
     window.location.href='../Failed/Failed1.html';
     console.log('Redirecting from Encounter1.html to Failed1.html');
 }
-const past_tunnel_button =document.getElementById('Tunnel');
+const past_tunnel_button =document.getElementById('tunnel');
 function Tunnel(){
     window.location.href='../Dragon-escape/Dragon-escape.html';
     console.log('Redirecting from Encounter.html to Dragon-escape.html');
