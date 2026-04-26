@@ -36,7 +36,7 @@ if (past_tunnel_button){
 if (past_staff_button){
     past_staff_button.addEventListener('click', Staff);
 }
-
+// unique game over if structure that invoke pastGameOver past_gameover id exists on the document
 if (past_gameover_button){
     past_gameover_button.addEventListener('click', pastGameOver);
 }
