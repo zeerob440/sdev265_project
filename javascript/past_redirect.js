@@ -34,7 +34,7 @@ if (past_tunnel_button){
     past_tunnel_button.addEventListener('click', Tunnel);
 }
 if (past_staff_button){
-    hat_button.addEventListener('click', Staff);
+    past_staff_button.addEventListener('click', Staff);
 }
 
 if (past_gameover_button){
