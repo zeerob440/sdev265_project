@@ -5,7 +5,7 @@ function busToPast(){
     window.location.href='Encounter/Encounter1.html';
     console.log('Redirecting from bus-stop.html to Encounter1.html');
 }
-
+const gameover_button = document.getElementById('gameover');
 function gameOver() {
     window.location.href = "../game-over/game-over.html";
     console.log('Redirecting to game-over.html');
@@ -37,4 +37,6 @@ if (past_staff_button){
     hat_button.addEventListener('click', Staff);
 }
 
-
+if (gameover_button){
+    gameover_button.addEventListener('click', gameOver);
+}
