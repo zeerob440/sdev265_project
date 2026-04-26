@@ -40,6 +40,7 @@ if (past_staff_button){
 if (gameover_button){
     gameover_button.addEventListener('click', gameOver);
 }
+// if statement to invoke busToPast() if the 'hat' element ID exists on an HTML document. 
 if (hat_button){
     hat_button.addEventListener('click', busToPast);
 }
