@@ -5,11 +5,11 @@ function busToPast(){
     window.location.href='Encounter/Encounter1.html';
     console.log('Redirecting from bus-stop.html to Encounter1.html');
 }
-/*const gameover_button = document.getElementById('gameover');
-function gameOver() {
+const past_gameover_button = document.getElementById('past_gameover');
+function pastGameOver() {
     window.location.href = "../game-over/game-over.html";
     console.log('Redirecting to game-over.html');
-}*/
+}
 const past_hole_button =document.getElementById('hole');
 function eaten(){
     window.location.href='../Failed/Failed1.html';
@@ -37,10 +37,13 @@ if (past_staff_button){
     hat_button.addEventListener('click', Staff);
 }
 
-if (gameover_button){
-    gameover_button.addEventListener('click', gameOver);
+if (past_gameover_button){
+    past_gameover_button.addEventListener('click', gameOver);
 }
 // if statement to invoke busToPast() if the 'hat' element ID exists on an HTML document. 
 if (hat_button){
     hat_button.addEventListener('click', busToPast);
+}
+if (past_gameover_button){
+    past_gameover_button.addEventListener('click', pastGameOver);
 }
