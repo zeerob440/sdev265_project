@@ -17,7 +17,7 @@ function eaten(){
 }
 const past_tunnel_button =document.getElementById('tunnel');
 function Tunnel(){
-    window.location.href='../Dragon-escape/Dragon-escape.html';
+    window.location.href='../Dragon-Escape/Dragon-escape.html';
     console.log('Redirecting from Encounter.html to Dragon-escape.html');
 }
 const past_staff_button =document.getElementById('staff');
