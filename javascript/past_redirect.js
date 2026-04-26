@@ -16,13 +16,13 @@ function eaten(){
     console.log('Redirecting from Encounter1.html to Failed1.html');
 }
 const past_hole_button =document.getElementById('Tunnel');
-function eaten(){
+function Tunnel(){
     window.location.href='../Dragon-escape/Dragon-escape
         .html';
     console.log('Redirecting from Encounter.html to Dragon-escape.html');
 }
 const past_hole_button =document.getElementById('staff');
-function eaten(){
+function Staff(){
     window.location.href='../Staff/Staff.html';
     console.log('Redirecting from Dragon-escape.html to Staff.html');
 }
@@ -31,10 +31,10 @@ if (past_hole_button){
     past_hole_button.addEventListener('click', eaten);
 }
 
-if (){
-    hat_button.addEventListener('click', );
+if (past_tunnel_button){
+    hat_button.addEventListener('click', Tunnel);
 }
-if (hat_button){
-    hat_button.addEventListener('click', );
+if (past_staff_button){
+    hat_button.addEventListener('click', Staff);
 
 
