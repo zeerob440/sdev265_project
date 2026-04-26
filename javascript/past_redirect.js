@@ -38,7 +38,7 @@ if (past_staff_button){
 }
 
 if (past_gameover_button){
-    past_gameover_button.addEventListener('click', gameOver);
+    past_gameover_button.addEventListener('click', pastGameOver);
 }
 // if statement to invoke busToPast() if the 'hat' element ID exists on an HTML document. 
 if (hat_button){
