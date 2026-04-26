@@ -35,5 +35,6 @@ if (past_tunnel_button){
 }
 if (past_staff_button){
     hat_button.addEventListener('click', Staff);
+}
 
 
