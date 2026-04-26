@@ -8,8 +8,8 @@ function busToPast(){
 /*const gameover_button = document.getElementById('gameover');
 function gameOver() {
     window.location.href = "../game-over/game-over.html";
-    console.log('Redirecting to game-over.html');*/
-}
+    console.log('Redirecting to game-over.html');
+}*/
 const past_hole_button =document.getElementById('hole');
 function eaten(){
     window.location.href='../Failed/Failed1.html';
