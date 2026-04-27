@@ -39,7 +39,7 @@ function FRematch(){
 
 
 if (past_DRAGONFIGHT_button){
-    past__button.addEventListener('click', FRematch);
+    past_DRAGONFIGHT_button.addEventListener('click', FRematch);
 
 if (past_sword_button){
     past_sword_button.addEventListener('click', Sword);
