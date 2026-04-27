@@ -40,12 +40,13 @@ function Rematch(){
 
 if (past_DRAGONFIGHT_button){
     past_DRAGONFIGHT_button.addEventListener('click', Rematch);
-
+}
 if (past_sword_button){
     past_sword_button.addEventListener('click', Sword);
-    
+}    
 if (past_gameover_button){
     past_gameover_button.addEventListener('click', pastGameOver);
+}
 if (past_hole_button){
     past_hole_button.addEventListener('click', eaten);
 }
