@@ -32,14 +32,14 @@ function Sword(){
 }
 
 const DRAGONFIGHT_button =document.getElementById('FRematch');
-function FRematch(){
+function Rematch(){
     window.location.href='../DRAGONFIGHT/DRAGONFIGHT.html';
     console.log('Redirecting from Sword.html to DRAGONFIGHT.html');
 }
 
 
 if (past_DRAGONFIGHT_button){
-    past_DRAGONFIGHT_button.addEventListener('click', FRematch);
+    past_DRAGONFIGHT_button.addEventListener('click', Rematch);
 
 if (past_sword_button){
     past_sword_button.addEventListener('click', Sword);
