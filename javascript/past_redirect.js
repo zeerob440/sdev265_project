@@ -31,7 +31,7 @@ function Sword(){
     console.log('Redirecting from Dragon-escape.html to Sword.html');
 }
 
-const DRAGONFIGHT_button =document.getElementById('FRematch');
+const past_DRAGONFIGHT_button =document.getElementById('FRematch');
 function Rematch(){
     window.location.href='../DRAGONFIGHT/DRAGONFIGHT.html';
     console.log('Redirecting from Sword.html to DRAGONFIGHT.html');
