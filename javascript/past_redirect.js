@@ -25,7 +25,27 @@ function Staff(){
     window.location.href='../Staff/Staff.html';
     console.log('Redirecting from Dragon-escape.html to Staff.html');
 }
+const past_sword_button =document.getElementById('sword');
+function Sword(){
+    window.location.href='../Sword/Sword.html';
+    console.log('Redirecting from Dragon-escape.html to Sword.html');
+}
 
+const DRAGONFIGHT_button =document.getElementById('FRematch');
+function FRematch(){
+    window.location.href='../DRAGONFIGHT/DRAGONFIGHT.html';
+    console.log('Redirecting from Sword.html to DRAGONFIGHT.html');
+}
+
+
+if (past_DRAGONFIGHT_button){
+    past__button.addEventListener('click', FRematch);
+
+if (past_sword_button){
+    past_sword_button.addEventListener('click', Sword);
+    
+if (past_gameover_button){
+    past_gameover_button.addEventListener('click', pastGameOver);
 if (past_hole_button){
     past_hole_button.addEventListener('click', eaten);
 }
