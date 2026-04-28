@@ -31,10 +31,10 @@ function Sword(){
     console.log('Redirecting from Dragon-escape.html to Sword.html');
 }
 
-const past_DRAGONFIGHT_button =document.getElementById('FRematch');
+const past_idiot_button =document.getElementById('FRematch');
 function Rematch(){
-    window.location.href='../DRAGONFIGHT/DRAGONFIGHT.html';
-    console.log('Redirecting from Sword.html to DRAGONFIGHT.html');
+    window.location.href='../idiot/idiot.html';
+    console.log('Redirecting from Sword.html to idiot.html');
 }
 
 const past_train_button =document.getElementById('Train');
@@ -48,8 +48,8 @@ if (past_train_button){
     past_train_button.addEventListener('click', training);
 }
 
-if (past_DRAGONFIGHT_button){
-    past_DRAGONFIGHT_button.addEventListener('click', Rematch);
+if (past_idiot_button){
+    past_idiot_button.addEventListener('click', Rematch);
 }
 if (past_sword_button){
     past_sword_button.addEventListener('click', Sword);
