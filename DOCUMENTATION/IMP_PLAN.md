@@ -51,12 +51,12 @@ Since Time Shift is essentially a website the following steps are used to instal
 2. Right click "Save and share".
 3. Right click "Install page as app".
 
-![ts_install1.png](Part 1Brave Browser app install)
+![ts_install1.png](ts_install1.png)
 
 1. Type desired name of application or right click "install" to create app on Desktop.
 2. Right click "install."
 
-![ts_install2.png](Part 2 Brave browser app install)
+![ts_install2.png](ts_install2.png)
 
 ## SUMMARY
 
