@@ -75,14 +75,14 @@ function rewindtime(){
 }
 
 const past_future_button =document.getElementById('FastFoward');
-function (){
+function Futurechange(){
     window.location.href='../corte-real/css-corte-real.html';
     console.log('Redirecting from Staff.html to css-corte-real..html');
 }
 
 
 if (past_future_button){
-    past_future_button.addEventListener('click', );
+    past_future_button.addEventListener('click', Futurechange);
 }
 if (past_rewind_button){
     past_rewind_button.addEventListener('click', rewindtime);
