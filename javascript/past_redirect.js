@@ -71,9 +71,20 @@ function theend(){
 const past_rewind_button =document.getElementById('Rewind');
 function rewindtime(){
     window.location.href='../Encounter/Encounter1.html';
-    console.log('Redirecting from rewind.html to Encounter1.html');
+    console.log('Redirecting from staff.html to Encounter1.html');
 }
 
+
+const past__button =document.getElementById('FastFoward');
+function Fastfoward(){
+    window.location.href='../corte-real/css-corte-real.html';
+    console.log('Redirecting from staff.html to css-corte-real.html');
+}
+
+
+if (past_future_button){
+    past_future_button.addEventListener('click', Fastfoward);
+}
 
 if (past_rewind_button){
     past_rewind_button.addEventListener('click', rewindtime);
