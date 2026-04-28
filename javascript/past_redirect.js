@@ -44,8 +44,8 @@ function training(){
 }
 const past_staying_button =document.getElementById('mend');
 function Stayingpast(){
-    window.location.href='../Inthepast/Inthepast.html';
-    console.log('Redirecting from train.html to Inthepast.html');
+    window.location.href='../Inthepast/InthePast.html';
+    console.log('Redirecting from train.html to InthePast.html');
 }
 const past_nowfight_button =document.getElementById('DRAGONFIGHT');
 function Fightingtime(){
@@ -54,8 +54,8 @@ function Fightingtime(){
 }
 const past_Maw_button =document.getElementById('Maw');
 function Mouth(){
-    window.location.href='../Maw/Maw.html';
-    console.log('Redirecting from DRAGONFIGHT.html to Maw.html');
+    window.location.href='../Maw/maw.html';
+    console.log('Redirecting from DRAGONFIGHT.html to maw.html');
 }
 
 
