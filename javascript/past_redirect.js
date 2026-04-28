@@ -42,7 +42,34 @@ function training(){
     window.location.href='../train/train.html';
     console.log('Redirecting from sword.html to train.html');
 }
+const past_staying_button =document.getElementById('mend');
+function Stayingpast(){
+    window.location.href='../Inthepast/Inthepast.html';
+    console.log('Redirecting from train.html to Inthepast.html');
+}
+const past_nowfight_button =document.getElementById('DRAGONFIGHT');
+function Fightingtime(){
+    window.location.href='../DRAGONFIGHT/DRAGONFIGHT.html';
+    console.log('Redirecting from train.html to DRAGONFIGHT.html');
+}
+const past_Maw_button =document.getElementById('Maw');
+function Mouth(){
+    window.location.href='../Maw/Maw.html';
+    console.log('Redirecting from DRAGONFIGHT.html to Maw.html');
+}
 
+
+if (past_Maw_button){
+    past_Maw_button.addEventListener('click', Mouth);
+}
+
+if (past_nowfight_button){
+    past_nowfight_button.addEventListener('click', Fightingtime);
+}
+
+if (past_staying_button){
+    past_staying_button.addEventListener('click', Stayingpast);
+}
 
 if (past_train_button){
     past_train_button.addEventListener('click', training);
