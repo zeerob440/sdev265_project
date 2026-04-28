@@ -57,7 +57,26 @@ function Mouth(){
     window.location.href='../Maw/Maw.html';
     console.log('Redirecting from DRAGONFIGHT.html to maw.html');
 }
+const past_Slice_button =document.getElementById('Slice-dice');
+function Slice(){
+    window.location.href='../Slice-Dice/Slide-Dice.html';
+    console.log('Redirecting from DRAGONFIGHT.html to Slice-Dice.html');
+}
 
+const past_win_button =document.getElementById('end');
+function end(){
+    window.location.href='../win-game/win_game.html';
+    console.log('Redirecting from Maw.html to win-game.html');
+}
+
+
+if (past_win_button){
+    past_win_button.addEventListener('click', end);
+}
+
+if (past_Slice_button){
+    past_Slice_button.addEventListener('click', );
+}
 
 if (past_Maw_button){
     past_Maw_button.addEventListener('click', Mouth);
