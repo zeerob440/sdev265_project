@@ -54,7 +54,7 @@ function Fightingtime(){
 }
 const past_Maw_button =document.getElementById('Maw');
 function Mouth(){
-    window.location.href='../Maw/maw.html';
+    window.location.href='../Maw/Maw.html';
     console.log('Redirecting from DRAGONFIGHT.html to maw.html');
 }
 
