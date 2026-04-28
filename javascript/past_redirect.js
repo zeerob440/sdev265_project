@@ -64,7 +64,7 @@ function Slice(){
 }
 
 const past_win_button =document.getElementById('end');
-function the_end(){
+function theend(){
     window.location.href='../win-game/win_game.html';
     console.log('Redirecting from Maw.html to win-game.html');
 }
@@ -80,7 +80,7 @@ if (past_rewind_button){
 }
 
 if (past_win_button){
-    past_win_button.addEventListener('click', the_end);
+    past_win_button.addEventListener('click', theend);
 }
 
 if (past_Slice_button){
