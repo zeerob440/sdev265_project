@@ -39,8 +39,8 @@ function Rematch(){
 
 const past_train_button =document.getElementById('Train');
 function training(){
-    window.location.href='../Train/Train.html';
-    console.log('Redirecting from sword.html to Train.html');
+    window.location.href='../train/train.html';
+    console.log('Redirecting from sword.html to train.html');
 }
 
 
