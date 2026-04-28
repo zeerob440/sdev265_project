@@ -37,6 +37,16 @@ function Rematch(){
     console.log('Redirecting from Sword.html to DRAGONFIGHT.html');
 }
 
+const past_train_button =document.getElementById('Train');
+function training(){
+    window.location.href='../Train/Train.html';
+    console.log('Redirecting from sword.html to Train.html');
+}
+
+
+if (past_train_button){
+    past_train_button.addEventListener('click', training);
+}
 
 if (past_DRAGONFIGHT_button){
     past_DRAGONFIGHT_button.addEventListener('click', Rematch);
