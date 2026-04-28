@@ -57,6 +57,11 @@ function Mouth(){
     window.location.href='../Maw/Maw.html';
     console.log('Redirecting from DRAGONFIGHT.html to maw.html');
 }
+const past_Slice_button =document.getElementById('Slice-dice');
+function Slice(){
+    window.location.href='../Slice-Dice/Slide-Dice.html';
+    console.log('Redirecting from DRAGONFIGHT.html to Slice-Dice.html');
+}
 
 const past_win_button =document.getElementById('end');
 function theend(){
@@ -77,18 +82,6 @@ function Fastfoward(){
 }
 
 
-
-const past__button =document.getElementById('Slicedice');
-function Swinging(){
-    window.location.href='../Slice-Dice/Slice-Dice.html';
-    console.log('Redirecting from DRAGONFIGHT.html to Slice-Dice.html');
-}
-
-
-if (past__button){
-    past__button.addEventListener('click', );
-}
-
 if (past_future_button){
     past_future_button.addEventListener('click', Fastfoward);
 }
@@ -101,7 +94,9 @@ if (past_win_button){
     past_win_button.addEventListener('click', theend);
 }
 
-
+if (past_Slice_button){
+    past_Slice_button.addEventListener('click', Slice);
+}
 
 if (past_Maw_button){
     past_Maw_button.addEventListener('click', Mouth);
