@@ -75,7 +75,7 @@ function rewindtime(){
 }
 
 
-const past__button =document.getElementById('FastFoward');
+const past_future_button =document.getElementById('FastFoward');
 function Fastfoward(){
     window.location.href='../corte-real/css-corte-real.html';
     console.log('Redirecting from staff.html to css-corte-real.html');
