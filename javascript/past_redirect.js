@@ -68,14 +68,32 @@ function end(){
     window.location.href='../win-game/win_game.html';
     console.log('Redirecting from Maw.html to win-game.html');
 }
+const past_rewind_button =document.getElementById('Rewind');
+function rewindtime(){
+    window.location.href='../Encounter/Encounter1.html';
+    console.log('Redirecting from rewind.html to Encounter1.html');
+}
 
+const past_future_button =document.getElementById('FastFoward');
+function (){
+    window.location.href='../corte-real/css-corte-real.html';
+    console.log('Redirecting from Staff.html to css-corte-real..html');
+}
+
+
+if (past_future_button){
+    past_future_button.addEventListener('click', );
+}
+if (past_rewind_button){
+    past_rewind_button.addEventListener('click', rewindtime);
+}
 
 if (past_win_button){
     past_win_button.addEventListener('click', end);
 }
 
 if (past_Slice_button){
-    past_Slice_button.addEventListener('click', );
+    past_Slice_button.addEventListener('click', Slice);
 }
 
 if (past_Maw_button){
