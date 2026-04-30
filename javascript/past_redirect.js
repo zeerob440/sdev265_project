@@ -59,7 +59,7 @@ function Mouth(){
 }
 const past_Slice_button =document.getElementById('Slice-dice');
 function Slice(){
-    window.location.href='../Slice-Dice/Slide-Dice.html';
+    window.location.href='../Slice-Dice/Slice-Dice.html';
     console.log('Redirecting from DRAGONFIGHT.html to Slice-Dice.html');
 }
 
