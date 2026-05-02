@@ -181,6 +181,18 @@ function prop2Encounter(){
     window.location.href='../Encounter/Encounter1.html';
     console.log('FORWARD TO THE PAST!');
 }
+// var and function from armory3.html to propulsion4.html
+const armory3_prop4_button= document.getElementById('armory3_prop4');
+function armory3Prop4(){
+    window.location.href='../propulsion/propulsion4.html';
+    console.log('Redirecting from armory3.html to propulsion4.html');
+}
+// var and function from armory3.html to bridge1.html
+const armory3_bridge1_button= document.getElementById('armory3_bridge1');
+function armory3Bridge1(){
+    window.location.href='../bridge/bridge1.html';
+    console.log('Redirecting from armory3.html to bridge1.html.')
+}
 
 // if-if structure to determine which function to invoke from html pages via event listeners.
 
@@ -294,4 +306,12 @@ if (prop2_past_button){
 // event listener from bridge2.html to armory3.html
 if (back_to_armory3_button){
     back_to_armory3_button.addEventListener('click', backTrack);
+}
+// event listener for armory3.html to propulsion4.html
+if (armory3_prop4_button){
+    armory3_prop4_button.addEventListener('click', armory3Prop4);
+}
+//event listener for armory3.html to bridge1.html
+if (armory3_bridge1_button){
+    armory3_bridge1_button.addEventListener('click', armory3Bridge1);
 }
