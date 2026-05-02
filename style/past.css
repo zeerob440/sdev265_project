@@ -46,6 +46,7 @@ button:hover {
 }
 
 
+
 p {
     position: relative;
     display: inline-block;
@@ -56,21 +57,21 @@ p::after {
     content: "";
     position: absolute;
     top: 0;
-    left: -120%;
-    width: 120%;
+    left: -150%;
+    width: 50%; 
     height: 100%;
     pointer-events: none;
     background: linear-gradient(
         120deg,
         transparent 0%,
-        rgba(255, 0, 0, 0.6) 50%,
+        rgba(255, 0, 0, 0.7) 50%,
         transparent 100%
     );
-    animation: redShine 4s infinite;
+    animation: redShine 8s infinite; 
 }
 
 @keyframes redShine {
-    0% { left: -120%; }
-    10% { left: 120%; }
-    100% { left: 120%; }
+    0% { left: -150%; }
+    12% { left: 150%; } 
+    100% { left: 150%; }
 }
