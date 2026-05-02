@@ -90,7 +90,7 @@ function astralSolutionOutput(){
 const tessdrive_button =document.getElementById('om_tessdrive_status');
 function tessDriveOutput(){
     document.getElementById('tessdrive_output').innerHTML=
-    `<p>Depleted Uranium detected in Tesseract Core.<br>ASTRAL NAVIGATION: ONLINE<br>FTL DIMENSIONAL SHIFT: RESOLVED<br>WARNING: CALCULATED FTL JUMP IMMINENT!</p>`;
+    `<p>WARNING! Depleted Uranium detected in Tesseract Core.<br>ASTRAL NAVIGATION: ONLINE<br>FTL DIMENSIONAL SHIFT: RESOLVED<br>WARNING: CALCULATED FTL JUMP IMMINENT!</p>`;
 
     console.log('Faster than light!');
 }
