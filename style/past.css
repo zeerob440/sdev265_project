@@ -54,7 +54,7 @@ button:hover {
 
 p {
     font-weight: bold;
-    color: red;
+    color: black;
     text-shadow:
         0 0 4px rgba(255, 0, 0, 0.7),
         0 0 8px rgba(255, 0, 0, 0.6),
