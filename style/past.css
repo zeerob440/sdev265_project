@@ -36,6 +36,7 @@ button {
     border: none;
     border-radius: 8px;
     font-size: 18px;
+    font-family: "MedievalSharp", cursive;
     cursor: pointer;
     box-shadow:
         0 0 10px rgba(255, 80, 0, 0.7),
