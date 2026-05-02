@@ -1,4 +1,4 @@
-/* ===== BACKGROUND + PAGE LAYOUT ===== */
+
 body {
     background-image: url("../images/Past.png");
     font-family: 'Trebuchet MS', sans-serif;
@@ -14,7 +14,7 @@ body {
     text-shadow: 4px 4px 8px black;
 }
 
-/* ===== SPACING ===== */
+
 div {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -24,7 +24,7 @@ div {
     display: inline-block;
 }
 
-/* ===== ORANGE-YELLOW BUTTONS ===== */
+
 button {
     background: linear-gradient(180deg, #ffcc33, #ff9900);
     color: black;
@@ -45,7 +45,7 @@ button:hover {
     transform: translateY(-3px);
 }
 
-/* ===== <p> TEXT: BOLD + RED GLOW ===== */
+
 p {
     font-weight: bold;
     color: red;
