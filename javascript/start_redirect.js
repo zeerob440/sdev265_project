@@ -162,7 +162,12 @@ function prop4Win(){
     window.location.href='../win-game/win_game.html';
     console.log('YOU WIN!');
 }
-
+// var and function from bridge2.html to armory3.html
+const back_to_armory3_button =document.getElementById('armory3');
+function backTrack(){
+    window.location.href='../armory/armory3.html';
+    console.log('Redirecting to armory3.html')
+}
 //var and function for bridge2.html to frame_b.html
 const frame_b_button =document.getElementById('frame_b');
 function bridge2FrameB(){
@@ -285,4 +290,8 @@ if (frame_b_button){
 // event listener for propulsion2.html to Encounter.html
 if (prop2_past_button){
     prop2_past_button.addEventListener('click', prop2Encounter);
+}
+// event listener from bridge2.html to armory3.html
+if (back_to_armory3_button){
+    back_to_armory3_button.addEventListener('click', backTrack);
 }
