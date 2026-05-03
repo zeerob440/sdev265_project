@@ -121,23 +121,23 @@ javascript/
 | 2.3|CS |2|2|     |
 | 2.4|JS |2|2|1-1.6|
 | 2.5|UI |2|7|1-1.6|
-| 2.6|RL |2||1-2.5|
-| 3  |DEV|3||1-2 |
+| 2.6|RL |2|6|1-2.5|
+| 3  |DEV|3|7|1-2 |
 | 3.1|HP |1|2|1-2 |
-| 3.2|LO |1||2.1 |
+| 3.2|LO |1|7|2.1 |
 | 3.3|NA |3|2|    |
 | 3.4|MF |1|7|    |
 | 3.5|FI |1|2|    |
 | 3.6|LG |1|2|    |
 | 3.7|FT |3|2|    |
-| 3.8|PT |3||    |
+| 3.8|PT |3|7|    |
 | 3.9|AC |1|3|    |
-| 4  |TES|1||    |
-| 4.1|TL |1||3.3 |
+| 4  |TES|1|7|    |
+| 4.1|TL |1|7|3.3 |
 | 4.2|TS |1|4|    |
-| 4.3|VH |1||3.3 |
+| 4.3|VH |1|7|3.3 |
 | 4.4|FX |7|7|UKN |
-| 5  |DEP|1||    |
+| 5  |DEP|1|7|    |
 | 5.1|DG |1|0|   |
 | 5.2|VL |1|7|    |
 | 6  |DOC|1|7|    |
@@ -159,14 +159,14 @@ project files will be backed up on SSD, or HDD at regular intervals.
 | 1.4 |  TM | ZR  | T|
 | 1.5 |  GH |  ZR | T |
 | 1.6 |  DS |  JJ | T |
-| 2  |   DES | ALL| |
+| 2  |   DES | ALL| T |
 | 2.1 |  SB | ALL| T|
 | 2.2 |  WF |  JJ| T |
 | 2.3 |  CS | ALL| T |
 | 2.4 |  JS |  JJ| T |
 | 2.5 |  UI|  ZR  | T |
-| 2.6 |  RL | ZR  |  |
-| 3   | DEV | ALL|  |
+| 2.6 |  RL | ZR  | T|
+| 3   | DEV | ALL|  T |
 | 3.1 | HP  | JJ | T |
 | 3.2 |  LO | ALL| T|
 | 3.3 |  NA | ALL| T |
@@ -177,9 +177,9 @@ project files will be backed up on SSD, or HDD at regular intervals.
 | 3.8 |  PT | JJ | T|
 | 3.9 |  AC | JJ | T |
 | 4   | TES | ALL| T|
-| 4.1 |  TL | ALL|  |
+| 4.1 |  TL | ZR | T |
 | 4.2 |  TS | JJ| T |
-| 4.3 |  VH | ZR |  |
+| 4.3 |  VH | ZR |T |
 | 4.4 |  FX | ALL| T|
 | 5   | DEP | ALL | T |
 | 5.1 |  DG |  ZR  | T |
