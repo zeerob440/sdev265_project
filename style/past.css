@@ -61,3 +61,10 @@ p {
         0 0 8px rgba(255, 0, 0, 0.6),
         0 0 12px rgba(255, 0, 0, 0.5);
 }
+/*Screen optimization class*/
+.past_prompt_area{
+    padding-top: 96px;
+    width: 100%;
+    max-width: 1024px;
+    font-size: 11px;
+}
