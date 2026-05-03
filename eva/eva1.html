@@ -20,42 +20,45 @@
 </head>
 
 <body>
-	<audio autoplay loop>
-		<source src="../music/future_theme6.mp3" type="audio/mpeg">
-	</audio>
- <div class="ship_prompt_area">
-	<p>
-        You decide to sneak across the hull. You quickly don the EVA suit and walk into the airlock.
-        There is a neat looking button that reads "Decompress". You press it. You can hear the atmosphere
-        hiss out of the airlock. The suit's HUD flashes:
-	</p>
-    <p class="eva_hud">O2 &lt;19.5% , Atmosphere: IDLH, vacuum.</p>
-    <p> You step out of the airlock and on to the hull with a metallic 'clunk' as the magnetic boot
-        makes contact with the hull. You gaze out at the cyan gas giant in the middle of a starfield.
-        The Corte-Real is obviously in high orbit over this planet. 
-    </p>
-    <p> 
-        As you clunk along the hull you can feel vibrations from the ship through your boots. The oscillations
-        steadily grow more noticeable, you continue on. Suddenly, there is a violent shock and popping
-        sound like opening a tennis ball canister. You are chaotically twisting through space. With each
-        rotation you can see a hole in the Corte-Real's hull. There must have been a decompression and you
-        were in the wrong place at the wrong time. 
-    </p>
-    <p>
-        As you drift into the cosmos, you hear the suit's radio key...
-    </p>
-    <div class="eva_suit">
-        <button id="radio_key">INCOMING TRANSMISSION!</button>
-    </div>
+    <main>
+        <audio autoplay loop>
+		    <source src="../music/future_theme6.mp3" type="audio/mpeg">
+	    </audio>
+    <div class="ship_prompt_area">
+	    <p>
+            You decide to sneak across the hull. You quickly don the EVA suit and walk into the airlock.
+            There is a neat looking button that reads "Decompress". You press it. You can hear the atmosphere
+            hiss out of the airlock. The suit's HUD flashes:
+	    </p>
+        <p class="eva_hud">O2 &lt;19.5% , Atmosphere: IDLH, vacuum.</p>
+        <p> 
+            You step out of the airlock and on to the hull with a metallic 'clunk' as the magnetic boot
+            makes contact with the hull. You gaze out at the cyan gas giant in the middle of a starfield.
+            The Corte-Real is obviously in high orbit over this planet. 
+        </p>
+        <p> 
+            As you clunk along the hull you can feel vibrations from the ship through your boots. The oscillations
+            steadily grow more noticeable, you continue on. Suddenly, there is a violent shock and popping
+            sound like opening a tennis ball canister. You are chaotically twisting through space. With each
+            rotation you can see a hole in the Corte-Real's hull. There must have been a decompression and you
+            were in the wrong place at the wrong time. 
+        </p>
+        <p>
+            As you drift into the cosmos, you hear the suit's radio key...
+        </p>
+        <div class="eva_suit">
+            <button id="radio_key">INCOMING TRANSMISSION!</button>
+        </div>
     
-    <div id="transmission" class="mk540_hud_eva"></div>
+        <div id="transmission" class="mk540_hud_eva"></div>
 
-    <div id="story_advance"></div>
- </div>
+        <div id="story_advance"></div>
+    </div>
  
- 
- <div class="future_selection_suite">
-	<button id="gameover">Proceed</button>
+        <div class="future_selection_suite">
+	        <button id="gameover">Proceed</button>
+    </main>
+	
  </div>
  
 </body>

@@ -21,68 +21,67 @@
 </head>
 
 <body>
-	<audio autoplay loop>
-		<source src="../music/future_theme6.mp3" type="audio/mpeg">
-	</audio>
- <div class="ship_prompt_area">
-	<p>
-	    You cautiously make your way through the ship's deteriorating corridors until you reach a sign that
-        reads "ARMORY". The door is open you peer inside. There are rows of gray weapons racks, most
-        are empty. Suddenly, you hear a loud shriek echo through the ship. The creature could
-        be anywhere! You quickly duck inside the armory. 
-	</p>
-    <p>
-        The Armory smells like cordite, and evidence of hastily prepared strike teams are strewn
-        around the space, empty ammo crates, helmets...and in the corner a nasty looking
-        carbine sits in its rack. You approach the rack and inspect the console near it.
-    </p>
+    <main>
+        <audio autoplay loop>
+		    <source src="../music/future_theme6.mp3" type="audio/mpeg">
+	    </audio>
+    <div class="ship_prompt_area">
+	    <p>
+	        You cautiously make your way through the ship's deteriorating corridors until you reach a sign that
+            reads "ARMORY". The door is open you peer inside. There are rows of gray weapons racks, most
+            are empty. Suddenly, you hear a loud shriek echo through the ship. The creature could
+         be anywhere! You quickly duck inside the armory. 
+	    </p>
+        <p>
+            The Armory smells like cordite, and evidence of hastily prepared strike teams are strewn
+            around the space, empty ammo crates, helmets...and in the corner a nasty looking
+            carbine sits in its rack. You approach the rack and inspect the console near it.
+        </p>
  
- </div>
- <div class="ship_controller">
-	<p> CSS Corte-Real Overmonitor Controller: ARMORY| 05/22/2357</p>
-	<p>SYSTEM STATUS</p>
-	<p>UNREGISTERED PASSENGERS: [01, 02]</p>
-    <p>ARMORY INVENTORY: [('MK-540EMC', 01)]</p>
-    <p> UNREGISTERED PASSENGER [02] It is advised that users read the Mk-540 Electro Magnetic Carbine Field Manual before use!</p>
-    <p>SUBSYSTEM ACCESS USER INTERFACE</p>
-    <button id="om_mk540">MK-540EMC FM</button>
-    <button id="om_mk540_diagram">MK-540EMC DIAGRAM</button>
-    <div id="mk540_output"></div>
-    <div id="mk540_diagram_output"></div>
- </div>
+    </div>
+    <div class="ship_controller">
+	    <p> CSS Corte-Real Overmonitor Controller: ARMORY| 05/22/2357</p>
+	    <p>SYSTEM STATUS</p>
+	    <p>UNREGISTERED PASSENGERS: [01, 02]</p>
+        <p>ARMORY INVENTORY: [('MK-540EMC', 01)]</p>
+        <p> UNREGISTERED PASSENGER [02] It is advised that users read the Mk-540 Electro Magnetic Carbine Field Manual before use!</p>
+        <p>SUBSYSTEM ACCESS USER INTERFACE</p>
+        <button id="om_mk540">MK-540EMC FM</button>
+        <button id="om_mk540_diagram">MK-540EMC DIAGRAM</button>
+        <div id="mk540_output"></div>
+        <div id="mk540_diagram_output"></div>
+    </div>
 
- <div class="ship_prompt_area">
-	<p> 
-	    With a sharp mechanical click the Mk-540EMC releases from its rack. You quickly grab the carbine.
-        It feels solid and heavy in your hands. You are overcome by a sudden and intense headache.
-        You see a prompt in the bottom left of your field of view. 
-    </p>
-    <p>
-        A cheerful voice in your head chirps-
-    </p>
-    <p class="mk540_hud">
-        Thank you for choosing Mk-540, your solution for all anti-armor and megafauna needs!"
-    </p>
-	<p>
-        "Great...a popup" you think. This carbine must have a targeting AI. You search the rest of the weapons racks, all devoid of weapons, except for the 
-        carbine you are holding-it seems nobody reached for it during a catastrophe.
+    <div class="ship_prompt_area">
+	    <p> 
+	        With a sharp mechanical click the Mk-540EMC releases from its rack. You quickly grab the carbine.
+            It feels solid and heavy in your hands. You are overcome by a sudden and intense headache.
+            You see a prompt in the bottom left of your field of view. 
+        </p>
+        <p>
+            A cheerful voice in your head chirps-
+        </p>
+        <p class="mk540_hud">
+            Thank you for choosing Mk-540, your solution for all anti-armor and megafauna needs!"
+        </p>
+	    <p>
+            "Great...a popup" you think. This carbine must have a targeting AI. You search the rest of the weapons racks, all devoid of weapons, except for the 
+            carbine you are holding-it seems nobody reached for it during a catastrophe.
         
-    </p>
-    <!-- save for another part of the story
-    <p class="mk540_hud">
-        Here are some recent user reviews! ['WHOLLY UNPLEASANT TO SHOOT!!1', 'It just won't shut up!', 'Texting STOP doesn't work.']
-    </p>
-    -->
-	<p>
-		You look around the Armory. There is an EVA suit near an air lock. Perhaps you can move to another 
-		area of the ship across the hull. Can the creature survive vacuum? Perhaps you head to Propulsion? 
-	</p>
- </div>
+        </p>
+    
+	    <p>
+		    You look around the Armory. There is an EVA suit near an air lock. Perhaps you can move to another 
+		    area of the ship across the hull. Can the creature survive vacuum? Perhaps you head to Propulsion? 
+	    </p>
+    </div>
  
- <div class="future_selection_suite">
-	<button id="armory1_eva1">EVA</button>
-    <button id="armory1_propulsion2">Propulsion</button>
- </div>
+    <div class="future_selection_suite">
+	    <button id="armory1_eva1">EVA</button>
+        <button id="armory1_propulsion2">Propulsion</button>
+    </div>
+    </main>
+	
  
 </body>
 </html>

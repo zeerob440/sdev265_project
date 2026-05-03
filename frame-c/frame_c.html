@@ -22,53 +22,56 @@
 </head>
 
 <body>
-	<audio autoplay loop>
-		<source src="../music/future_theme6.mp3" type="audio/mpeg">
-	</audio>
- <div class="ship_prompt_area">
-	<p>
-	    The sound of 'Unregister Passenger 01' grows closer, you quickly abandon the terminal and follow signs to 'Frame C'. You arrive at a bulkhead that reads 
-        'Frame C, Deck 04'. You can hear the creature's rapid footsteps echoing ever closer. You hit the door interface. The door does not open, though a grinding mechanical
-        sound can be heard inside the doorframe. 
-	</p>
-    <p> 
-        "Life Safety malfunction at bulkhead C-04.", the ship's Overmonitor Controller announces. The creature is getting closer, you can almost hear its breath. You kick the door in frustration.
-        The mechanical grinding in the doorframe stops and the door jerkily opens. You slide under the door. As you get to the other side, you catch a glimpse at a grizzly bear sized creature
-        running toward you. You can't quite make out even what it is, but it is large, fast, and predatory - and closing distance fast in the darkness.
-    </p>
-    <p>
-        "Open bulkhead detected. Airtight lockdown protocol reengaged". The bulkhead heavily slams closed, as the creature violently slams into it. It bangs against 
-        the door for a few moments and then stomps off. You made it.  
-    </p>
-    <p> 
-        You look around Frame C, this place is a wreck as well. How long has the Corte-Real been out here you wonder. At any rate you need to find a way back to
-        your timeline, but first you need to escape this ship. You see another console. 
-    </p>
- </div>
- <div class="ship_controller">
-	<p> CSS Corte-Real Overmonitor Controller: Frame C| 05/22/2357</p>
-	<p>SYSTEM STATUS</p>
-	<p>UNREGISTERED PASSENGERS: [01, 02]</p>
-    <p>ARMORY INVENTORY: [('MK-540EMC', 01)]</p>
-    <p>ASTRAL NAVIGATION: OFFLINE</p>
-    <p>PROPULSION: OFFLINE</p>
-    <p></p>
-    <p>SUBSYSTEM ACCESS USER INTERFACE</p>
-    <button id="om_astral_nav">Astral Nav</button>
-    <button id="om_armory">Armory</button>
-    <button id="om_propulsion">Propulsion</button>
-    <button id="om_atmosphere_vent">Vent Atmosphere</button>
-    <div id="atmosphere_output"></div>
-    <div id="astral_nav_output"></div>
-    <div id="armory_output"></div>
-    <div id="propulsion_output"></div>
- </div>
+    <main>
+        <audio autoplay loop>
+		    <source src="../music/future_theme6.mp3" type="audio/mpeg">
+	    </audio>    
+        <div class="ship_prompt_area">
+	    <p>
+	        The sound of 'Unregister Passenger 01' grows closer, you quickly abandon the terminal and follow signs to 'Frame C'. You arrive at a bulkhead that reads 
+            'Frame C, Deck 04'. You can hear the creature's rapid footsteps echoing ever closer. You hit the door interface. The door does not open, though a grinding mechanical
+            sound can be heard inside the doorframe. 
+	    </p>
+        <p> 
+            "Life Safety malfunction at bulkhead C-04.", the ship's Overmonitor Controller announces. The creature is getting closer, you can almost hear its breath. You kick the door in frustration.
+            The mechanical grinding in the doorframe stops and the door jerkily opens. You slide under the door. As you get to the other side, you catch a glimpse at a grizzly bear sized creature
+            running toward you. You can't quite make out even what it is, but it is large, fast, and predatory - and closing distance fast in the darkness.
+        </p>
+        <p>
+            "Open bulkhead detected. Airtight lockdown protocol reengaged". The bulkhead heavily slams closed, as the creature violently slams into it. It bangs against 
+            the door for a few moments and then stomps off. You made it.  
+        </p>
+        <p> 
+            You look around Frame C, this place is a wreck as well. How long has the Corte-Real been out here you wonder. At any rate you need to find a way back to
+            your timeline, but first you need to escape this ship. You see another console. 
+        </p>
+        </div>
+        <div class="ship_controller">
+	        <p> CSS Corte-Real Overmonitor Controller: Frame C| 05/22/2357</p>
+	        <p>SYSTEM STATUS</p>
+	        <p>UNREGISTERED PASSENGERS: [01, 02]</p>
+            <p>ARMORY INVENTORY: [('MK-540EMC', 01)]</p>
+            <p>ASTRAL NAVIGATION: OFFLINE</p>
+            <p>PROPULSION: OFFLINE</p>
+            <p></p>
+            <p>SUBSYSTEM ACCESS USER INTERFACE</p>
+            <button id="om_astral_nav">Astral Nav</button>
+            <button id="om_armory">Armory</button>
+            <button id="om_propulsion">Propulsion</button>
+            <button id="om_atmosphere_vent">Vent Atmosphere</button>
+            <div id="atmosphere_output"></div>
+            <div id="astral_nav_output"></div>
+            <div id="armory_output"></div>
+            <div id="propulsion_output"></div>
+        </div>
  
- <div class="future_selection_suite">
-	<button id="frame_c_astral_nav1">Astral Navigation</button>
-    <button id="frame_c_propulsion1">Propulsion</button>
-    <button id="frame_c_armory1">Armory</button>
- </div>
+        <div class="future_selection_suite">
+	        <button id="frame_c_astral_nav1">Astral Navigation</button>
+            <button id="frame_c_propulsion1">Propulsion</button>
+            <button id="frame_c_armory1">Armory</button>
+        </div>
  
+    </main>
+	
 </body>
 </html>
