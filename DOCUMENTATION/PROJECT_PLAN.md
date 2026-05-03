@@ -34,7 +34,7 @@ DESIGNER Joshua Johnson-
 
 1. Planning
     - 1.1 Feasibility Study
-    - 1.2 Risk Assessment 
+    - 1.2 Risk Assessment
     - 1.3 Project Plan
     - 1.4 Development team meeting schedule
     - 1.5 Create GitHub shared repository

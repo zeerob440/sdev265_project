@@ -11,6 +11,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     color: black;
+    min-height: 100vh;
 }
 
 
