@@ -164,30 +164,30 @@ project files will be backed up on SSD, or HDD at regular intervals.
 | 2.2 |  WF |  JJ| T |
 | 2.3 |  CS | ALL| T |
 | 2.4 |  JS |  JJ| T |
-| 2.5 |  UI|  ZR  |  |
+| 2.5 |  UI|  ZR  | T |
 | 2.6 |  RL | ZR  |  |
 | 3   | DEV | ALL|  |
 | 3.1 | HP  | JJ | T |
-| 3.2 |  LO | ALL|  |
+| 3.2 |  LO | ALL| T|
 | 3.3 |  NA | ALL| T |
-| 3.4 |  MF | JJ |  |
+| 3.4 |  MF | JJ | T |
 | 3.5 |  FI | ZR | T |
 | 3.6 |  LG | ALL| T |
 | 3.7 |  FT | ZR | T |
-| 3.8 |  PT | JJ |  |
+| 3.8 |  PT | JJ | T|
 | 3.9 |  AC | JJ | T |
-| 4   | TES | ALL|  |
+| 4   | TES | ALL| T|
 | 4.1 |  TL | ALL|  |
-| 4.2 |  TS | JJ|  |
+| 4.2 |  TS | JJ| T |
 | 4.3 |  VH | ZR |  |
-| 4.4 |  FX | ALL|  |
-| 5   | DEP | ALL |  |
+| 4.4 |  FX | ALL| T|
+| 5   | DEP | ALL | T |
 | 5.1 |  DG |  ZR  | T |
-| 5.2 |  VL | ALL|  |
+| 5.2 |  VL | ALL| T|
 | 6   | DOC | ALL |  |
 | 6.1 |  TR |  ZR| T |
-| 6.2 | RM | ALL |  |
-| 6.3 | UN | ALL |  |
+| 6.2 | RM | ZR | T |
+| 6.3 | UN | ALL | T|
 |    |     |    |  |
 
 
