@@ -1,14 +1,23 @@
 body {
 background-color: #000000;
 margin: 0 auto;
-max-width: 1536px;
+/*max-width: 1536px;*/
 font-family: "Pixelify Sans", sans-serif;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+/*display: flex;*/
+/*flex-direction: column;*/
+/*align-items: center;*/
+/*justify-content: center;*/
 color: white;
 font-size: larger;
+}
+
+main {
+    max-width: 1536px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .title {
