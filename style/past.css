@@ -43,6 +43,7 @@ button {
         0 0 10px rgba(255, 80, 0, 0.7),
         0 0 20px rgba(255, 0, 0, 0.6);
     transition: 0.25s ease;
+    margin-bottom: 11px;
 }
 
 button:hover {
