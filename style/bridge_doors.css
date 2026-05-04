@@ -46,7 +46,7 @@ main {
 .ship_controller button {
     color: crimson;
     background-color:rgba(0, 0, 0, .90);
-    border: 2px, solid;
+    border: 2px solid;
     border-color: crimson;
     font-family: "Workbench", sans-serif;
     font-size: 16px;
@@ -55,7 +55,7 @@ main {
 .ship_controller button:hover {
     color: white;
     background-color: crimson;
-    border: 2px, solid;
+    border: 2px solid;
     border-color: white;
     font-family: "Workbench", sans-serif;
     font-size: 16px;
