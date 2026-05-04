@@ -35,21 +35,25 @@ An example of a UI driven narrative is below:
     - Test: each non-terminating page for at least 2 user selection options.
     - Action: click all available selections.
     - Expected: each selection should function as designed
+    - 04 MAY 2026: Functions as designed
 
 2. Ensure endgame behavior functions as designed.
     - Test: Each endgame condition
     - Action: navigate each endgame sequence.
     - Expected: All endgame conditions function as designed.
+    - 04 MAY 2026: End game states function as designed.
 
 3. Ensure back and refresh redirect to index.html after development is completed.
     - Test: attempt back and refresh on each page.
     - Action: attempt back and refresh on each page.
     - Expected: each page redirects to index.html on refresh or back.
+    - 04 MAY 2026: no_go_back.js functions as designed.
 
 4. Ensure Time Shift is optimized for all screen sizes.
     - Test: Time Shift renders correctly on all screen sizes
     - Action: test each page in dev tools, and mobile devices.
     - Expected: all pages render as expected.
+    - 04 MAY 2026: Time Shift tested on Brave, Chrome, and Firefox on various screen sizes; Renders and functions as designed. 
 
 # SUMMARY
 
