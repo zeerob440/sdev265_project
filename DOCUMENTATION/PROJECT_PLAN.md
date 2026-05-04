@@ -9,11 +9,10 @@ and Zachary Roberts. In Time Shift the user navigates webpages and is presented 
 
 ORGANIZER Zachary Roberts-
     Zachary Roberts organizes the development team, he ensures tasks are created, assigned, and executed. He
-    also contributes to file structure and HTML.
+    also contributes to file structure, testing, HTML/CSS/JavaScript, the Future Timeline story and UI/UX. 
 
 DESIGNER Joshua Johnson-
-    Joshua Johnson contributes to game design, storyboard, and CSS design. He designs the overall mood
-    of Time Shift.
+    Joshua Johnson contributes to the HTML/CSS/JavaScript to the Past Timeline. 
 
 
 ## 3. RISK ANALYSIS
@@ -115,7 +114,7 @@ javascript/
 | 1.4|TM|1|0|    |
 | 1.5|GH|1|1|    |
 | 1.6|DS|1|1|    |
-| 2  |DES|2||1-1.6|
+| 2  |DES|2|7|1-1.6|
 | 2.1|SB |1|2|1-1.6|
 | 2.2|WF |1|2|1-1.6|
 | 2.3|CS |2|2|     |
@@ -184,7 +183,7 @@ project files will be backed up on SSD, or HDD at regular intervals.
 | 5   | DEP | ALL | T |
 | 5.1 |  DG |  ZR  | T |
 | 5.2 |  VL | ALL| T|
-| 6   | DOC | ALL |  |
+| 6   | DOC | ALL | T|
 | 6.1 |  TR |  ZR| T |
 | 6.2 | RM | ZR | T |
 | 6.3 | UN | ALL | T|
