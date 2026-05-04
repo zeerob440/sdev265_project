@@ -9,10 +9,10 @@ and Zachary Roberts. In Time Shift the user navigates webpages and is presented 
 
 ORGANIZER Zachary Roberts-
     Zachary Roberts organizes the development team, he ensures tasks are created, assigned, and executed. He
-    also contributes to file structure, testing, HTML/CSS/JavaScript, the Future Timeline story and UI/UX. 
+    also contributes to file structure, testing, documentation, HTML/CSS/JavaScript, and the entire Future Timeline UI/UX. 
 
 DESIGNER Joshua Johnson-
-    Joshua Johnson contributes to the HTML/CSS/JavaScript to the Past Timeline. 
+    Joshua Johnson contributes to the HTML/CSS/JavaScript and testing to the Past Timeline. 
 
 
 ## 3. RISK ANALYSIS
