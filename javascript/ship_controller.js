@@ -1,7 +1,7 @@
 // ship_controller.js controls the UI output on inside the ship_controller class from future.css
 
 /* a series of vars and functions are declared, below that, an if-if structure contains event listeners to invoke the functions
-so the program work across multiple pages.
+so the program works across multiple pages.
 */
 
 /* notes form frame_c.html to make writing js function target easier.
@@ -19,7 +19,19 @@ so the program work across multiple pages.
 const om_atmosphere_vent_button = document.getElementById('om_atmosphere_vent');
 // function to target innerHTML space frame_c.html atmosphere_output
 function ventAtmos(){
-    document.getElementById('atmosphere_output').innerHTML = `<p>LIFE SAFETY VIOLATION: o2 cannot be reduced to below 19.5% while ship is occupied!</p>`;
+    //document.getElementById('atmosphere_output').innerHTML = `<p>LIFE SAFETY VIOLATION: o2 cannot be reduced to below 19.5% while ship is occupied!</p>`;
+   
+    // target html ID
+    const atmosphere_output = document.getElementById('atmosphere_output');
+    // declare object 
+    atmosphere_output.textContent = '';
+    // create p element to insert into object
+    const atmos_secure_message = document.createElement('p');
+    // create message with textContent function
+    atmos_secure_message.textContent = 'LIFE SAFETY VIOLATION: o2 cannot be reduced to below 19.5% while ship is occupied!';
+    // append atmosphere_output with atmos_secure_message content.
+    atmosphere_output.appendChild(atmos_secure_message);
+
    }
 
 // var to target button frame_c.html, om_armory   
@@ -28,6 +40,7 @@ const om_armory_button = document.getElementById('om_armory');
 function armoryStatus(){
     document.getElementById('armory_output').innerHTML =`<p>01 MK-540 Electro-Magnetic Carbine, with 450 depleted U92 munitions operational.
     Other armaments depleted from attempted apprehension of UNREGISTERED PASSENGER 01 in 2322.</p>`;
+
 }
 
 // var tp target button frame_c.html om_propulsion
