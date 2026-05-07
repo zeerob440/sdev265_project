@@ -199,7 +199,7 @@ function astralSolutionOutput(){
     ORBIT: STABLE<br>LOCAL BODY: OBJECT 899 (NEPTUNE);
     `
     // append child
-    astral_solution_output.appendChild(astral_nav_tutanota);
+    astral_solution_output.appendChild(astral_solution_tutanota);
 
 
 
