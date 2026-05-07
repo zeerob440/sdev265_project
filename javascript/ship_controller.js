@@ -233,21 +233,33 @@ function tessDriveOutput(){
 }
 
 // var and function for eva1.html
-const incoming_transmission_button=document.getElementById('radio_key');
+const incoming_transmission_button= document.getElementById('radio_key');
 function spaceSpam(){
 
-    const bfg_spam = document.getElementById('transmission');
+    /*const bfg_spam = document.getElementById('transmission');
     bfg_spam.innerHTML =
     `<p>91.3 percent of organic users find the vista 90 degrees right enjoyable!
     Targeting Solution calculated: Target intersect with planet: 27.2 Earth Years.
-    Thank you for choosing Mk-540 for your ballistic needs!</p>`;
-
+    Thank you for choosing Mk-540 for your ballistic needs!</p>`;*/
+    // target html id, style bfg_spam, declare advance_story
+    const bfg_spam = document.getElementById('transmission');
     bfg_spam.style.backgroundColor = 'black';
-    console.log('Crap! A popup!');
+    bfg_spam.textContent = '';
 
     const advance_story = document.getElementById('story_advance');
-    advance_story.innerHTML =
-    `<p>You look in that direction to see the gas giant looming in the distance...</p>`;
+    advance_story.textContent = '';
+   
+    // create elements
+    const bfg_spam_tutanota = document.createElement('p');
+    bfg_spam_tutanota.textContent =`
+    91.3 percent of organic users find the vista 90 degrees right enjoyable!
+    Targeting Solution calculated: Target intersect with planet: 27.2 Earth Years.
+    Thank you for choosing Mk-540 for your ballistic needs!`;
+
+     console.log('Crap! A popup!');
+    
+    const advance_story_tutanota = document.createElement('p');
+    advance_story_tutanota.textContent ='You look in that direction to see the gas giant looming in the distance...';
 }
 //if if structure to allow this program to be used on multiple pages.
 
