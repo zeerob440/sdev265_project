@@ -126,21 +126,25 @@ function printDiagram(){
     const diagram_retrieved = document.getElementById('diagram_retrieved');
     const mk540_diagram_output = document.getElementById('mk540_diagram_output');
     const be_advised = document.getElementById('be_advised');
-    // declare objects 
+    // declare objects text objects 
     diagram_retrieved.textContent = '';
-    //insert image here
     be_advised.textContent = '';
-    // declare p elements
+    // prepare image attributes. 
+    mk540_tutanota.src = '../images/mk540emc.png';
+    mk540_tutanota.className = 'mk_540_om';
+
+    // declare elements
     const diagram_retrieved_tutanota = document.createElement('p');
-    // insert image element here 
+    const mk540_tutanota = document.createElement('img');
     const be_advised_tutanota = document.createElement('p');
+    
     // create message outputs
     diagram_retrieved_tutanota.textContent = 'DIAGRAM RETRIEVED';
     //insert image here
     be_advised_tutanota.textContent = 'It is advised to keep the front toward enemy.';
     //append child elements 
     diagram_retrieved.appendChild(diagram_retrieved_tutanota);
-    // append image here
+    mk540_diagram_output.appendChild(mk540_tutanota);
     be_advised.appendChild(be_advised_tutanota);
 
     console.log('Read the owner manual first...');
