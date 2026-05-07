@@ -129,19 +129,19 @@ function printDiagram(){
     // declare objects text objects 
     diagram_retrieved.textContent = '';
     be_advised.textContent = '';
-    // prepare image attributes. 
+    // prepare image attributes.
+    const mk540_tutanota = document.createElement('img');
     mk540_tutanota.src = '../images/mk540emc.png';
     mk540_tutanota.className = 'mk_540_om';
 
     // declare elements
     const diagram_retrieved_tutanota = document.createElement('p');
-    const mk540_tutanota = document.createElement('img');
     const be_advised_tutanota = document.createElement('p');
     
     // create message outputs
     diagram_retrieved_tutanota.textContent = 'DIAGRAM RETRIEVED';
-    //insert image here
     be_advised_tutanota.textContent = 'It is advised to keep the front toward enemy.';
+    
     //append child elements 
     diagram_retrieved.appendChild(diagram_retrieved_tutanota);
     mk540_diagram_output.appendChild(mk540_tutanota);
