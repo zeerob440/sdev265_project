@@ -46,8 +46,8 @@ function armoryStatus(){
     armory_output.textContent = '';
     // create p element 
     const armory_tutanota =document.createElement('p');
-    // creat message with textContent
-    armory_tutanota.textContent = '01 MK-540 Electro-Magnetic Carbine, with 450 depleted U92 munitions operational.Other armaments depleted from attempted apprehension of UNREGISTERED PASSENGER 01 in 2322.'
+    // create message with textContent
+    armory_tutanota.textContent = '01 MK-540 Electro-Magnetic Carbine, with 450 depleted U92 munitions operational.Other armaments depleted from attempted apprehension of UNREGISTERED PASSENGER 01 in 2322.';
 
     // apply armory_tutanota to armory_output
     armory_output.appendChild(armory_tutanota);
@@ -58,15 +58,37 @@ function armoryStatus(){
 const om_propulsion_button = document.getElementById('om_propulsion');
 // function for target innerHTML space frame_c.html, propulsion_output
 function propulsionStatus(){
-    document.getElementById('propulsion_output').innerHTML =`<p>ERROR 1532; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE. LOCAL ACCESS REQUIRED TO RESTART
-    TESSERACT DRIVE. TEMPORAL ANOMALIES DETECT IN THIS FRAME.</p>`;
+    /*document.getElementById('propulsion_output').innerHTML =`<p>ERROR 1532; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE. LOCAL ACCESS REQUIRED TO RESTART
+    TESSERACT DRIVE. TEMPORAL ANOMALIES DETECT IN THIS FRAME.</p>`;*/
+    // target html ID
+    const propulsion_output = document.getElementById('propulsion_output');
+    // declare object
+    propulsion_output.textContent = '';
+    //create p element
+    const prop_tutanota = document.createElement('p');
+    // create message
+    prop_tutanota.textContent('ERROR 1532; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE. LOCAL ACCESS REQUIRED TO RESTART TESSERACT DRIVE. TEMPORAL ANOMALIES DETECT IN THIS FRAME');
+    // apply prop_tutanota to propulsion_output
+    propulsion_output.appendChild(prop_tutanota);
+
 }
 
 // var tp target button frame_c.html om_astral_nav
 const om_astral_nav_button = document.getElementById('om_astral_nav');
 // function to target innerHTML frame_c.html om_astral output
 function astralNavStatus(){
-document.getElementById('astral_nav_output').innerHTML =`<p>ERROR 1203; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE. LOCAL ACCESS REQUIRED TO RESTART ASTRAL NAVIGATION.</p>`;
+//document.getElementById('astral_nav_output').innerHTML =`<p>ERROR 1203; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE. LOCAL ACCESS REQUIRED TO RESTART ASTRAL NAVIGATION.</p>`;
+// target html id
+const astral_nav_output = document.getElementById('astral_nav_output');
+// create object
+astral_nav_output.textContent ='';
+
+const astral_nav_tutanota = document.createElement('p');
+
+const astral_nav_tutanota = 'ERROR 1203; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE. LOCAL ACCESS REQUIRED TO RESTART ASTRAL NAVIGATION.';
+
+astral_nav_output.appendChild('astral_nav_tutanota');
+
 }
 
 // var and function for armory1.html
