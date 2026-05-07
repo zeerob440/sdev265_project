@@ -79,15 +79,15 @@ const om_astral_nav_button = document.getElementById('om_astral_nav');
 function astralNavStatus(){
 //document.getElementById('astral_nav_output').innerHTML =`<p>ERROR 1203; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE. LOCAL ACCESS REQUIRED TO RESTART ASTRAL NAVIGATION.</p>`;
 // target html id
-const astral_nav_output = document.getElementById('astral_nav_output');
-// declare object
-astral_nav_output.textContent ='';
-// create p element 
-const astral_nav_tutanota = document.createElement('p');
-// create message 
-astral_nav_tutanota.textContent('ERROR 1203; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE. LOCAL ACCESS REQUIRED TO RESTART ASTRAL NAVIGATION.');
-// append astral_nav_output with astral_nav_tuta
-astral_nav_output.appendChild('astral_nav_tutanota');
+    const astral_nav_output = document.getElementById('astral_nav_output');
+    // declare object
+    astral_nav_output.textContent ='';
+    // create p element 
+    const astral_nav_tutanota = document.createElement('p');
+    // create message 
+    astral_nav_tutanota.textContent('ERROR 1203; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE. LOCAL ACCESS REQUIRED TO RESTART ASTRAL NAVIGATION.');
+    // append astral_nav_output with astral_nav_tuta
+    astral_nav_output.appendChild('astral_nav_tutanota');
 
 }
 
