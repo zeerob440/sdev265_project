@@ -102,6 +102,9 @@ button:hover {
   width: 50%;
  
 }
-#tdrive_status_output {
+#tdrive_status_output  {
+    white-space: pre-line;
+}
+#astral_solution_output {
     white-space: pre-line;
 }
