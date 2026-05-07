@@ -17,7 +17,7 @@ so the program works across multiple pages.
 */
 // var to target button frame_c.html, om_atmosphere_vent
 const om_atmosphere_vent_button = document.getElementById('om_atmosphere_vent');
-// function to target innerHTML space frame_c.html atmosphere_output
+// function for terminal div output frame_c.html atmosphere_output
 function ventAtmos(){
     //document.getElementById('atmosphere_output').innerHTML = `<p>LIFE SAFETY VIOLATION: o2 cannot be reduced to below 19.5% while ship is occupied!</p>`;
    
@@ -38,8 +38,19 @@ function ventAtmos(){
 const om_armory_button = document.getElementById('om_armory');
 // function for target innerHTML space frame_c.html, om_output
 function armoryStatus(){
-    document.getElementById('armory_output').innerHTML =`<p>01 MK-540 Electro-Magnetic Carbine, with 450 depleted U92 munitions operational.
-    Other armaments depleted from attempted apprehension of UNREGISTERED PASSENGER 01 in 2322.</p>`;
+    /*document.getElementById('armory_output').innerHTML =`<p>01 MK-540 Electro-Magnetic Carbine, with 450 depleted U92 munitions operational.
+    Other armaments depleted from attempted apprehension of UNREGISTERED PASSENGER 01 in 2322.</p>`;*/
+    // target html id
+    const armory_output =document.getElementById('armory_output');
+    // declare object
+    armory_output.textContent = '';
+    // create p element 
+    const armory_tutanota =document.createElement('p');
+    // creat message with textContent
+    armory_tutanota.textContent = '01 MK-540 Electro-Magnetic Carbine, with 450 depleted U92 munitions operational.Other armaments depleted from attempted apprehension of UNREGISTERED PASSENGER 01 in 2322.'
+
+    // apply armory_tutanota to armory_output
+    armory_output.appendChild(armory_tutanota);
 
 }
 
