@@ -256,10 +256,15 @@ function spaceSpam(){
     Targeting Solution calculated: Target intersect with planet: 27.2 Earth Years.
     Thank you for choosing Mk-540 for your ballistic needs!`;
 
+    // append child
+    bfg_spam.appendChild(bfg_spam_tutanota);
     console.log('Crap! A popup!');
     
     const advance_story_tutanota = document.createElement('p');
     advance_story_tutanota.textContent ='You look in that direction to see the gas giant looming in the distance...';
+
+    // append child
+    advance_story.appendChild(advance_story_tutanota);
 }
 //if if structure to allow this program to be used on multiple pages.
 
