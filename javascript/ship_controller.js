@@ -67,7 +67,7 @@ function propulsionStatus(){
     //create p element
     const prop_tutanota = document.createElement('p');
     // create message
-    prop_tutanota.textContent('ERROR 1532; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE. LOCAL ACCESS REQUIRED TO RESTART TESSERACT DRIVE. TEMPORAL ANOMALIES DETECT IN THIS FRAME');
+    prop_tutanota.textContent = 'ERROR 1532; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE. LOCAL ACCESS REQUIRED TO RESTART TESSERACT DRIVE. TEMPORAL ANOMALIES DETECT IN THIS FRAME';
     // apply prop_tutanota to propulsion_output
     propulsion_output.appendChild(prop_tutanota);
 
@@ -85,7 +85,7 @@ function astralNavStatus(){
     // create p element 
     const astral_nav_tutanota = document.createElement('p');
     // create message 
-    astral_nav_tutanota.textContent('ERROR 1203; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE. LOCAL ACCESS REQUIRED TO RESTART ASTRAL NAVIGATION.');
+    astral_nav_tutanota.textContent = 'ERROR 1203; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE. LOCAL ACCESS REQUIRED TO RESTART ASTRAL NAVIGATION.';
     // append astral_nav_output with astral_nav_tuta
     astral_nav_output.appendChild('astral_nav_tutanota');
 
