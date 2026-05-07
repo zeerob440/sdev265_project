@@ -103,13 +103,13 @@ button:hover {
  
 }
 
-#tdrive_status_output  {
+#om_tdrive_status {
     white-space: pre-line;
 }
 
 #astral_solution_output {
     white-space: pre-line;
 }
-#tessdrive_output {
+#om_tessdrive_status {
     white-space: pre-line;
 }
