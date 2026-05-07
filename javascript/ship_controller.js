@@ -132,7 +132,7 @@ function printDiagram(){
     // prepare image attributes.
     const mk540_tutanota = document.createElement('img');
     mk540_tutanota.src = '../images/mk540emc.png';
-    mk540_tutanota.className = 'mk_540_om';
+    mk540_tutanota.className = 'mk540_om';
 
     // declare elements
     const diagram_retrieved_tutanota = document.createElement('p');
@@ -141,7 +141,7 @@ function printDiagram(){
     // create message outputs
     diagram_retrieved_tutanota.textContent = 'DIAGRAM RETRIEVED';
     be_advised_tutanota.textContent = 'It is advised to keep the front toward enemy.';
-    
+
     //append child elements 
     diagram_retrieved.appendChild(diagram_retrieved_tutanota);
     mk540_diagram_output.appendChild(mk540_tutanota);
