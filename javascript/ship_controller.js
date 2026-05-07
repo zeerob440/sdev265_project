@@ -178,9 +178,28 @@ function tDriveStatus(){
 const astral_solution_button =document.getElementById('om_astral_nav_solution');
 
 function astralSolutionOutput(){
-    document.getElementById('astral_solution_output').innerHTML=
+    /*document.getElementById('astral_solution_output').innerHTML=
     `ASTRAL SOLUTION<br>MODEL: HELIOCENTRIC<br>SYSTEM: SOL<br>DISTANCE RELATIVE STAR: 30.7AU<br>VECTOR: X -3.92e+09 KM, Y +2.18e+09 KM, Z +1.24e+08 KM<br>
-    ORBIT: STABLE<br>LOCAL BODY: OBJECT 899 (NEPTUNE)`;
+    ORBIT: STABLE<br>LOCAL BODY: OBJECT 899 (NEPTUNE)`;*/
+    //target html id
+    const astral_solution_output = document.getElementById('astral_solution_output');
+
+    // declare object
+    astral_solution_output.textContent = '';
+
+    // declare element
+    const astral_solution_tutanota = document.createElement('p');
+
+    // create message
+    astral_solution_tutanota.textContent =`ASTRAL SOLUTION\n
+    MODEL: HELIOCENTRIC\n
+    SYSTEM: SOL\n
+    DISTANCE RELATIVE STAR: 30.7AU\n
+    VECTOR: X -3.92e+09 KM, Y +2.18e+09 KM, Z +1.24e+08 KM<\n
+    ORBIT: STABLE<br>LOCAL BODY: OBJECT 899 (NEPTUNE);
+    `
+    // append child
+    astral_solution_output.appendChild(astral_nav_tutanota);
 
 
 
