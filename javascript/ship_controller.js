@@ -221,10 +221,10 @@ function tessDriveOutput(){
     const tessdrive_tutanota = document.createElement('p');
 
     tessdrive_tutanota.textContent = `
-    WARNING! Depleted Uranium detected in Tesseract Core.\n
+    WARNING! Depleted Uranium detected in Tesseract Core. Anti-matter polarization initiated. Tesseract Core online.\n
     ASTRAL NAVIGATION: ONLINE\n
     FTL DIMENSIONAL SHIFT: RESOLVED\n
-    WARNING: CALCULATED FTL JUMP IMMINENT! ;
+    WARNING: CALCULATED FTL JUMP IMMINENT!;
     `
     // append child
     tessdrive_output.appendChild(tessdrive_tutanota);
