@@ -100,5 +100,8 @@ button:hover {
 
 .mk540_om {
   /*background-image: url("../images/mk540emc.png");*/
-  width: 50%;  
+  width: 50%;
+  display: block;
+  max-width: 600px;
+  height: auto;
 }
