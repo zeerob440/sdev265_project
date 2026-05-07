@@ -153,9 +153,24 @@ function printDiagram(){
 const tdrive_status_button =document.getElementById('om_tdrive_status');
 
 function tDriveStatus(){
-    document.getElementById('tdrive_status_output').innerHTML=
-    `<p>Depleted Uranium detected in Tesseract Core. Cannot resolve FTL Dimensional Shift.<br>ASTRAL NAVIGATION: OFFLINE<br>WARNING: BLIND JUMP IMMINENT!</p>`;
+    /*document.getElementById('tdrive_status_output').innerHTML=
+    `<p>Depleted Uranium detected in Tesseract Core. Cannot resolve FTL Dimensional Shift.<br>ASTRAL NAVIGATION: OFFLINE<br>WARNING: BLIND JUMP IMMINENT!</p>`;*/
+    // target HTML id
+    const tdrive_status_output = document.getElementById('tdrive_status_output');
+    // declare text object
+    tdrive_status_output.textContent = '';
 
+    //declare element 
+    const tdrive_tutanota =document.createElement('p');
+
+    // create text output
+    tdrive_tutanota.textContent = `
+    Depleted Uranium detected in Tesseract Core. Cannot resolve FTL Dimensional Shift.
+    ASTRAL NAVIGATION: OFFLINE 
+    WARNING: BLIND JUMP IMMINENT!`;
+
+    tdrive_status_output.appendChild(tdrive_tutanota);
+    
     console.log('Forward to the past!');
        
 }
@@ -166,6 +181,8 @@ function astralSolutionOutput(){
     document.getElementById('astral_solution_output').innerHTML=
     `ASTRAL SOLUTION<br>MODEL: HELIOCENTRIC<br>SYSTEM: SOL<br>DISTANCE RELATIVE STAR: 30.7AU<br>VECTOR: X -3.92e+09 KM, Y +2.18e+09 KM, Z +1.24e+08 KM<br>
     ORBIT: STABLE<br>LOCAL BODY: OBJECT 899 (NEPTUNE)`;
+
+
 
     console.log('Neptune Orbit discovered!');
 }
