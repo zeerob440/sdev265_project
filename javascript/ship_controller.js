@@ -156,7 +156,7 @@ function tDriveStatus(){
     /*document.getElementById('tdrive_status_output').innerHTML=
     `<p>Depleted Uranium detected in Tesseract Core. Cannot resolve FTL Dimensional Shift.<br>ASTRAL NAVIGATION: OFFLINE<br>WARNING: BLIND JUMP IMMINENT!</p>`;*/
     // target HTML id
-    const tdrive_status_output = document.getElementById('tdrive_status_output');
+    const tdrive_status_output = document.getElementById('om_tdrive_status');
     // declare text object
     tdrive_status_output.textContent = '';
 
