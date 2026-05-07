@@ -28,7 +28,7 @@ function ventAtmos(){
     // create p element to insert into object
     const atmos_tutanota = document.createElement('p');
     // create message with textContent function
-    atmos_secure_message.textContent = 'LIFE SAFETY VIOLATION: o2 cannot be reduced to below 19.5% while ship is occupied!';
+    atmos_tutanota.textContent = 'LIFE SAFETY VIOLATION: o2 cannot be reduced to below 19.5% while ship is occupied!';
     // append atmosphere_output with atmos_tutanota content.
     atmosphere_output.appendChild(atmos_tutanota);
 
