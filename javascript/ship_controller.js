@@ -195,13 +195,11 @@ function astralSolutionOutput(){
     MODEL: HELIOCENTRIC\n
     SYSTEM: SOL\n
     DISTANCE RELATIVE STAR: 30.7AU\n
-    VECTOR: X -3.92e+09 KM, Y +2.18e+09 KM, Z +1.24e+08 KM<\n
+    VECTOR: X -3.92e+09 KM, Y +2.18e+09 KM, Z +1.24e+08 KM\n
     ORBIT: STABLE<br>LOCAL BODY: OBJECT 899 (NEPTUNE);
     `
     // append child
     astral_solution_output.appendChild(astral_solution_tutanota);
-
-
 
     console.log('Neptune Orbit discovered!');
 }
@@ -210,8 +208,26 @@ function astralSolutionOutput(){
 
 const tessdrive_button =document.getElementById('om_tessdrive_status');
 function tessDriveOutput(){
-    document.getElementById('tessdrive_output').innerHTML=
-    `<p>WARNING! Depleted Uranium detected in Tesseract Core.<br>ASTRAL NAVIGATION: ONLINE<br>FTL DIMENSIONAL SHIFT: RESOLVED<br>WARNING: CALCULATED FTL JUMP IMMINENT!</p>`;
+    /*document.getElementById('tessdrive_output').innerHTML=
+    `<p>WARNING! Depleted Uranium detected in Tesseract Core.<br>ASTRAL NAVIGATION: ONLINE<br>FTL DIMENSIONAL SHIFT: RESOLVED<br>WARNING: CALCULATED FTL JUMP IMMINENT!</p>`;*/
+    
+    // target html ID
+    const tessdrive_output = document.getElementById('om_tessdrive_status');
+
+    // create object
+    tessdrive_output.textContent = '';
+
+    // declare element
+    const tessdrive_tutanota = document.createElement('p');
+
+    tessdrive_tutanota.textContent = `
+    WARNING! Depleted Uranium detected in Tesseract Core.\n
+    ASTRAL NAVIGATION: ONLINE\n
+    FTL DIMENSIONAL SHIFT: RESOLVED\n
+    WARNING: CALCULATED FTL JUMP IMMINENT! ;
+    `
+    // append child
+    tessdrive_output.appendChild(tessdrive_tutanota);
 
     console.log('Faster than light!');
 }
