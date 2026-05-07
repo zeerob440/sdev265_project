@@ -78,7 +78,7 @@ const om_astral_nav_button = document.getElementById('om_astral_nav');
 // function to target innerHTML frame_c.html om_astral output
 function astralNavStatus(){
 //document.getElementById('astral_nav_output').innerHTML =`<p>ERROR 1203; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE. LOCAL ACCESS REQUIRED TO RESTART ASTRAL NAVIGATION.</p>`;
-// target html id
+    // target html id
     const astral_nav_output = document.getElementById('astral_nav_output');
     // declare object
     astral_nav_output.textContent = '';
@@ -95,10 +95,23 @@ function astralNavStatus(){
 const mk540_button =document.getElementById('om_mk540');
 
 function mK540Status(){
-    document.getElementById('mk540_output').innerHTML=
+    /*document.getElementById('mk540_output').innerHTML=
     `The Mk-540 is a rail-carbine. It accelerates a 12.95 g, 6.1mm depleted uranium hypersonic projectile at 1800 M/PS.
      It delivers 21,000 (J) of energy on target per round. The Mk-540 is fed from a 45-round dorsal magazine, and
-     powered by a tungsten nanofilliment solid-state lithium cell.<p> The Mk-540EMC has 3 fire modes; semi, auto, and 2-round hyperburst.</p>`;
+     powered by a tungsten nanofilliment solid-state lithium cell.<p> The Mk-540EMC has 3 fire modes; semi, auto, and 2-round hyperburst.</p>`;*/
+    //target html id
+    const mk540_output = document.getElementById('mk540_output');
+    //declare object
+    mk540_output.textContent = '';
+    //declare p element
+    const mk540_output_tutanota = document.createElement('p');
+    // create message
+    mk540_output_tutanota.textContent = 
+    `The Mk-540 is a rail-carbine. It accelerates a 12.95 g, 6.1mm depleted uranium hypersonic projectile at 1800 M/PS.
+     It delivers 21,000 (J) of energy on target per round. The Mk-540 is fed from a 45-round dorsal magazine, and
+     powered by a tungsten nanofilliment solid-state lithium cell. The Mk-540EMC has 3 fire modes; semi, auto, and 2-round hyperburst.`;
+
+     mk540_output.appendChild(mk540_output_tutanota);
 
      console.log('BFG Found!');
 }
