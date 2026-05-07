@@ -19,8 +19,7 @@ so the program works across multiple pages.
 const om_atmosphere_vent_button = document.getElementById('om_atmosphere_vent');
 // function for terminal div output frame_c.html atmosphere_output
 function ventAtmos(){
-    //document.getElementById('atmosphere_output').innerHTML = `<p>LIFE SAFETY VIOLATION: o2 cannot be reduced to below 19.5% while ship is occupied!</p>`;
-   
+    
     // target html ID
     const atmosphere_output = document.getElementById('atmosphere_output');
     // declare object 
@@ -38,8 +37,6 @@ function ventAtmos(){
 const om_armory_button = document.getElementById('om_armory');
 // function for target innerHTML space frame_c.html, om_output
 function armoryStatus(){
-    /*document.getElementById('armory_output').innerHTML =`<p>01 MK-540 Electro-Magnetic Carbine, with 450 depleted U92 munitions operational.
-    Other armaments depleted from attempted apprehension of UNREGISTERED PASSENGER 01 in 2322.</p>`;*/
     // target html id
     const armory_output =document.getElementById('armory_output');
     // declare object
@@ -58,8 +55,7 @@ function armoryStatus(){
 const om_propulsion_button = document.getElementById('om_propulsion');
 // function for target innerHTML space frame_c.html, propulsion_output
 function propulsionStatus(){
-    /*document.getElementById('propulsion_output').innerHTML =`<p>ERROR 1532; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE. LOCAL ACCESS REQUIRED TO RESTART
-    TESSERACT DRIVE. TEMPORAL ANOMALIES DETECT IN THIS FRAME.</p>`;*/
+   
     // target html ID
     const propulsion_output = document.getElementById('propulsion_output');
     // declare object
@@ -77,7 +73,7 @@ function propulsionStatus(){
 const om_astral_nav_button = document.getElementById('om_astral_nav');
 // function to target innerHTML frame_c.html om_astral output
 function astralNavStatus(){
-//document.getElementById('astral_nav_output').innerHTML =`<p>ERROR 1203; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE. LOCAL ACCESS REQUIRED TO RESTART ASTRAL NAVIGATION.</p>`;
+
     // target html id
     const astral_nav_output = document.getElementById('astral_nav_output');
     // declare object
@@ -95,10 +91,7 @@ function astralNavStatus(){
 const mk540_button =document.getElementById('om_mk540');
 
 function mK540Status(){
-    /*document.getElementById('mk540_output').innerHTML=
-    `The Mk-540 is a rail-carbine. It accelerates a 12.95 g, 6.1mm depleted uranium hypersonic projectile at 1800 M/PS.
-     It delivers 21,000 (J) of energy on target per round. The Mk-540 is fed from a 45-round dorsal magazine, and
-     powered by a tungsten nanofilliment solid-state lithium cell.<p> The Mk-540EMC has 3 fire modes; semi, auto, and 2-round hyperburst.</p>`;*/
+    
     //target html id
     const mk540_output = document.getElementById('mk540_output');
     //declare object
@@ -119,9 +112,7 @@ function mK540Status(){
 //var and function for armory1.html mk540 diagram.
 const mk540_diagram_button =document.getElementById('om_mk540_diagram');
 function printDiagram(){
-    /*document.getElementById('mk540_diagram_output').innerHTML= 
-    `DIAGRAM RETRIEVED<br><img src='../images/mk540emc.png' class='mk540_om'><br>It is advised to keep the front toward enemy.`;
-    */
+    
     // target html IDs
     const diagram_retrieved = document.getElementById('diagram_retrieved');
     const mk540_diagram_output = document.getElementById('mk540_diagram_output');
@@ -153,8 +144,7 @@ function printDiagram(){
 const tdrive_status_button =document.getElementById('om_tdrive_status');
 
 function tDriveStatus(){
-    /*document.getElementById('tdrive_status_output').innerHTML=
-    `<p>Depleted Uranium detected in Tesseract Core. Cannot resolve FTL Dimensional Shift.<br>ASTRAL NAVIGATION: OFFLINE<br>WARNING: BLIND JUMP IMMINENT!</p>`;*/
+    
     // target HTML id
     const tdrive_status_output = document.getElementById('om_tdrive_status');
     // declare text object
@@ -178,9 +168,7 @@ function tDriveStatus(){
 const astral_solution_button =document.getElementById('om_astral_nav_solution');
 
 function astralSolutionOutput(){
-    /*document.getElementById('astral_solution_output').innerHTML=
-    `ASTRAL SOLUTION<br>MODEL: HELIOCENTRIC<br>SYSTEM: SOL<br>DISTANCE RELATIVE STAR: 30.7AU<br>VECTOR: X -3.92e+09 KM, Y +2.18e+09 KM, Z +1.24e+08 KM<br>
-    ORBIT: STABLE<br>LOCAL BODY: OBJECT 899 (NEPTUNE)`;*/
+    
     //target html id
     const astral_solution_output = document.getElementById('astral_solution_output');
 
@@ -208,8 +196,6 @@ function astralSolutionOutput(){
 
 const tessdrive_button =document.getElementById('om_tessdrive_status');
 function tessDriveOutput(){
-    /*document.getElementById('tessdrive_output').innerHTML=
-    `<p>WARNING! Depleted Uranium detected in Tesseract Core.<br>ASTRAL NAVIGATION: ONLINE<br>FTL DIMENSIONAL SHIFT: RESOLVED<br>WARNING: CALCULATED FTL JUMP IMMINENT!</p>`;*/
     
     // target html ID
     const tessdrive_output = document.getElementById('om_tessdrive_status');
@@ -236,11 +222,6 @@ function tessDriveOutput(){
 const incoming_transmission_button= document.getElementById('radio_key');
 function spaceSpam(){
 
-    /*const bfg_spam = document.getElementById('transmission');
-    bfg_spam.innerHTML =
-    `<p>91.3 percent of organic users find the vista 90 degrees right enjoyable!
-    Targeting Solution calculated: Target intersect with planet: 27.2 Earth Years.
-    Thank you for choosing Mk-540 for your ballistic needs!</p>`;*/
     // target html id, style bfg_spam, declare advance_story
     const bfg_spam = document.getElementById('transmission');
     bfg_spam.style.backgroundColor = 'black';
