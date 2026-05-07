@@ -165,7 +165,7 @@ function tDriveStatus(){
 
     // create text output
     tdrive_tutanota.textContent = `
-    Depleted Uranium detected in Tesseract Core. Cannot resolve FTL Dimensional Shift.\n
+    Depleted Uranium detected in Tesseract Core. Cannot resolve FTL Dimensional Shift. Astral Solution unstable!\n
     ASTRAL NAVIGATION: OFFLINE\n 
     WARNING: BLIND JUMP IMMINENT!`;
 
