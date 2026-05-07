@@ -45,7 +45,7 @@ function armoryStatus(){
     // declare object
     armory_output.textContent = '';
     // create p element 
-    const armory_tutanota =document.createElement('p');
+    const armory_tutanota = document.createElement('p');
     // create message with textContent
     armory_tutanota.textContent = '01 MK-540 Electro-Magnetic Carbine, with 450 depleted U92 munitions operational.Other armaments depleted from attempted apprehension of UNREGISTERED PASSENGER 01 in 2322.';
 
@@ -81,13 +81,13 @@ function astralNavStatus(){
 // target html id
     const astral_nav_output = document.getElementById('astral_nav_output');
     // declare object
-    astral_nav_output.textContent ='';
+    astral_nav_output.textContent = '';
     // create p element 
     const astral_nav_tutanota = document.createElement('p');
     // create message 
     astral_nav_tutanota.textContent = 'ERROR 1203; REMOTE ACCESS NOT AUTHORIZED FROM THIS CONSOLE. LOCAL ACCESS REQUIRED TO RESTART ASTRAL NAVIGATION.';
     // append astral_nav_output with astral_nav_tuta
-    astral_nav_output.appendChild('astral_nav_tutanota');
+    astral_nav_output.appendChild(astral_nav_tutanota);
 
 }
 
