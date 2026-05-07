@@ -119,8 +119,30 @@ function mK540Status(){
 //var and function for armory1.html mk540 diagram.
 const mk540_diagram_button =document.getElementById('om_mk540_diagram');
 function printDiagram(){
-    document.getElementById('mk540_diagram_output').innerHTML= 
+    /*document.getElementById('mk540_diagram_output').innerHTML= 
     `DIAGRAM RETRIEVED<br><img src='../images/mk540emc.png' class='mk540_om'><br>It is advised to keep the front toward enemy.`;
+    */
+    // target html IDs
+    const diagram_retrieved = document.getElementById('diagram_retrieved');
+    const mk540_diagram_output = document.getElementById('mk540_diagram_output');
+    const be_advised = document.getElementById('be_advised');
+    // declare objects 
+    diagram_retrieved.textContent = '';
+    //insert image here
+    be_advised.textContent = '';
+    // declare p elements
+    const diagram_retrieved_tutanota = document.createElement('p');
+    // insert image element here 
+    const be_advised_tutanota = document.createElement('p');
+    // create message outputs
+    diagram_retrieved_tutanota.textContent = 'DIAGRAM RETRIEVED';
+    //insert image here
+    be_advised_tutanota.textContent = 'It is advised to keep the front toward enemy.';
+    //append child elements 
+    diagram_retrieved.appendChild(diagram_retrieved_tutanota);
+    // append image here
+    be_advised.appendChild(be_advised_tutanota);
+
     console.log('Read the owner manual first...');
 }
 //var and function for propulsion2.html 
