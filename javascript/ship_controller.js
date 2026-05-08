@@ -184,8 +184,8 @@ function astralSolutionOutput(){
     SYSTEM: SOL\n
     DISTANCE RELATIVE STAR: 30.7AU\n
     VECTOR: X -3.92e+09 KM, Y +2.18e+09 KM, Z +1.24e+08 KM\n
-    ORBIT: STABLE<br>LOCAL BODY: OBJECT 899 (NEPTUNE);
-    `
+    ORBIT: STABLE<br>LOCAL BODY: OBJECT 899 (NEPTUNE)
+    `;
     // append child
     astral_solution_output.appendChild(astral_solution_tutanota);
 
